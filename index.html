@@ -27,7 +27,7 @@
 
       .container {
         width: 30%;
-        height: 18rem;
+        height: 17.8rem;
         background-color: pink;
         padding: 1rem;
         overflow: hidden;
@@ -138,10 +138,8 @@
       const logOut = document.querySelector(".log-out");
 
       function store() {
-        // console.log("I am from store function");
         const email1 = document.querySelector("#email1").value;
         const password1 = document.querySelector("#password1").value;
-        // console.log(email, password);
         if (email1.length < 14) {
           alert("Please entre valid input");
         } else if (password1.length < 6) {
@@ -156,7 +154,6 @@
       }
 
       function check() {
-        // console.log("I am from check function");
         const email2 = document.querySelector("#email2").value;
         const password2 = document.querySelector("#password2").value;
         const localStorageEmail = localStorage.getItem(email2);
