@@ -13,3 +13,34 @@ async function readZohoSheet() {
 }
 
 readZohoSheet();
+
+
+//-convert zoho hseet into csv
+async function convertZohoSheetToCSV() {
+  const sheetURL = 'https://sheet.zoho.com/sheet/your-sheet-url'; // Replace with the actual Zoho Sheet URL
+
+  try {
+    const response = await axios.post(
+      `https://sheet.zoho.com/api/v3/workbooks/${encodeURIComponent(sheetURL)}/export`,
+      {
+        export_format: 'csv',
+      },
+      {
+        headers: {
+          Authorization: `Zoho-oauthtoken ${ACCESS_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+
+    const csvData = response.data.file_content;
+
+    // Process the CSV data as needed
+    console.log('CSV data:', csvData);
+  } catch (error) {
+    console.error('An error occurred while converting the sheet to CSV:', error.message);
+  }
+}
+
+convertZohoSheetToCSV();
+
