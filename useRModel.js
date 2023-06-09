@@ -1,3 +1,5 @@
+https://sheet.zoho.com/sheet/open/soa297b2a8d9d16b347d89c89fc1763792949?sheetid=0&range=A1
+
 const sequelize = require("../database/dbConn");
 const { DataTypes } = require("sequelize");
 
