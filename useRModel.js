@@ -1,3 +1,25 @@
+
+async function exportZohoSheet(sheetUrl, outputPath) {
+  try {
+    const response = await axios.get(sheetUrl, { responseType: 'arraybuffer' });
+    const sheetData = response.data;
+
+    // Save the sheet data to a file
+    fs.writeFileSync(outputPath, sheetData);
+
+    console.log('Zoho Sheet exported successfully:', outputPath);
+  } catch (error) {
+    console.error('An error occurred while exporting the Zoho Sheet:', error.message);
+  }
+}
+const zohoSheetUrl = 'https://sheet.zoho.com/sheet/example'; // Replace with the actual Zoho Sheet URL
+const outputFilePath = 'path/to/output/file.xlsx'; // Replace with the desired output file path and extension
+
+exportZohoSheet(zohoSheetUrl, outputFilePath);
+
+
+//////////////////////////////////////////////////////////////////////////
+
 https://docs.google.com/spreadsheets/d/19vwwBsFAH-hV1MAIxPs2FTm3Rg-m9pFW0J9l2Wx_IOE
 
 /////////////////////////////////////////////////////////////////////////////////////////
