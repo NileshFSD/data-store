@@ -1,3 +1,43 @@
+
+const http = require('http');
+const https = require('https');
+const fs = require('fs');
+
+function downloadXLS(url, destinationPath, callback) {
+  const protocol = url.startsWith('https') ? https : http;
+
+  const file = fs.createWriteStream(destinationPath);
+
+  protocol.get(url, (response) => {
+    response.pipe(file);
+
+    file.on('finish', () => {
+      file.close(() => {
+        callback(null);
+      });
+    });
+  }).on('error', (error) => {
+    fs.unlink(destinationPath, () => {
+      callback(error);
+    });
+  });
+}
+
+// Example usage:
+const fileUrl = 'http://www.example.com/example.xls';
+const destination = './repository/example.xls';
+
+downloadXLS(fileUrl, destination, (error) => {
+  if (error) {
+    console.error('Download failed:', error);
+  } else {
+    console.log('Download completed!');
+  }
+});
+
+
+
+///////////////////////////////////////////////////////////////////////
 const http = require('http');
 const fs = require('fs');
 
