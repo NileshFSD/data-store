@@ -1,3 +1,38 @@
+const http = require('http');
+const fs = require('fs');
+
+function downloadFile(url, destinationPath, callback) {
+  const file = fs.createWriteStream(destinationPath);
+
+  http.get(url, (response) => {
+    response.pipe(file);
+
+    file.on('finish', () => {
+      file.close(() => {
+        callback(null);
+      });
+    });
+  }).on('error', (error) => {
+    fs.unlink(destinationPath, () => {
+      callback(error);
+    });
+  });
+}
+
+// Example usage:
+const fileUrl = 'http://www.example.com/example.txt';
+const destination = './downloads/example.txt';
+
+downloadFile(fileUrl, destination, (error) => {
+  if (error) {
+    console.error('Download failed:', error);
+  } else {
+    console.log('Download completed!');
+  }
+});
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 async function exportZohoSheet(sheetUrl, outputPath) {
   try {
