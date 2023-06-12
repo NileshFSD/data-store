@@ -1,4 +1,10 @@
+{
+users: {
+ "9983sh": {name:"", mobile:"", webhook:{}, cutom:""}
+},
+}
 
+// ////////////////////////////////
 const http = require('http');
 const https = require('https');
 const fs = require('fs');
