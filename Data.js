@@ -1,7 +1,9 @@
 {
-users: {
- "9983sh": {name:"", mobile:"", webhook:{}, cutom:""}
+"headers": {
+"Content-Type": "application/json"
 },
+"method": "post",
+"url": "https://test.com"
 }
 
 // ////////////////////////////////
