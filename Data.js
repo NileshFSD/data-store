@@ -1,3 +1,11 @@
+const ip = 
+        request.headers['cf-connecting-ip'] ||  
+        request.headers['x-real-ip'] ||
+        request.headers['x-forwarded-for'] ||
+        request.socket.remoteAddress || '';
+
+
+
 {
 "headers": {
 "Content-Type": "application/json"
