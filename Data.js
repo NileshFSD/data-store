@@ -1,18 +1,45 @@
-const ip = 
-        request.headers['cf-connecting-ip'] ||  
-        request.headers['x-real-ip'] ||
-        request.headers['x-forwarded-for'] ||
-        request.socket.remoteAddress || '';
+const http = require('http');
+const fs = require('fs');
 
+const server = http.createServer((req, res) => {
+  if (req.method === 'POST') {
+    let body = '';
+    
+    req.on('data', (data) => {
+      body += data;
+    });
 
+    req.on('end', () => {
+      const parsedBody = JSON.parse(body);
+      const { field1, field2 } = parsedBody; // Adjust the field names as per your form fields
 
-{
-"headers": {
-"Content-Type": "application/json"
-},
-"method": "post",
-"url": "https://test.com"
-}
+      // Generate text content
+      const textContent = `Field 1: ${field1}\nField 2: ${field2}`;
+
+      // Write text content to a file
+      fs.writeFile('output.txt', textContent, (err) => {
+        if (err) {
+          console.error('Error writing to file:', err);
+          res.statusCode = 500;
+          res.end('Error writing to file');
+        } else {
+          console.log('File created successfully');
+          res.statusCode = 200;
+          res.end('File created successfully');
+        }
+      });
+    });
+  } else {
+    res.statusCode = 404;
+    res.end('Invalid request');
+  }
+});
+
+const port = 3000;
+server.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
+
 
 // ////////////////////////////////
 const http = require('http');
