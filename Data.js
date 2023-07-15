@@ -1,3 +1,63 @@
+const bulkData = [
+  ['Name', 'Age', 'Email'],
+  ['John Doe', 30, 'johndoe@example.com'],
+  ['Jane Smith', 28, 'janesmith@example.com'],
+  // ... Add more rows as needed
+];
+bulkData.forEach((row) => {
+  worksheet.addRow(row);
+});
+
+
+
+
+const data = [
+  { name: 'John Doe', age: 30, email: 'johndoe@example.com' },
+  { name: 'Jane Smith', age: 28, email: 'janesmith@example.com' },
+  // ... Add more data objects as needed
+];
+
+data.forEach((row) => {
+  worksheet.addRow(Object.values(row));
+});
+
+// Set the alignment for a specific cell
+const cell = worksheet.getCell('A1');
+cell.value = 'Hello, World!';
+cell.alignment = { horizontal: 'center', vertical: 'middle' };
+
+
+// Apply header style
+const headerRow = worksheet.getRow(1);
+headerRow.font = { bold: true };
+headerRow.eachCell((cell) => {
+  cell.fill = {
+    type: 'pattern',
+    pattern: 'solid',
+    fgColor: { argb: 'FFFF0000' } // Red fill color
+  };
+});
+
+// Apply cell styles
+worksheet.eachRow((row, rowNumber) => {
+  if (rowNumber === 1) return; // Skip header row
+  row.eachCell((cell) => {
+    cell.alignment = { vertical: 'middle', horizontal: 'center' };
+    cell.border = {
+      top: { style: 'thin' },
+      left: { style: 'thin' },
+      bottom: { style: 'thin' },
+      right: { style: 'thin' },
+    };
+  });
+});
+
+
+
+
+
+
+
 const http = require('http');
 const fs = require('fs');
 
