@@ -1,59 +1,15 @@
+WhatsApp Business API:
+The WhatsApp Business API allows businesses to connect with their customers on WhatsApp. It enables businesses to send notifications, provide customer support, and conduct various other interactions with users through WhatsApp. It is not designed for personal use or for general application development.
 
-Creating an approach note for a Node.js backend involves outlining the overall strategy and key considerations for developing the backend of a web application or API using Node.js. Here are the steps to create an approach note:
+Key features of the WhatsApp Business API include:
 
-1. **Project Overview:**
-   Provide a brief introduction to the project, outlining its purpose, goals, and scope. Mention the specific features or functionalities the backend should support.
+Message Templates: Businesses can create pre-approved message templates for specific use cases like order updates, shipping notifications, appointment reminders, etc. These templates are used for proactive communication with customers.
 
-2. **Technology Stack:**
-   Mention the key technologies you plan to use in conjunction with Node.js, such as databases (e.g., MongoDB, PostgreSQL), frameworks (e.g., Express.js), and any other relevant tools.
+Session Messaging: Businesses can respond to incoming messages from users within a 24-hour window without any additional cost. This window allows for interactive and responsive conversations.
 
-3. **Architecture:**
-   Describe the high-level architecture of the Node.js backend. Will you be following a traditional monolithic architecture or a microservices-based architecture? Explain the reasoning behind your choice.
+WhatsApp Number Verification: Before using the API, businesses need to verify their WhatsApp Business Account and get their phone number approved by WhatsApp.
 
-4. **API Design:**
-   Outline the design of the API, including the endpoints, request-response format (e.g., JSON), and any necessary data validation or authentication mechanisms.
-
-5. **Database Schema:**
-   If the backend involves interacting with a database, provide an overview of the database schema or data models. Include the relationships between different entities, if applicable.
-
-6. **Error Handling:**
-   Describe the approach to handling errors and exceptions in the backend. Consider how you will handle validation errors, server errors, and other exceptional cases.
-
-7. **Middleware Usage:**
-   If using Express.js or similar frameworks, mention the middleware you plan to implement and explain their purpose (e.g., authentication middleware, error handling middleware).
-
-8. **Security:**
-   Highlight the security measures you'll implement to protect the backend from common web application vulnerabilities, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
-
-9. **Authentication and Authorization:**
-   Discuss the approach to user authentication and authorization. Will you use token-based authentication (e.g., JWT) or session-based authentication?
-
-10. **Testing Strategy:**
-    Explain how you'll ensure the quality of the backend code through testing. Describe the testing frameworks (e.g., Mocha, Chai) and methodologies you'll use (e.g., unit testing, integration testing).
-
-11. **Scalability:**
-    Address how the backend will handle scalability and potential performance bottlenecks. Discuss any measures you'll take to optimize performance.
-
-12. **Deployment:**
-    Outline the deployment strategy for the backend. Will you use containerization (e.g., Docker) or deploy directly to a cloud platform (e.g., AWS, Azure)?
-
-13. **Monitoring and Logging:**
-    Explain how you'll monitor the backend's performance and track errors. Discuss the logging mechanisms you plan to implement for easier debugging.
-
-14. **Documentation:**
-    Emphasize the importance of documenting the backend code thoroughly, including API documentation and any relevant internal documentation.
-
-15. **Development Timeline:**
-    Provide an estimated timeline for the development of the Node.js backend. Break down the tasks into milestones and set realistic deadlines.
-
-16. **Collaboration and Communication:**
-    Define how the development team will collaborate, communicate, and manage code (e.g., using version control systems like Git).
-
-17. **Contingency Plan:**
-    Discuss potential risks and challenges that may arise during development and provide a contingency plan to address these issues.
-
-Remember, the approach note should be concise, clear, and easy to understand for all stakeholders involved in the project. It serves as a roadmap to guide the development process and keep everyone aligned with the project's objectives.
-
+Media Support: The API allows businesses to send images, videos, documents, and other media types to users.
 // ////////////////////////////////
 const http = require('http');
 const https = require('https');
