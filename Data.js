@@ -1,16 +1,12 @@
-WhatsApp Business API:
-The WhatsApp Business API allows businesses to connect with their customers on WhatsApp. It enables businesses to send notifications, provide customer support, and conduct various other interactions with users through WhatsApp. It is not designed for personal use or for general application development.
+2. Technology Stack:
 
-Key features of the WhatsApp Business API include:
-
-Message Templates: Businesses can create pre-approved message templates for specific use cases like order updates, shipping notifications, appointment reminders, etc. These templates are used for proactive communication with customers.
-
-Session Messaging: Businesses can respond to incoming messages from users within a 24-hour window without any additional cost. This window allows for interactive and responsive conversations.
-
-WhatsApp Number Verification: Before using the API, businesses need to verify their WhatsApp Business Account and get their phone number approved by WhatsApp.
-
-Media Support: The API allows businesses to send images, videos, documents, and other media types to users.
-// ////////////////////////////////
+- Programming Languages: Node.js (JavaScript/TypeScript)
+- Web Framework: Express.js
+- Database: MongoDB (NoSQL)
+- Authentication: JSON Web Tokens (JWT)
+- Testing Frameworks: Mocha, Chai
+- Deployment: Docker, AWS Elastic Beanstalk
+- Other Libraries/Tools: Lodash, Axios, Winston (for logging)
 const http = require('http');
 const https = require('https');
 const fs = require('fs');
