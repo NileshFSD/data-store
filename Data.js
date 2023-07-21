@@ -1,4 +1,9 @@
+: The sender application needs to register or configure the webhook by providing the webhook URL to the receiver application. This is usually done through an API or configuration interface provided by the receiver.
 
-A webhook is a mechanism that allows two different systems or applications to communicate with each other in real-time. It enables one application (the sender) to send data or trigger events to another application (the receiver) through HTTP requests. When an event or action occurs in the sender application, it will send an HTTP POST request to a specific URL (the webhook URL) provided by the receiver application.
+Event Occurrence: In the sender application, a specific event or action triggers the need to notify the receiver application. For example, this could be a new order placed, a user signup, or any other significant activity.
 
-The term "webhook" is a play on the word "web" and "hook," as it implies that the sender is "hooking" into the receiver's system by providing a callback URL where it can send data or notifications.
+HTTP POST Request: When the event occurs, the sender application constructs an HTTP POST request containing relevant data related to the event. It sends this request to the webhook URL of the receiver application.
+
+Receiver Processing: The receiver application receives the HTTP POST request at its webhook URL. It then processes the data in the request and takes appropriate actions based on the event information received.
+
+Response: After processing the data, the receiver application may optionally send a response back to the sender application to acknowledge receipt or provide additional information.
