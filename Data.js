@@ -129,7 +129,7 @@
                                 <tr>
                                   <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-                                    <img align="center" border="0" src="https://assets.unlayer.com/projects/170128/1688471502669-257570.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 66%;max-width: 328.68px;"
+                                    <img align="center" border="0" src="https://storage.googleapis.com/example-2321/qikberry-logo.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 66%;max-width: 328.68px;"
                                       width="328.68" />
 
                                   </td>
