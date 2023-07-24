@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+background: rgb(249,163,185);
+background: linear-gradient(90deg, rgba(249,163,185,1) 0%, rgba(252,222,229,1) 30%, rgba(250,247,248,1) 52%, rgba(254,219,228,1) 74%, rgba(245,160,182,1) 100%);
