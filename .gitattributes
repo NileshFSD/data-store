@@ -1,77 +1,25 @@
-const Maizzle = require('@maizzle/framework')
-import Mailjet from 'node-mailjet'
-import * as fs from 'fs/promises'
-import Mustache from 'mustache'
-import express from 'express'
-import dotenv from 'dotenv'
-import path from 'path'
+Subject: New Device Sign-in: Action Required
 
-async function renderEmail(templateName: string) {
-  const templatesDir = path.join(__dirname, 'src', 'templates')
-  const templatePath = path.join(templatesDir, templateName)
-  const rawTemplate = (await fs.readFile(templatePath)).toString()
+Dear [User's Name],
 
-  const {html} = await Maizzle.render(rawTemplate, {
-    tailwind: {
-      config: require('./tailwind.config.js'),
-    },
-    maizzle: require('./config.production.js'),
-  })
+We hope this email finds you well. We wanted to inform you of a recent activity on your account that requires your attention. Our system has detected a sign-in from a device that we don't recognize. While this could be you using a new device, we take account security seriously and want to ensure that it's indeed you accessing your account.
 
-  return html
-}
+If you initiated this sign-in, please disregard this message. However, if this wasn't you or you are uncertain about this activity, we recommend taking the following steps:
 
-async function customizeEmail(name: string, url: string) {
-  const html = await renderEmail('transactional.html')
+1. **Secure Your Account**: Change your password immediately to prevent unauthorized access. Use a strong and unique password that includes a combination of letters, numbers, and symbols.
 
-  const view = {name, title: `Test mail to ${name}`, url}
-  const customized = Mustache.render(html, view)
+2. **Review Account Activity**: Log in to your account from a trusted device and review the recent account activity. Check for any unfamiliar actions, changes, or transactions.
 
-  return customized
-}
+3. **Enable Two-Factor Authentication (2FA)**: If you haven't already, consider enabling two-factor authentication for an extra layer of security. This will require a verification code in addition to your password for sign-in.
 
-async function sendEmail(html: string, to: string, subject: string) {
-  const mailjet = new Mailjet({
-    apiKey: process.env.MAILJET_PUBLIC_KEY,
-    apiSecret: process.env.MAILJET_PRIVATE_KEY,
-  })
+4. **Contact Support**: If you believe your account has been compromised or if you need assistance, please reach out to our support team immediately.
 
-  await mailjet.post('send', {version: 'v3.1'}).request({
-    Messages: [
-      {
-        From: {Email: process.env.FROM_EMAIL, Name: 'Maizzle'},
-        To: [{Email: to}],
-        Subject: subject,
-        TextPart: html,
-        HTMLPart: html,
-      },
-    ],
-  })
-}
+To proceed with these actions, please visit [website link or app] and log in to your account. If you need any further guidance or have questions, our support team is available to assist you.
 
-async function main() {
-  dotenv.config()
+We appreciate your attention to this matter. Your account security is of the utmost importance to us, and we are here to support you every step of the way.
 
-  const app = express()
-  app.get('/', async (req, res) => {
-    const {name, url} = req.query
-    const html = await customizeEmail(name as string, url as string)
+Best regards,
 
-    res.type('html')
-    res.send(html)
-  })
-
-  app.get('/send/:email', async (req, res) => {
-    const {name, url} = req.query
-    const html = await customizeEmail(name as string, url as string)
-
-    const {email} = req.params
-    await sendEmail(html, email, 'Maizzle Test Email')
-
-    res.send(`Successfully sent email to ${email}`)
-  })
-
-  app.listen(8080, () => console.log('http://localhost:8080?name=Flo&url=https://youtube.com/@flolu'))
-}
-
-main()
+[Your Name]
+[Your Title]
+[Your Contact Information]
