@@ -1,6 +1,10 @@
-app.get('/', (req, res) => {
-  // Retrieve the client's IP address from the x-forwarded-for header
-  const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-  
-  res.send(`Your IP address is: ${ipAddress}`);
-});
+Hello [User],
+
+Just to let you know, we received a request to reset your password. To create a new password, click on the link below:
+
+[Reset Password Button]
+
+If you didn't request this, please don't hesitate to ignore this email.
+
+Best regards,
+Your App Team
