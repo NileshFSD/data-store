@@ -1,10 +1,5 @@
-Hello [User],
-
-Just to let you know, we received a request to reset your password. To create a new password, click on the link below:
-
-[Reset Password Button]
-
-If you didn't request this, please don't hesitate to ignore this email.
-
-Best regards,
-Your App Team
+ <p>We wanted to inform you that your account balance is getting low. Please take a moment to review your balance and consider adding funds if necessary.</p>
+    <p>Your Current Balance: [Current Balance]</p>
+    <p>To ensure uninterrupted service and avoid any inconvenience, we recommend adding funds to your account at your earliest convenience.</p>
+    <p>Thank you for using our services!</p>
+    <p>Best regards,<br>Your App Team</p>
