@@ -1,34 +1,6 @@
-Subject: Welcome aboard, [New Employee's Name]!
-
-Hi [New Employee's Name],
-
-We're thrilled to have you join the team at [Company Name]. Welcome aboard! 🎉
-
-We're excited to work together and achieve great things. Your journey with us begins now, and we can't wait to see your contributions.
-
-If you have any questions as you settle in, don't hesitate to reach out. Get ready for an incredible adventure with us!
-
-Best regards,
-[Your Name]
-[Your Title]
-[Contact Information]
-
-Subject: Your [Company Name] Account Details
-
-Hi [New Employee's Name],
-
-Welcome to [Company Name]! We're excited to have you on board. Here are your account details:
-
-Username: [Username]
-Temporary Password: [Temporary Password]
-
-Please log in using the provided credentials and make sure to change your password after your first sign-in for security purposes.
-
-If you have any questions or need assistance, feel free to reach out to our IT team at [IT Contact Email/Phone].
-
-Looking forward to working together!
-
-Best regards,
-[Your Name]
-[Your Title]
-[Contact Information]
+app.get('/', (req, res) => {
+  // Retrieve the client's IP address from the x-forwarded-for header
+  const ipAddress = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+  
+  res.send(`Your IP address is: ${ipAddress}`);
+});
