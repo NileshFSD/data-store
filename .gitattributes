@@ -1,5 +1,27 @@
- <p>We wanted to inform you that your account balance is getting low. Please take a moment to review your balance and consider adding funds if necessary.</p>
-    <p>Your Current Balance: [Current Balance]</p>
-    <p>To ensure uninterrupted service and avoid any inconvenience, we recommend adding funds to your account at your earliest convenience.</p>
-    <p>Thank you for using our services!</p>
-    <p>Best regards,<br>Your App Team</p>
+const express = require('express');
+const http = require('http');
+const Busboy = require('busboy');
+const fs = require('fs');
+const path = require('path');
+
+const app = express();
+const server = http.createServer(app);
+
+app.post('/upload', (req, res) => {
+  const busboy = new Busboy({ headers: req.headers });
+
+  busboy.on('file', (fieldname, file, filename, encoding, mimetype) => {
+    const saveTo = path.join(__dirname, 'uploads', filename);
+    file.pipe(fs.createWriteStream(saveTo));
+  });
+
+  busboy.on('finish', () => {
+    res.status(200).send('File uploaded successfully');
+  });
+
+  req.pipe(busboy);
+});
+
+server.listen(3001, () => {
+  console.log('Server is running on port 3001');
+});
