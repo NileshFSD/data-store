@@ -1,6 +1,7 @@
-const filteredObject = Object.keys(data).reduce((obj, key) => {
-  if (filteredKeys.includes(key)) {
-    obj[key] = data[key];
-  }
-  return obj;
-}, {});
+Object.keys(user)
+    .filter((key) => key.includes("Name"))
+    .reduce((obj, key) => {
+        return Object.assign(obj, {
+          [key]: user[key]
+        });
+  }, {});
