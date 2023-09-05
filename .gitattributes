@@ -1,7 +1,18 @@
-Object.keys(user)
-    .filter((key) => key.includes("Name"))
-    .reduce((obj, key) => {
-        return Object.assign(obj, {
-          [key]: user[key]
-        });
-  }, {});
+.upDown img {
+  width: 100%;
+  animation: upDown ease-in infinite 4s;
+  background-color: orange;
+  border-radius: 2rem 6rem 2rem 5rem;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
