@@ -1,18 +1,41 @@
-.upDown img {
-  width: 100%;
-  animation: upDown ease-in infinite 4s;
-  background-color: orange;
-  border-radius: 2rem 6rem 2rem 5rem;
-}
+ZOHO BILLING---------------------------------------------------
 
-@keyframes upDown {
-  0% {
-    transform: translateY(5px);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(5px);
-  }
-}
+---SETUP--------------------------
+[1]Setting up Business details:  add organization details, timezone, neworg details, currency and save
+[2] select billing system
+one-time billing: One-time payments are bulk fees that users pay once so they can access your content or program without restriction forever.
+ Recurring Billing: Recurring billing is when subscription businesses charge their customers for a product or service regularly. The billing cycle frequency can be monthly, quarterly, or annually.
+ one-time & recurring billing: both 
+Note: can change later
+
+[3] choose data handling, we can import our old data in billing system
+
+------Will redirect to the billing APP--------------------------------
+FEATURES-----
+[1]Time Tracking (Projects and Timesheet)
+PATH: Home/Time Tracking
+(i)Projects: By clicking on New project, we can create and assign projects for specific customer by providing Name, description, payement info etc.by clicking on the project, we can see project overview with all added details. scroll down the page and add project task by providing task name, budget hours and description. accessable consumer can assign the task by clicking on Log Time
+(ii)Timesheet: Click on Timesheet to see created all task, 
+
+[2] Product catalog
+PATH: Home/Product Catalog
+Product catalog having two options
+ (i) Items ( physical goods) : Click on plus new option to name a product provide description, Unit, price and create a product. we can see list of all created projects. we can also start any task by clicking on Start button.
+
+
+(ii) Subscription items (Digital Services):  
+Adding Plan & Products:  Click on plus new option to name a product provide description and create a product. we can create a subscription plan for each product using the add plan option provide a name a code mention the unit name
+ We can customize the billing frequency from weekly monthly yearly if we have plans that expires after a specific cycle we can mention the cycle here or we can set it as auto renew until cancelled. we can also define the trial period if applicable set a fee a one-time implementation charges if that is required and we can set the tax type for our plans when we include and widget a pricing table for this plan under the product will be automatically created we can list out the plan features. we can create plan with different scenarios
+
+[3] Payments: Path: setting/integrations
+ Current payment system support all mode of payments gatway
+
+[4] Settings
+Add/Update organization details: PATH- Organization Profile 
+Emails: email notification that can be automatically sent based on different subscription events it is available under the email notification module we can configure automated email notification for subscription activation renewals upgrades cancellation and payment related events so all those email notifications are completely customizable. we can change the template that suitable for our business needs and enable or disable the notification. We can check Insights also, there we can Track the emails sent for Invoices, Quotes and Retainer Invoices. View the time when the email was opened, in the transaction list and details page.
+ Billing providing different template as per subject wise like subscription related, payment related, expiry & cancellation related, which are all editable. that templates available in template section.
+
+Template: we can access different templates and if we would like to customize the template we can edit change the pdf font size color add or remove fields and change its labels it gives us the complete flexibility to customize the item table header footer change the complete look.
+
+Users & Roles: we can assign specific rules and invite our team members to access the organization for instance if we want a team member to view and create subscriptions but restrict them from viewing our finance reports we can grant them the specific accessebility and invite them as a user. 
+PROCESS TO CREATE NEW ROLE: click on New Role enter name, and description, select accessebility as per our need.
