@@ -3,6 +3,8 @@ RiBookletLine - without campaignId
 BsPentagonHalf - SE
 BsPentagon -SI
 GrTransaction - T
-RiMegaphoneFill -P
+RiMegaphoneFill, FaTags -P
 SiUnicode - Unicode
 English - RiEnglishInput
+Single- 
+Bulk - FaObjectUngroup
