@@ -1,14 +1,12 @@
-function intToString(value) {
-  var suffixes = ["", "k", "m", "b", "t"];
-  var suffixNum = Math.floor(("" + value).length / 5);
-  console.log(suffixNum);
-  var shortValue = parseFloat(
-    (suffixNum != 0 ? value / Math.pow(1000, suffixNum) : value).toPrecision(2)
-  );
-  console.log(shortValue);
-  if (shortValue % 1 != 0) {
-    shortValue = shortValue.toFixed(1);
+function formatValues(number) {
+
+  if (number < 10000) {
+    return number.toString();
+  } else if (number < 100000) {
+    return (number / 1000).toFixed(1) + "k";
+  } else if (number < 10000000) {
+    return (number / 100000).toFixed(1) + "lac";
+  } else {
+    return (number / 10000000).toFixed(1) + "cr";
   }
-  // return shortValue+suffixes[suffixNum];
-  console.log("SHORT--", shortValue + suffixes[suffixNum]);
 }
