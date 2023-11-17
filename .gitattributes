@@ -1,12 +1,35 @@
-function formatValues(number) {
+Subject: User Account Activation/Deactivation Notification
 
-  if (number < 10000) {
-    return number.toString();
-  } else if (number < 100000) {
-    return (number / 1000).toFixed(1) + "k";
-  } else if (number < 10000000) {
-    return (number / 100000).toFixed(1) + "lac";
-  } else {
-    return (number / 10000000).toFixed(1) + "cr";
-  }
-}
+Dear [Recipient's Name],
+
+I hope this message finds you well. As part of our ongoing efforts to maintain the security and efficiency of our system, we are writing to inform you of recent changes to user accounts.
+
+User Activation:
+We are pleased to notify you that the following user account has been successfully activated:
+
+User Name: [Activated User's Name]
+User ID: [User ID]
+Role/Access Level: [User's Role or Access Level]
+Effective Date: [Activation Date]
+The activated user is now able to access the system and perform their assigned tasks. If you have any questions or concerns regarding this activation, please feel free to reach out to our support team.
+
+User Deactivation:
+Conversely, we regret to inform you that the following user account has been deactivated:
+
+User Name: [Deactivated User's Name]
+User ID: [User ID]
+Effective Date: [Deactivation Date]
+The deactivated user will no longer have access to the system. If this deactivation was unexpected or if you have any inquiries about this change, please contact our support team immediately for further assistance.
+
+Reason for Deactivation:
+[Optional: Include a brief note explaining the reason for the deactivation, especially if it's related to security measures, role changes, or any other pertinent information.]
+
+We appreciate your cooperation and understanding as we work to ensure the security and integrity of our system. If you have any general inquiries or require additional information, please don't hesitate to get in touch.
+
+Thank you for your attention to this matter.
+
+Best regards,
+
+[Your Full Name]
+[Your Position]
+[Your Contact Information]
