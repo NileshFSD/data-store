@@ -1,20 +1,122 @@
-Welcome back! We've missed you and are thrilled to have you back in the [Your Platform] family.
-Your account has been reactivated! Get ready for a wave of joy and positive vibes.
-Rejoice! Your [Your Platform] journey continues. Let the happiness unfold!
-The wait is over! You're officially back in action. Time to make new memories!
-We're doing a happy dance because you've returned! 🎉 Welcome back to [Your Platform].
-A warm welcome back hug from us to you. Your presence makes our community brighter!
-Guess what? You're not just a user; you're a valued member of our [Your Platform] community.
-Your account is like a favorite book, and we're excited to start the next chapter with you.
-Welcome back, superstar! Your [Your Platform] family is here to cheer you on.
-Your account missed you so much that it threw a virtual party when you logged in. 🎊
-The [Your Platform] family is complete again! Thanks for coming back to spread joy.
-We hope the return to your account brings as much joy to your day as it does to ours!
-Reconnect, recharge, and rediscover the joy of being a part of [Your Platform].
-Welcome back, [User]! Your account was patiently waiting for your triumphant return.
-The virtual confetti is falling because you're back! Let the good times roll.
-Your account was in hibernation mode, but now it's wide awake and ready for action!
-Welcome back, explorer of [Your Platform]! The journey continues with you at the helm.
-Your account just got a major upgrade – it's now equipped with extra smiles and positivity!
-Back in the saddle! Your [Your Platform] adventure resumes now. Happy exploring!
-You're not just a user; you're a key player in our story. Welcome back, and let the good times roll!
+import React, { useEffect, useRef, useState } from "react";
+import { IoIosSend } from "react-icons/io";
+import userDp from "../Assets/user-dp.png";
+import EmojiPicker from "emoji-picker-react";
+
+const Message = ({ show, chat, loggedInUser, users }) => {
+  const [message, setMessage] = useState("");
+  const receiver = localStorage.getItem("receiver");
+  const [user, setUser] = useState();
+  const scrollDown = useRef();
+  const [showPicker, setShowPicker] = useState(false);
+
+  const onEmojiClick = (event) => {
+    let messageTemp = message;
+    messageTemp += event.emoji;
+    setMessage(messageTemp);
+    setShowPicker(false);
+  };
+
+  useEffect(() => {
+    scrollDown.current?.scrollIntoView({ behavior: "smooth" });
+  }, [chat]);
+
+  const handleMessage = async (e) => {
+    e.preventDefault();
+
+    const req = await fetch(
+      "http://localhost:5000/api/just-chat/send-message",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-access-token": localStorage.getItem("token"),
+          receiver: localStorage.getItem("receiver"),
+        },
+        body: JSON.stringify({
+          user: receiver,
+          message: message,
+        }),
+      }
+    );
+
+    await req.json().catch((err) => console.log(err));
+    setMessage("");
+  };
+
+  useEffect(() => {
+    const u = users?.users.find((u) => {
+      return u.email === show;
+    });
+    setUser(u);
+  }, [show, users]);
+
+  return (
+    <>
+      {show !== "" ? (
+        <>
+          <div className="message-box">
+            <div className="show-profile">
+              <div className="profile-pic">
+                <img src={user?.dp || userDp} alt="dp" />{" "}
+              </div>
+              <div style={{ fontSize: "1.5rem", textTransform: "capitalize" }}>
+                {user?.name}
+              </div>
+            </div>
+            <div>
+              {chat.map((user, index) => {
+                return (
+                  <div className="message" key={index} ref={scrollDown}>
+                    <div
+                      className={
+                        user.sender === loggedInUser ? "sender" : "receiver"
+                      }
+                    >
+                      {user?.message}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          <form
+            className="message-send-form"
+            onKeyDown={(e) => e.key === "Entre" && handleMessage}
+            onSubmit={handleMessage}
+          >
+            <div className="picker-container">
+              <img
+                alt="Emj"
+                className="emoji-icon"
+                src="https://icons.getbootstrap.com/assets/icons/emoji-smile.svg"
+                onClick={() => setShowPicker((val) => !val)}
+              />
+              {showPicker && (
+                <div className="picker">
+                  <EmojiPicker
+                    pickerStyle={{ width: "20%" }}
+                    onEmojiClick={onEmojiClick}
+                    skinTonesDisabled={false}
+                  />
+                </div>
+              )}
+            </div>
+            <input
+              type="text"
+              placeholder="Message..."
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+            />
+
+            <button type="submit" className="send">
+              <IoIosSend />
+            </button>
+          </form>
+        </>
+      ) : null}
+    </>
+  );
+};
+
+export default Message;
