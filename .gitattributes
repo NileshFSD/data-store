@@ -1,1 +1,42 @@
+import React, { useState, useRef } from 'react';
+import GIF from 'gif.js';
+import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
+
+const VideoToGifConverter = () => {
+  const [gifUrl, setGifUrl] = useState(null);
+  const videoRef = useRef(null);
+  const ffmpeg = createFFmpeg({ log: true });
+
+  const convertToGif = async () => {
+    // Load ffmpeg
+    await ffmpeg.load();
+
+    // Read the video file
+    ffmpeg.FS('writeFile', 'input.mp4', await fetchFile(videoRef.current.src));
+
+    // Run ffmpeg command to extract frames
+    await ffmpeg.run('-i', 'input.mp4', '-vf', 'fps=10,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse', 'output.gif');
+
+    // Read the GIF file
+    const gifData = ffmpeg.FS('readFile', 'output.gif');
+
+    // Convert ArrayBuffer to URL
+    const url = URL.createObjectURL(new Blob([gifData.buffer], { type: 'image/gif' }));
+
+    // Set the GIF URL
+    setGifUrl(url);
+  };
+
+  return (
+    <div>
+      <video ref={videoRef} controls width="320">
+        <source src="path_to_video.mp4" type="video/mp4" />
+      </video>
+      <button onClick={convertToGif}>Convert to GIF</button>
+      {gifUrl && <img src={gifUrl} alt="Generated GIF" />}
+    </div>
+  );
+};
+
+export default VideoToGifConverter;
 
