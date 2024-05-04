@@ -1,59 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menu Design with Hidden Radio Buttons</title>
-<style>
-  /* Style for the menu */
-  .menu {
-    list-style: none;
-    padding: 0;
-  }
+const emoji = "😊"; // 😊
+const codeUnits = emoji.split("");
+const unicodeEscapes = codeUnits.map((codeUnit) => {
+  return "\\u" + codeUnit.charCodeAt(0).toString(16);
+});
+const twoUnitUnicode = unicodeEscapes.join("");
 
-  /* Style for each menu item */
-  .menu-item {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  /* Hide radio buttons */
-  .menu-item input[type="radio"] {
-    display: none;
-  }
-
-  /* Style for labels */
-  .menu-item label {
-    padding: 10px 15px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  /* Style for label when radio button is checked */
-  .menu-item input[type="radio"]:checked + label {
-    background-color: #e0e0e0;
-  }
-</style>
-</head>
-<body>
-
-<!-- Menu -->
-<ul class="menu">
-  <li class="menu-item">
-    <input type="radio" id="item1" name="menu" checked>
-    <label for="item1">Menu Item 1</label>
-  </li>
-  <li class="menu-item">
-    <input type="radio" id="item2" name="menu">
-    <label for="item2">Menu Item 2</label>
-  </li>
-  <li class="menu-item">
-    <input type="radio" id="item3" name="menu">
-    <label for="item3">Menu Item 3</label>
-  </li>
-</ul>
-
-</body>
-</html>
-
+console.log(twoUnitUnicode); // \uD83D\uDE0A
