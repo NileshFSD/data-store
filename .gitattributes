@@ -1,8 +1,28 @@
-const emoji = "😊"; // 😊
-const codeUnits = emoji.split("");
-const unicodeEscapes = codeUnits.map((codeUnit) => {
-  return "\\u" + codeUnit.charCodeAt(0).toString(16);
-});
-const twoUnitUnicode = unicodeEscapes.join("");
+const ImageWithFallback = ({ src, alt, fallbackSrc }) => {
+  const [imgSrc, setImgSrc] = useState(src);
 
-console.log(twoUnitUnicode); // \uD83D\uDE0A
+  const handleError = () => {
+    setImgSrc(fallbackSrc);
+  };
+
+  return (
+    <img
+      src={imgSrc}
+      alt={alt}
+      onError={handleError}
+    />
+  );
+};
+
+const App = () => {
+  return (
+    <div>
+      <h1>Image with Fallback Example</h1>
+      <ImageWithFallback
+        src="https://example.com/non-existent-image.jpg"
+        alt="Primary Image"
+        fallbackSrc="https://via.placeholder.com/150"
+      />
+    </div>
+  );
+};
