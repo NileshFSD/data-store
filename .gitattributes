@@ -1,28 +1,8 @@
-const ImageWithFallback = ({ src, alt, fallbackSrc }) => {
-  const [imgSrc, setImgSrc] = useState(src);
-
-  const handleError = () => {
-    setImgSrc(fallbackSrc);
-  };
-
-  return (
-    <img
-      src={imgSrc}
-      alt={alt}
-      onError={handleError}
-    />
-  );
-};
-
-const App = () => {
-  return (
-    <div>
-      <h1>Image with Fallback Example</h1>
-      <ImageWithFallback
-        src="https://example.com/non-existent-image.jpg"
-        alt="Primary Image"
-        fallbackSrc="https://via.placeholder.com/150"
-      />
-    </div>
-  );
-};
+sx={{
+                '& .MuiSelect-select': {
+                    padding: '8px 14px', // Adjust padding as needed
+                },
+                '& .MuiMenuItem-root': {
+                    minHeight: '32px', // Adjust this value to reduce the height
+                },
+            }}
