@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Favicon Example</title>
-    <link id="dynamic-favicon" rel="icon" type="image/png" href="/path/to/default-favicon.png">
-    <script>
-        function changeFavicon(src) {
-            const link = document.createElement('link');
-            const oldLink = document.getElementById('dynamic-favicon');
-            link.id = 'dynamic-favicon';
-            link.rel = 'icon';
-            link.type = 'image/png';
-            link.href = src;
-            if (oldLink) {
-                document.head.removeChild(oldLink);
-            }
-            document.head.appendChild(link);
-        }
-
-        function updateFaviconBasedOnURL() {
-            const url = window.location.href;
-            if (url.includes('page1')) {
-                changeFavicon('/path/to/favicon1.png');
-            } else if (url.includes('page2')) {
-                changeFavicon('/path/to/favicon2.png');
-            } else {
-                changeFavicon('/path/to/default-favicon.png');
-            }
-        }
-
-        // Listen for URL changes (useful for single-page applications)
-        window.addEventListener('popstate', updateFaviconBasedOnURL);
-
-        // Initialize the favicon based on the initial URL
-        document.addEventListener('DOMContentLoaded', updateFaviconBasedOnURL);
-    </script>
-</head>
-<body>
-    <h1>Dynamic Favicon Example</h1>
-    <nav>
-        <ul>
-            <li><a href="page1.html">Page 1</a></li>
-            <li><a href="page2.html">Page 2</a></li>
-        </ul>
-    </nav>
-</body>
-</html>
+const urlPattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
+                                          '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|'+ // domain name
+                                          '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+                                          '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+                                          '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+                                          '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
