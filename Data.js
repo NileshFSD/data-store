@@ -1,1749 +1,1496 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html
-  xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:o="urn:schemas-microsoft-com:office:office"
->
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="x-apple-disable-message-reformatting" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta content="telephone=no" name="format-detection" />
-    <title>Tell your story</title>
-    <!--[if (mso 16)]>
-      <style type="text/css">
-        a {
-          text-decoration: none;
-        }
-      </style>
-    <![endif]-->
-    <!--[if gte mso 9
-      ]><style>
-        sup {
-          font-size: 100% !important;
-        }
-      </style><!
-    [endif]-->
-    <!--[if gte mso 9]>
-      <xml>
-        <o:OfficeDocumentSettings>
-          <o:AllowPNG></o:AllowPNG>
-          <o:PixelsPerInch>96</o:PixelsPerInch>
-        </o:OfficeDocumentSettings>
-      </xml>
-    <![endif]-->
-    <style type="text/css">
-      .rollover:hover .rollover-first {
-        max-height: 0px !important;
-        display: none !important;
-      }
-      .rollover:hover .rollover-second {
-        max-height: none !important;
-        display: inline-block !important;
-      }
-      .rollover div {
-        font-size: 0px;
-      }
-      u ~ div img + div > div {
-        display: none;
-      }
-      #outlook a {
-        padding: 0;
-      }
-      span.MsoHyperlink,
-      span.MsoHyperlinkFollowed {
-        color: inherit;
-        mso-style-priority: 99;
-      }
-      a.es-button {
-        mso-style-priority: 100 !important;
-        text-decoration: none !important;
-      }
-      a[x-apple-data-detectors] {
-        color: inherit !important;
-        text-decoration: none !important;
-        font-size: inherit !important;
-        font-family: inherit !important;
-        font-weight: inherit !important;
-        line-height: inherit !important;
-      }
-      .es-desk-hidden {
-        display: none;
-        float: left;
-        overflow: hidden;
-        width: 0;
-        max-height: 0;
-        line-height: 0;
-        mso-hide: all;
-      }
-      .es-header-body a:hover {
-        color: #1376c8 !important;
-      }
-      .es-content-body a:hover {
-        color: blue !important;
-      }
-      .es-footer-body a:hover {
-        color: #ffffff !important;
-      }
-      .es-infoblock a:hover {
-        color: #cccccc !important;
-      }
-      .es-button-border:hover > a.es-button {
-        color: #ffffff !important;
-      }
-      @media only screen and (max-width: 600px) {
-        .es-m-p20b {
-          padding-bottom: 20px !important;
-        }
-        *[class="gmail-fix"] {
-          display: none !important;
-        }
-        p,
-        a {
-          line-height: 150% !important;
-        }
-        h1,
-        h1 a {
-          line-height: 120% !important;
-        }
-        h2,
-        h2 a {
-          line-height: 120% !important;
-        }
-        h3,
-        h3 a {
-          line-height: 120% !important;
-        }
-        h4,
-        h4 a {
-          line-height: 120% !important;
-        }
-        h5,
-        h5 a {
-          line-height: 120% !important;
-        }
-        h6,
-        h6 a {
-          line-height: 120% !important;
-        }
-        .es-header-body p {
-        }
-        .es-content-body p {
-        }
-        .es-footer-body p {
-        }
-        .es-infoblock p {
-        }
-        h1 {
-          font-size: 40px !important;
-          text-align: center;
-          line-height: 120%;
-        }
-        h2 {
-          font-size: 26px !important;
-          text-align: center;
-          line-height: 120%;
-        }
-        h3 {
-          font-size: 20px !important;
-          text-align: center;
-          line-height: 120%;
-        }
-        h4 {
-          font-size: 24px !important;
-          text-align: left;
-        }
-        h5 {
-          font-size: 20px !important;
-          text-align: left;
-        }
-        h6 {
-          font-size: 16px !important;
-          text-align: left;
-        }
-        .es-header-body h1 a,
-        .es-content-body h1 a,
-        .es-footer-body h1 a {
-          font-size: 40px !important;
-        }
-        .es-header-body h2 a,
-        .es-content-body h2 a,
-        .es-footer-body h2 a {
-          font-size: 26px !important;
-        }
-        .es-header-body h3 a,
-        .es-content-body h3 a,
-        .es-footer-body h3 a {
-          font-size: 20px !important;
-        }
-        .es-header-body h4 a,
-        .es-content-body h4 a,
-        .es-footer-body h4 a {
-          font-size: 24px !important;
-        }
-        .es-header-body h5 a,
-        .es-content-body h5 a,
-        .es-footer-body h5 a {
-          font-size: 20px !important;
-        }
-        .es-header-body h6 a,
-        .es-content-body h6 a,
-        .es-footer-body h6 a {
-          font-size: 16px !important;
-        }
-        .es-menu td a {
-          font-size: 16px !important;
-        }
-        .es-header-body p,
-        .es-header-body a {
-          font-size: 16px !important;
-        }
-        .es-content-body p,
-        .es-content-body a {
-          font-size: 16px !important;
-        }
-        .es-footer-body p,
-        .es-footer-body a {
-          font-size: 16px !important;
-        }
-        .es-infoblock p,
-        .es-infoblock a {
-          font-size: 12px !important;
-        }
-        .es-m-txt-c,
-        .es-m-txt-c h1,
-        .es-m-txt-c h2,
-        .es-m-txt-c h3,
-        .es-m-txt-c h4,
-        .es-m-txt-c h5,
-        .es-m-txt-c h6 {
-          text-align: center !important;
-        }
-        .es-m-txt-r,
-        .es-m-txt-r h1,
-        .es-m-txt-r h2,
-        .es-m-txt-r h3,
-        .es-m-txt-r h4,
-        .es-m-txt-r h5,
-        .es-m-txt-r h6 {
-          text-align: right !important;
-        }
-        .es-m-txt-j,
-        .es-m-txt-j h1,
-        .es-m-txt-j h2,
-        .es-m-txt-j h3,
-        .es-m-txt-j h4,
-        .es-m-txt-j h5,
-        .es-m-txt-j h6 {
-          text-align: justify !important;
-        }
-        .es-m-txt-l,
-        .es-m-txt-l h1,
-        .es-m-txt-l h2,
-        .es-m-txt-l h3,
-        .es-m-txt-l h4,
-        .es-m-txt-l h5,
-        .es-m-txt-l h6 {
-          text-align: left !important;
-        }
-        .es-m-txt-r img,
-        .es-m-txt-c img,
-        .es-m-txt-l img,
-        .es-m-txt-r .rollover:hover .rollover-second,
-        .es-m-txt-c .rollover:hover .rollover-second,
-        .es-m-txt-l .rollover:hover .rollover-second {
-          display: inline !important;
-        }
-        .es-m-txt-r .rollover div,
-        .es-m-txt-c .rollover div,
-        .es-m-txt-l .rollover div {
-          line-height: 0 !important;
-          font-size: 0 !important;
-        }
-        .es-spacer {
-          display: inline-table;
-        }
-        a.es-button,
-        button.es-button {
-          font-size: 20px !important;
-        }
-        .es-m-fw,
-        .es-m-fw.es-fw,
-        .es-m-fw .es-button {
-          display: block !important;
-        }
-        .es-m-il,
-        .es-m-il .es-button,
-        .es-social,
-        .es-social td,
-        .es-menu {
-          display: inline-block !important;
-        }
-        .es-adaptive table,
-        .es-left,
-        .es-right {
-          width: 100% !important;
-        }
-        .es-content table,
-        .es-header table,
-        .es-footer table,
-        .es-content,
-        .es-footer,
-        .es-header {
-          width: 100% !important;
-          max-width: 600px !important;
-        }
-        .adapt-img {
-          width: 100% !important;
-          height: auto !important;
-        }
-        .es-mobile-hidden,
-        .es-hidden {
-          display: none !important;
-        }
-        .es-desk-hidden {
-          width: auto !important;
-          overflow: visible !important;
-          float: none !important;
-          max-height: inherit !important;
-          line-height: inherit !important;
-          display: table-row !important;
-        }
-        tr.es-desk-hidden {
-          display: table-row !important;
-        }
-        table.es-desk-hidden {
-          display: table !important;
-        }
-        td.es-desk-menu-hidden {
-          display: table-cell !important;
-        }
-        .es-menu td {
-          width: 1% !important;
-        }
-        table.es-table-not-adapt,
-        .esd-block-html table {
-          width: auto !important;
-        }
-        .es-social td {
-          padding-bottom: 10px;
-        }
-        .h-auto {
-          height: auto !important;
-        }
-        a.es-button,
-        button.es-button {
-          display: inline-block !important;
-        }
-        .es-button-border {
-          display: inline-block !important;
-        }
-      }
-    </style>
-  </head>
-  <body
-    data-new-gr-c-s-loaded="14.1115.0"
-    style="width: 100%; height: 100%; padding: 0; margin: 0"
+import React from 'react'
+
+const Taxataion = () => {
+  return (
+    <div><svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+    x="0px"
+    y="0px"
+    className='w-full h-full'
+    viewBox="0 0 3710 3710"
+    style={{ enableBackground: "new 0 0 3710 3710" }}
+    xmlSpace="preserve"
   >
-    <div class="es-wrapper-color" style="background-color: #e9d0d2">
-      <!--[if gte mso 9]>
-        <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
-          <v:fill type="tile" color="#E9D0D2"></v:fill>
-        </v:background>
-      <![endif]-->
-      <table
-        class="es-wrapper"
-        width="100%"
-        cellspacing="0"
-        cellpadding="0"
-        style="
-          mso-table-lspace: 0pt;
-          mso-table-rspace: 0pt;
-          border-collapse: collapse;
-          border-spacing: 0px;
-          padding: 10;
-          margin: 0;
-          width: 100%;
-          height: 100%;
-          background-repeat: repeat;
-          background-position: center top;
-          background-color: #f3f0f0;
-        "
-      >
-        <tr>
-          <td valign="top" style="padding: 0; margin: 0">
-            <table
-              class="es-content"
-              cellspacing="0"
-              cellpadding="0"
-              align="center"
-              style="
-                mso-table-lspace: 0pt;
-                mso-table-rspace: 0pt;
-                border-collapse: collapse;
-                border-spacing: 0px;
-                width: 100%;
-                table-layout: fixed !important;
-              "
+    <g id="Background">
+      <g>
+        <g>
+          <rect style={{ fill: "rgb(255, 255, 255/ 0%)" }} width={3710} height={3710} />
+        </g>
+      </g>
+    </g>
+    <g id="Illustration">
+      <g>
+        <linearGradient
+          id="SVGID_1_"
+          gradientUnits="userSpaceOnUse"
+          x1="3459.2061"
+          y1="3270.3894"
+          x2="1408.8073"
+          y2="1476.2919"
+        >
+          <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+          <stop offset={1} style={{ stopColor: "#F895E7" }} />
+        </linearGradient>
+        <path
+          style={{ opacity: "0.3", fill: "#8f246e" }}
+          d="M3110.745,2338.635c-264.994,623.954-970.877,973.498-1583.02,879.21    c-99.608-15.343-372.686-61.046-614.459-276.657C447.836,2526.119,348.301,1704.23,723.748,1125.025    c273.26-421.559,763.107-660.527,1228.557-648.574c100.258,2.575,484.488,18.443,822.16,296.88    c49.597,40.897,158.989,138.079,257.577,292.253C3263.546,1427.612,3283.445,1931.995,3110.745,2338.635z"
+        />
+        <g>
+          <linearGradient
+            id="SVGID_00000145035688982928621540000002779328611881415347_"
+            gradientUnits="userSpaceOnUse"
+            x1="7122.1382"
+            y1="340.415"
+            x2="8323.9424"
+            y2="340.415"
+            gradientTransform="matrix(0.9347 0.3554 -0.3554 0.9347 -5991.4497 -1660.605)"
+          >
+            <stop offset={0} style={{ stopColor: "#A737D5" }} />
+            <stop offset={1} style={{ stopColor: "#EF497A" }} />
+          </linearGradient>
+          {/* change */}
+          <path
+            style={{
+              fill:"#8f246e", filter: "brightness(1.4)"
+            }}
+            d="M813.806,487.745     c-3.123-13.392,12.981-22.821,23.273-13.701c104.519,92.602,357.286,371.65,310.853,873.456     c-58.257,629.59,79.066,854.727,245.788,989.65c0,0-225.309-59.192-372.598-287.409     C659.492,1489.412,869.336,725.86,813.806,487.745z"
+          />
+          <path
+            style={{ fill: "#FFFFFF" }}
+            d="M896.918,681.454c14.753,69.473,28.129,139.201,38.936,209.318     c11.173,70.047,20.218,140.402,27.057,210.938c6.568,70.556,11.811,141.223,14.044,212.009     c2.552,70.772,2.06,141.574,1.319,212.659c-0.344,71.048-1.095,142.62,5.479,214.487c6.495,71.722,21.655,143.821,49.54,211.013     c6.969,16.745,14.271,33.429,22.482,49.516c7.917,16.246,16.555,32.146,25.475,47.884c18,31.396,38.115,61.65,60.382,90.274     c44.688,57.144,98.044,107.438,156.439,149.619c6.146,4.44,14.727,3.056,19.167-3.091c4.359-6.035,3.104-14.418-2.763-18.923     l-0.041-0.032c-13.913-10.661-27.686-21.469-40.931-32.854c-6.715-5.588-13.167-11.461-19.727-17.211     c-6.334-5.991-12.904-11.738-19.047-17.918c-24.981-24.299-48.226-50.323-69.431-77.938     c-42.636-54.959-77.278-116.575-104.03-180.717c-13.018-32.232-23.638-65.367-31.671-99.205     c-8.008-33.847-13.429-68.362-16.883-103.212c-6.917-69.74-6.759-140.586-6.925-211.633     c-0.259-71.062-1.007-142.47-4.692-213.736c-1.746-35.633-4.133-71.231-7.155-106.769c-1.409-17.776-3.162-35.523-4.883-53.269     c-1.891-17.73-3.88-35.447-6.012-53.144c-8.662-70.776-19.48-141.254-32.508-211.292     c-13.364-69.974-28.581-139.571-46.454-208.464c-0.512-1.97-2.521-3.151-4.49-2.64     C897.684,677.621,896.515,679.541,896.918,681.454z"
+          />
+        </g>
+        <g>
+          <g>
+            <linearGradient
+              id="SVGID_00000150797819422760654100000017723528530348618916_"
+              gradientUnits="userSpaceOnUse"
+              x1="-1776.1444"
+              y1="7303.8877"
+              x2="-301.89"
+              y2="7303.8877"
+              gradientTransform="matrix(0.1846 -0.9829 0.9829 0.1846 -6122.5615 -612.8323)"
             >
-              <tr>
-                <td align="center" style="padding: 0; margin: 0">
-                  <table
-                    class="es-content-body"
-                    style="
-                      mso-table-lspace: 0pt;
-                      mso-table-rspace: 0pt;
-                      border-collapse: collapse;
-                      border-spacing: 0px;
-                      background-color: #ffffff;
-                      width: 600px;
-                    "
-                    cellspacing="0"
-                    cellpadding="0"
-                    bgcolor="#ffffff"
-                    align="center"
-                  >
-                    <tr>
-                      <td align="left" style="padding: 0; margin: 0">
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="top"
-                              style="padding: 0; margin: 0; width: 600px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td style="padding: 0; margin: 0">
-                                    <div
-                                      class="footcontainer2"
-                                      style="
-                                        background: rgb(246, 149, 174);
-                                        background: linear-gradient(
-                                          90deg,
-                                          rgba(246, 149, 174, 1) 0%,
-                                          rgba(247, 191, 205, 1) 20%,
-                                          rgba(250, 247, 248, 1) 52%,
-                                          rgba(251, 201, 214, 1) 83%,
-                                          rgba(245, 155, 178, 1) 100%
-                                        );
-                                      "
-                                    >
-                                      <div
-                                        align="center"
-                                        class="esd-block-image es-visible-simple-html-only es-p15 esd-frame esd-hover esdev-disable-select esd-draggable esd-block"
-                                        style="
-                                          font-size: 0px;
-                                          margin: 0 auto;
-                                          height: 7rem;
-                                          padding-top: 1rem;
-                                        "
-                                        esd-handler-name="imgBlockHandler"
-                                      >
-                                        <img
-                                          src="https://storage.googleapis.com/example-2321/qikberry-logo.png"
-                                          alt
-                                          style="display: block"
-                                          width="225"
-                                        />
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td
-                        class="esd-structure es-p10t es-p20r es-p20l"
-                        align="left"
-                        style="
-                          padding-bottom: 15px;
-                          padding-top: 20px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                        "
-                      >
-                        <table cellpadding="0" cellspacing="0" width="100%">
-                          <tbody>
-                            <tr>
-                              <td
-                                width="560"
-                                class="esd-container-frame"
-                                align="center"
-                                valign="top"
-                              >
-                                <table
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  width="100%"
-                                >
-                                  <tbody>
-                                    <tr>
-                                      <td class="esd-block-html">
-                                        <content
-                                          class="content"
-                                          style="
-                                            min-height: 15rem;
-                                            display: flex;
-                                            gap: 2rem;
-                                            flex-direction: column;
-                                            justify-content: space-evenly;
-                                          "
-                                        >
-                                          <div
-                                            style="
-                                              font-family: sans-serif;
-                                              padding: 1rem 0rem;
-                                              justify-content: space-evenly;
-                                              height: 100%;
-                                            "
-                                          >
-                                            <div class="mail-font">
-                                              <p
-                                                style="
-                                                  font-weight: 600;
-                                                  color: black;
-                                                "
-                                              >
-                                                Dear User,
-                                              </p>
-                                              <br />
-                                              We are delighted to welcome you to
-                                              Qikberry. To get you started, we
-                                              have generated your login
-                                              credentials so you can access your
-                                              account and enjoy all the features
-                                              and benefits our platform/service
-                                              has to offer.
-                                            </div>
-                                            <br />
-                                            <div
-                                              class="table-container mail-font"
-                                            >
-                                              <table
-                                                class="table"
-                                                style="
-                                                  width: 100% !important;
-                                                  border: 1px solid #a87575;
-                                                  border-collapse: collapse;
-                                                "
-                                              >
-                                                <tbody>
-                                                  <tr
-                                                    style="
-                                                      border: 1px solid #a87575;
-                                                      border-collapse: collapse;
-                                                    "
-                                                  >
-                                                    <th
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                      "
-                                                      scope="row"
-                                                    >
-                                                      Username
-                                                    </th>
-                                                    <td
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                        border: 1px solid
-                                                          #a87575;
-                                                        border-collapse: collapse;
-                                                      "
-                                                    >
-                                                      John
-                                                    </td>
-                                                  </tr>
-                                                  <tr
-                                                    style="
-                                                      border: 1px solid #a87575;
-                                                      border-collapse: collapse;
-                                                    "
-                                                  >
-                                                    <th
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                      "
-                                                      scope="row"
-                                                    >
-                                                      Password
-                                                    </th>
-                                                    <td
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                        border: 1px solid
-                                                          #a87575;
-                                                        border-collapse: collapse;
-                                                      "
-                                                    >
-                                                      John565#24
-                                                    </td>
-                                                  </tr>
-                                                  <tr
-                                                    style="
-                                                      border: 1px solid #a87575;
-                                                      border-collapse: collapse;
-                                                    "
-                                                  >
-                                                    <th
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                      "
-                                                      scope="row"
-                                                    >
-                                                      Web Portal
-                                                    </th>
-                                                    <td
-                                                      style="
-                                                        text-align: left;
-                                                        padding: 8px;
-                                                        word-wrap: break-word;
-                                                        border: 1px solid
-                                                          #a87575;
-                                                        border-collapse: collapse;
-                                                      "
-                                                    >
-                                                      <a
-                                                        href="https://alerts.qikberry.com/"
-                                                        style="
-                                                          color: #44bc58 !important;
-                                                        "
-                                                        target="_blank"
-                                                        >Go to sign-In</a
-                                                      >
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                              <br />
-                                            </div>
-                                            <div>
-                                              <br /><span
-                                                style="font-weight: 600"
-                                                >Thank You,</span
-                                              ><br /><span
-                                                class="mail-font"
-                                                style="font-size: 12px"
-                                                >Qickberry Support</span
-                                              >
-                                            </div>
-                                          </div>
-                                        </content>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </td>
-                    </tr>
-                    <!-- <tr>
-                      <td
-                        align="left"
-                        style="
-                          padding: 0;
-                          margin: 0;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                          padding-top: 10px;
-                        "
-                      >
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="top"
-                              style="padding: 0; margin: 0; width: 560px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td
-                                    align="left"
-                                    class="h-auto"
-                                    height="109"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      padding-top: 5px;
-                                      padding-bottom: 5px;
-                                    "
-                                  >
-                                    <p
-                                      style="
-                                        margin: 0;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        line-height: 21px;
-                                        letter-spacing: 0;
-                                        color: #6b3748;
-                                        font-size: 14px;
-                                      "
-                                    >
-                                      Dear User,<br />
-                                    </p>
-                                    <p
-                                      style="
-                                        margin: 0;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        line-height: 21px;
-                                        letter-spacing: 0;
-                                        color: #6b3748;
-                                        font-size: 14px;
-                                      "
-                                    >
-                                      <br />
-                                    </p>
-                                    <p
-                                      style="
-                                        margin: 0;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        line-height: 18px;
-                                        letter-spacing: 0;
-                                        color: #6b3748;
-                                        font-size: 12px;
-                                      "
-                                    >
-                                      We are delighted to welcome you to
-                                      Qikberry. To get you started, we have
-                                      generated your login credentials so you
-                                      can access your account and enjoy all the
-                                      features and benefits our platform/service
-                                      has to offer.
-                                    </p>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr> -->
-                    <!-- <tr>
-                      <td
-                        align="left"
-                        bgcolor="#F5F5F5"
-                        style="padding: 0; margin: 0; background-color: #f5f5f5"
-                      >
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="top"
-                              style="padding: 0; margin: 0; width: 600px"
-                            >
-                              <div class="footcontainer2">
-                                <ul></ul>
-                              </div>
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td style="padding: 0; margin: 0">
-                                    <div
-                                      class="table-container mail-font"
-                                      style="padding: 0rem 1rem"
-                                    >
-                                      <table
-                                        class="table"
-                                        style="
-                                          mso-table-lspace: 0pt;
-                                          mso-table-rspace: 0pt;
-                                          border-collapse: collapse;
-                                          border-spacing: 0px;
-                                          width: 100%;
-                                          border: 1px solid #a87575;
-                                        "
-                                        role="presentation"
-                                      >
-                                        <tr
-                                          style="
-                                            border: 1px solid #a87575;
-                                            border-collapse: collapse;
-                                          "
-                                        >
-                                          <th
-                                            style="
-                                              text-align: left;
-                                              padding: 8px;
-                                              word-wrap: break-word;
-                                            "
-                                            scope="row"
-                                          >
-                                            Username
-                                          </th>
-                                          <td
-                                            style="
-                                              padding: 8px;
-                                              margin: 0;
-                                              text-align: left;
-                                              word-wrap: break-word;
-                                              border: 1px solid #a87575;
-                                              border-collapse: collapse;
-                                            "
-                                          >
-                                            John
-                                          </td>
-                                        </tr>
-                                        <tr
-                                          style="
-                                            border: 1px solid #a87575;
-                                            border-collapse: collapse;
-                                          "
-                                        >
-                                          <th
-                                            style="
-                                              text-align: left;
-                                              padding: 8px;
-                                              word-wrap: break-word;
-                                            "
-                                            scope="row"
-                                          >
-                                            Password
-                                          </th>
-                                          <td
-                                            style="
-                                              padding: 0.3rem 0.5rem;
-                                              margin: 0;
-                                              text-align: left;
-                                              word-wrap: break-word;
-                                              border: 1px solid #a87575;
-                                              border-collapse: collapse;
-                                            "
-                                          >
-                                            John565#24
-                                          </td>
-                                        </tr>
-                                        <tr
-                                          style="
-                                            border: 1px solid #a87575;
-                                            border-collapse: collapse;
-                                          "
-                                        >
-                                          <th
-                                            style="
-                                              text-align: left;
-                                              padding: 8px;
-                                              word-wrap: break-word;
-                                            "
-                                            scope="row"
-                                          >
-                                            Web Portal
-                                          </th>
-                                          <td
-                                            style="
-                                              padding: 8px;
-                                              margin: 0;
-                                              text-align: left;
-                                              word-wrap: break-word;
-                                              border: 1px solid #a87575;
-                                              border-collapse: collapse;
-                                            "
-                                          >
-                                            <a
-                                              href="https://alerts.qikberry.com/"
-                                              target="_blank"
-                                              style="
-                                                mso-line-height-rule: exactly;
-                                                text-decoration: underline;
-                                                color: #2cb543;
-                                                font-size: 16px;
-                                              "
-                                              >Go to sign-In</a
-                                            >
-                                          </td>
-                                        </tr>
-                                      </table>
-                                      <br />
-                                    </div>
-                                    <div>
-                                      <br />
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr></tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr> -->
-                    <tr>
-                      <td
-                        align="left"
-                        bgcolor="#ea3d6a"
-                        style="
-                          margin: 0;
-                          padding-bottom: 15px;
-                          padding-top: 20px;
-                          padding-right: 20px;
-                          padding-left: 20px;
-                          background-color: #f59bb2;
-                        "
-                      >
-                        <!--[if mso]><table style="width:560px" cellpadding="0" cellspacing="0"><tr><td style="width:371px" valign="top"><![endif]-->
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          class="es-left"
-                          align="left"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            float: left;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="left"
-                              style="padding: 0; margin: 0; width: 371px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td
-                                    align="left"
-                                    style="padding: 0; margin: 0"
-                                  >
-                                    <a
-                                      href=""
-                                      style="
-                                        mso-line-height-rule: exactly;
-                                        text-decoration: none;
-                                        color: white;
-                                        font-size: 16px;
-                                      "
-                                      ><p
-                                        style="
-                                          margin: 0;
-                                          mso-line-height-rule: exactly;
-                                          font-family: arial, 'helvetica neue',
-                                            helvetica, sans-serif;
-                                          line-height: 150%;
-                                          letter-spacing: 0;
-                                          color: white;
-                                          font-size: 14px !important;
-                                          font-weight: 600 !important;
-                                        "
-                                      >
-                                        About Qikberry
-                                      </p>
-                                      <p
-                                        style="
-                                          margin: 0;
-                                          mso-line-height-rule: exactly;
-                                          font-family: arial, 'helvetica neue',
-                                            helvetica, sans-serif;
-                                          line-height: 150%;
-                                          letter-spacing: 0;
-                                          color: white;
-                                          font-size: 12px !important;
-                                        "
-                                      >
-                                        what's behind the brands.
-                                      </p></a
-                                    >
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                        <!--[if mso]></td><td style="width:10px"></td><td style="width:179px" valign="top"><![endif]-->
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          class="es-right"
-                          align="right"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            float: right;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="left"
-                              style="padding: 0; margin: 0; width: 179px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td
-                                    align="center"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      padding-top: 20px;
-                                      padding-bottom: 10px;
-                                      font-size: 0;
-                                    "
-                                  >
-                                    <table
-                                      cellpadding="0"
-                                      cellspacing="0"
-                                      class="es-table-not-adapt es-social"
-                                      role="presentation"
-                                      style="
-                                        mso-table-lspace: 0pt;
-                                        mso-table-rspace: 0pt;
-                                        border-collapse: collapse;
-                                        border-spacing: 0px;
-                                      "
-                                    >
-                                      <tr>
-                                        <td
-                                          align="center"
-                                          valign="top"
-                                          style="
-                                            padding: 0;
-                                            margin: 0;
-                                            padding-right: 17px;
-                                          "
-                                        >
-                                          <a
-                                            target="_blank"
-                                            href="https://viewstripo.email."
-                                            style="
-                                              mso-line-height-rule: exactly;
-                                              text-decoration: underline;
-                                              color: #2cb543;
-                                              font-size: 16px;
-                                            "
-                                            ><img
-                                              title="Facebook"
-                                              src="https://xlopeu.stripocdn.email/content/assets/img/social-icons/circle-white/facebook-circle-white.png"
-                                              alt="Fb"
-                                              width="25"
-                                              height="25"
-                                              style="
-                                                display: block;
-                                                font-size: 16px;
-                                                border: 0;
-                                                outline: none;
-                                                text-decoration: none;
-                                              "
-                                          /></a>
-                                        </td>
-                                        <td
-                                          align="center"
-                                          valign="top"
-                                          style="
-                                            padding: 0;
-                                            margin: 0;
-                                            padding-right: 17px;
-                                          "
-                                        >
-                                          <a
-                                            target="_blank"
-                                            href="https://viewstripo.email."
-                                            style="
-                                              mso-line-height-rule: exactly;
-                                              text-decoration: underline;
-                                              color: #2cb543;
-                                              font-size: 16px;
-                                            "
-                                            ><img
-                                              title="Twitter"
-                                              src="https://xlopeu.stripocdn.email/content/assets/img/social-icons/circle-white/twitter-circle-white.png"
-                                              alt="Tw"
-                                              width="25"
-                                              height="25"
-                                              style="
-                                                display: block;
-                                                font-size: 16px;
-                                                border: 0;
-                                                outline: none;
-                                                text-decoration: none;
-                                              "
-                                          /></a>
-                                        </td>
-                                        <td
-                                          align="center"
-                                          valign="top"
-                                          style="
-                                            padding: 0;
-                                            margin: 0;
-                                            padding-right: 17px;
-                                          "
-                                        >
-                                          <a
-                                            target="_blank"
-                                            href="https://viewstripo.email."
-                                            style="
-                                              mso-line-height-rule: exactly;
-                                              text-decoration: underline;
-                                              color: #2cb543;
-                                              font-size: 16px;
-                                            "
-                                            ><img
-                                              title="Instagram"
-                                              src="https://xlopeu.stripocdn.email/content/assets/img/social-icons/circle-white/instagram-circle-white.png"
-                                              alt="Inst"
-                                              width="25"
-                                              height="25"
-                                              style="
-                                                display: block;
-                                                font-size: 16px;
-                                                border: 0;
-                                                outline: none;
-                                                text-decoration: none;
-                                              "
-                                          /></a>
-                                        </td>
-                                        <td
-                                          align="center"
-                                          valign="top"
-                                          style="padding: 0; margin: 0"
-                                        >
-                                          <img
-                                            title="Linkedin"
-                                            src="https://xlopeu.stripocdn.email/content/assets/img/social-icons/circle-white/linkedin-circle-white.png"
-                                            alt="In"
-                                            width="25"
-                                            height="25"
-                                            style="
-                                              display: block;
-                                              font-size: 16px;
-                                              border: 0;
-                                              outline: none;
-                                              text-decoration: none;
-                                            "
-                                          />
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                        <!--[if mso]></td></tr></table><![endif]-->
-                      </td>
-                    </tr>
-                    <tr class="es-visible-simple-html-only">
-                      <td
-                        class="es-struct-html"
-                        align="left"
-                        bgcolor="#b9504d"
-                        style="padding: 0; margin: 0; background-color: #b9504d"
-                      >
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="top"
-                              style="padding: 0; margin: 0; width: 600px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td style="padding: 0; margin: 0">
-                                    <div
-                                      class="terms"
-                                      style="
-                                        list-style: none;
-                                        display: flex;
-                                        flex-direction: row;
-                                        align-items: center;
-                                        gap: 1rem;
-                                        padding: 0.4rem;
-                                        justify-content: center;
-                                        background-color: #d6607e;
-                                      "
-                                    >
-                                      <div class="term">
-                                        <a
-                                          href="https://www.qikberry.com/privacy-policy"
-                                          target="_blank"
-                                          style="
-                                            mso-line-height-rule: exactly;
-                                            text-decoration: none;
-                                            color: white;
-                                            font-size: 7px !important;
-                                          "
-                                        >
-                                          Privacy Policy</a
-                                        >
-                                      </div>
-                                      <div class="term">
-                                        <a
-                                          href="https://www.qikberry.com/contact"
-                                          target="_blank"
-                                          style="
-                                            mso-line-height-rule: exactly;
-                                            text-decoration: none;
-                                            color: white;
-                                            font-size: 7px !important;
-                                          "
-                                        >
-                                          Contact Us</a
-                                        >
-                                      </div>
-                                      <div class="term">
-                                        <a
-                                          href="#"
-                                          target="_blank"
-                                          style="
-                                            mso-line-height-rule: exactly;
-                                            text-decoration: none;
-                                            color: white;
-                                            font-size: 7px !important;
-                                          "
-                                        >
-                                          Copyright © 2023
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-            <table
-              cellpadding="0"
-              cellspacing="0"
-              class="es-footer"
-              align="center"
-              style="
-                mso-table-lspace: 0pt;
-                mso-table-rspace: 0pt;
-                border-collapse: collapse;
-                border-spacing: 0px;
-                width: 100%;
-                table-layout: fixed !important;
-                background-color: transparent;
-                background-repeat: repeat;
-                background-position: center top;
-              "
-            ></table>
-          </td>
-        </tr>
-      </table>
-    </div>
-  </body>
-</html>
+              <stop offset={0} style={{ stopColor: "#CE1567" }} />
+              <stop offset={1} style={{ stopColor: "#7A1DBC" }} />
+            </linearGradient>
+            {/* change */}
+            <path
+              style={{
+                fill:
+                  "#8f246e", filter: "hue-rotate(339deg)"
+              }}
+              d="M1146.393,2526.202      c-6.478,24.496-35.868,34.414-56.066,19.116c-111.449-84.411-404.972-351.565-421.479-833.917      c-13.939-407.325-60.205-626.868-88.114-725.078c-5.901-20.767,18.139-36.998,35.22-23.794      C804.413,1108.198,1381.137,1638.591,1146.393,2526.202z"
+            />
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M1112.239,2529.449c-0.491,0.392-1.024,0.742-1.603,1.043c-4.84,2.532-10.818,0.661-13.35-4.18      c-2.87-5.488-287.561-555.281-332.526-1120.763c-0.431-5.442,3.631-10.208,9.079-10.647c5.447-0.431,10.212,3.631,10.647,9.079      c44.636,561.366,327.48,1107.709,330.331,1113.161C1117.048,2521.406,1115.862,2526.551,1112.239,2529.449z"
+            />
+          </g>
+        </g>
+        <g>
+          <g>
+            <g style={{ opacity: "0.3" }}>
+              <linearGradient
+                id="SVGID_00000139266159421385772670000017482757855498093484_"
+                gradientUnits="userSpaceOnUse"
+                x1="-2433.9924"
+                y1="7498.0205"
+                x2="-1850.9844"
+                y2="7498.0205"
+                gradientTransform="matrix(-0.899 -0.4379 0.4379 -0.899 -2539.4121 7048.375)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000139266159421385772670000017482757855498093484_)"
+                }}
+                d="M2509.221,934.517       c4.784,2.577,6.572,8.546,3.994,13.327c-5.007,9.293-9.685,18.94-13.904,28.677c-2.134,4.926-7.817,7.219-12.761,5.188       c-0.059-0.024-0.117-0.048-0.178-0.073c-4.985-2.16-7.274-7.953-5.113-12.939c4.441-10.248,9.365-20.405,14.637-30.187       c2.409-4.473,7.788-6.326,12.387-4.436C2508.6,934.204,2508.914,934.35,2509.221,934.517z M2482.027,1025.321       c-2.852,10.216-5.292,20.65-7.257,31.022c-1.01,5.334-6.156,8.845-11.495,7.835c-5.354-1.033-8.845-6.16-7.834-11.499       c2.066-10.912,4.635-21.896,7.633-32.645c1.461-5.233,6.888-8.291,12.121-6.831c0.38,0.106,0.749,0.233,1.105,0.38       C2480.848,1015.452,2483.381,1020.468,2482.027,1025.321z M2468.704,1107.728c-0.504,10.565-0.555,21.279-0.149,31.853       c0.208,5.428-4.025,9.999-9.453,10.207c-5.423,0.202-9.995-4.024-10.207-9.454c-0.427-11.134-0.374-22.421,0.158-33.544       c0.259-5.427,4.869-9.615,10.295-9.359c1.157,0.056,2.258,0.309,3.271,0.725       C2466.358,1099.693,2468.909,1103.458,2468.704,1107.728z M2474.147,1191.044c1.872,10.424,4.22,20.885,6.974,31.098       c1.413,5.246-1.693,10.646-6.937,12.06c-5.246,1.409-10.642-1.697-12.06-6.937c-2.899-10.755-5.369-21.769-7.343-32.738       c-0.96-5.346,2.595-10.462,7.942-11.422c1.913-0.344,3.796-0.11,5.471,0.578       C2471.199,1184.918,2473.528,1187.612,2474.147,1191.044z M2498.015,1271.072c4.13,9.723,8.736,19.409,13.692,28.782       c2.537,4.806,0.7,10.757-4.102,13.295c-4.806,2.541-10.758,0.702-13.292-4.104c-5.213-9.861-10.059-20.052-14.405-30.284       c-2.125-4.999,0.207-10.775,5.208-12.899c2.52-1.071,5.236-1.01,7.584-0.045       C2495.01,1266.767,2496.961,1268.591,2498.015,1271.072z M2538.995,1343.824c6.187,8.583,12.82,17.004,19.715,25.034       c3.539,4.121,3.068,10.334-1.053,13.871c-4.122,3.541-10.331,3.071-13.873-1.052c-7.257-8.449-14.238-17.316-20.75-26.348       c-3.176-4.408-2.179-10.554,2.228-13.733c2.863-2.064,6.459-2.364,9.5-1.115       C2536.403,1341.155,2537.882,1342.278,2538.995,1343.824z M2865.38,1507.888c0.2,5.429-4.04,9.993-9.47,10.192       c-11.122,0.407-22.414,0.333-33.558-0.22c-5.427-0.269-9.608-4.887-9.337-10.313c0.267-5.424,4.885-9.604,10.311-9.336       c10.581,0.525,21.302,0.594,31.864,0.206c1.449-0.053,2.834,0.209,4.094,0.727       C2862.743,1500.565,2865.236,1503.907,2865.38,1507.888z M2595.048,1405.644c7.936,6.988,16.272,13.715,24.781,19.995       c4.371,3.229,5.298,9.389,2.072,13.759c-3.228,4.373-9.374,5.276-13.758,2.07c-8.958-6.614-17.738-13.699-26.095-21.058       c-4.077-3.59-4.473-9.806-0.881-13.885c2.847-3.234,7.347-4.151,11.122-2.601       C2593.271,1404.328,2594.204,1404.903,2595.048,1405.644z M2779.753,1503.555c-1.02,5.335-6.176,8.833-11.512,7.812       c-10.929-2.094-21.914-4.688-32.647-7.703c-5.242-1.448-8.277-6.903-6.809-12.132c1.47-5.229,6.901-8.277,12.133-6.809       c10.201,2.866,20.639,5.332,31.027,7.319c0.663,0.127,1.296,0.32,1.896,0.567       C2778.077,1494.35,2780.649,1498.884,2779.753,1503.555z M2663.499,1453.379c9.294,5.032,18.928,9.73,28.637,13.96       c4.983,2.168,7.26,7.964,5.091,12.947c-2.142,4.915-7.816,7.199-12.753,5.171c-0.064-0.026-0.13-0.053-0.192-0.083       c-10.223-4.45-20.366-9.394-30.149-14.689c-4.777-2.59-6.554-8.559-3.967-13.337c2.415-4.462,7.786-6.306,12.378-4.419       C2662.865,1453.06,2663.185,1453.212,2663.499,1453.379z"
+              />
+              <linearGradient
+                id="SVGID_00000017500949574358634460000000869554772857562510_"
+                gradientUnits="userSpaceOnUse"
+                x1="4206.5264"
+                y1="7163.9541"
+                x2="4239.2949"
+                y2="7163.9541"
+                gradientTransform="matrix(0.925 0.3801 0.3801 -0.925 -3712.8506 6522.5537)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000017500949574358634460000000869554772857562510_)"
+                }}
+                d="M2927.803,1490.377       c-1.792-0.736-3.819-0.954-5.854-0.503c-4.952,1.098-10.009,2.106-15.033,3.009c-5.347,0.956-8.908,6.069-7.949,11.415       c0.956,5.349,6.068,8.916,11.418,7.948c5.284-0.944,10.602-2.008,15.814-3.161c5.303-1.173,8.654-6.427,7.48-11.728       C2932.956,1494.086,2930.682,1491.56,2927.803,1490.377z"
+              />
+            </g>
+            <g style={{ opacity: "0.3" }}>
+              <linearGradient
+                id="SVGID_00000013888236915680155740000015450634796324594836_"
+                gradientUnits="userSpaceOnUse"
+                x1="4376.6074"
+                y1="7414.353"
+                x2="4399.0938"
+                y2="7414.353"
+                gradientTransform="matrix(0.925 0.3801 0.3801 -0.925 -3712.8506 6522.5537)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000013888236915680155740000015450634796324594836_)"
+                }}
+                d="M3172.077,1316.368       c-4.391-1.804-9.565-0.208-12.122,3.972c-2.644,4.327-5.424,8.672-8.263,12.911c-3.023,4.516-1.813,10.626,2.701,13.648       c4.534,3.034,10.626,1.811,13.648-2.701c2.987-4.464,5.916-9.039,8.701-13.594c2.833-4.635,1.373-10.69-3.262-13.525       C3173.025,1316.799,3172.555,1316.564,3172.077,1316.368z"
+              />
+              <linearGradient
+                id="SVGID_00000075121108370904608480000004174265595714730658_"
+                gradientUnits="userSpaceOnUse"
+                x1="-2636.5728"
+                y1="7880.7441"
+                x2="-2037.6643"
+                y2="7880.7441"
+                gradientTransform="matrix(-0.899 -0.4379 0.4379 -0.899 -2539.4121 7048.375)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000075121108370904608480000004174265595714730658_)"
+                }}
+                d="M3009.043,769.835       c4.918,2.307,7.034,8.167,4.724,13.087c-2.309,4.917-8.158,7.025-13.085,4.723c-9.363-4.396-19.06-8.459-28.927-12.131       c-5.073-1.868-7.683-7.56-5.788-12.652c1.895-5.092,7.558-7.683,12.651-5.79c4.275,1.591,8.508,3.246,12.694,4.967       C2997.286,764.493,3003.252,767.115,3009.043,769.835z M2934.667,753.578c-1.188,5.299-6.449,8.633-11.749,7.444       c-10.178-2.279-20.562-4.157-30.864-5.574c-5.378-0.722-9.146-5.702-8.407-11.086c0.74-5.379,5.703-9.143,11.084-8.403       c10.847,1.49,21.779,3.464,32.488,5.867c0.555,0.124,1.09,0.294,1.598,0.503       C2933.17,744.118,2935.731,748.831,2934.667,753.578z M3055.895,795.882c9.179,5.961,18.229,12.396,26.897,19.132       c4.29,3.333,5.066,9.514,1.732,13.806c-3.333,4.289-9.509,5.058-13.804,1.731c-8.23-6.398-16.823-12.508-25.54-18.167       c-4.556-2.961-5.853-9.052-2.893-13.611c2.618-4.03,7.688-5.507,11.978-3.744       C3054.823,795.259,3055.37,795.542,3055.895,795.882z M2851.076,742.147c0.006,5.432-4.395,9.843-9.828,9.845       c-10.414,0.008-20.952,0.464-31.32,1.351c-5.418,0.466-10.177-3.546-10.64-8.962c-0.464-5.412,3.547-10.175,8.96-10.639       c10.92-0.935,22.018-1.414,32.983-1.424c1.325,0,2.59,0.258,3.745,0.733C2848.553,734.521,2851.073,738.041,2851.076,742.147z        M3122.732,850.709c7.638,7.829,15.047,16.095,22.024,24.57c3.453,4.194,2.853,10.391-1.339,13.844       c-4.195,3.457-10.395,2.854-13.848-1.34c-6.628-8.049-13.665-15.901-20.92-23.335c-3.794-3.89-3.717-10.119,0.173-13.913       c2.898-2.827,7.094-3.504,10.613-2.058C3120.639,848.973,3121.765,849.718,3122.732,850.709z M3175.924,918.865       c5.756,9.332,11.185,19.016,16.137,28.781c2.455,4.848,0.52,10.766-4.326,13.224c-4.854,2.46-10.771,0.522-13.221-4.327       c-4.706-9.279-9.865-18.481-15.333-27.351c-2.853-4.624-1.415-10.685,3.209-13.537c2.787-1.717,6.096-1.878,8.909-0.722       C3173.153,915.695,3174.792,917.029,3175.924,918.865z M3213.001,996.997c3.589,10.369,6.779,21.007,9.484,31.61       c1.342,5.267-1.837,10.62-7.101,11.964c-5.271,1.344-10.621-1.839-11.963-7.101c-2.568-10.079-5.602-20.182-9.013-30.038       c-1.777-5.134,0.945-10.737,6.078-12.513c2.359-0.817,4.814-0.685,6.953,0.194       C3209.96,992.149,3212.039,994.221,3213.001,996.997z M3232.15,1081.355c1.235,10.902,2.018,21.983,2.326,32.936       c0.153,5.43-4.125,9.958-9.557,10.111c-5.422,0.153-9.955-4.128-10.108-9.558c-0.293-10.398-1.037-20.919-2.21-31.277       c-0.611-5.398,3.268-10.269,8.666-10.88c1.706-0.193,3.356,0.062,4.838,0.671       C3229.317,1074.678,3231.731,1077.66,3232.15,1081.355z M3232.295,1167.904c-1.195,10.879-2.872,21.852-4.985,32.615       c-1.046,5.332-6.218,8.807-11.549,7.76c-5.314-1.045-8.805-6.215-7.759-11.547c2.008-10.225,3.6-20.647,4.737-30.981       c0.592-5.399,5.452-9.296,10.852-8.702c0.94,0.103,1.836,0.334,2.669,0.677       C3230.214,1159.35,3232.786,1163.444,3232.295,1167.904z M3213.453,1252.284c-2.604,7.633-5.477,15.281-8.537,22.727       c-1.108,2.698-2.243,5.372-3.404,8.032c-2.173,4.977-7.951,7.376-12.95,5.077c-4.98-2.171-7.254-7.97-5.081-12.951       c1.102-2.526,2.184-5.073,3.237-7.635c2.909-7.08,5.639-14.346,8.116-21.604c1.753-5.141,7.345-7.887,12.486-6.132       c0.193,0.067,0.384,0.137,0.571,0.214C3212.663,1241.973,3215.143,1247.337,3213.453,1252.284z"
+              />
+              <linearGradient
+                id="SVGID_00000049908167512660638050000012025467832241557431_"
+                gradientUnits="userSpaceOnUse"
+                x1="3768.3596"
+                y1="7791.9307"
+                x2="3800.7102"
+                y2="7791.9307"
+                gradientTransform="matrix(0.925 0.3801 0.3801 -0.925 -3712.8506 6522.5537)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000049908167512660638050000012025467832241557431_)"
+                }}
+                d="M2760.92,742.522       c-1.809-0.743-3.854-0.957-5.904-0.494c-5.194,1.177-10.462,2.485-15.656,3.89c-5.246,1.417-8.348,6.819-6.93,12.063       c1.42,5.244,6.814,8.35,12.063,6.93c4.935-1.333,9.938-2.576,14.87-3.694c5.296-1.197,8.62-6.466,7.421-11.765       C2766.046,746.202,2763.781,743.697,2760.92,742.522z"
+              />
+            </g>
+            <g>
+              <linearGradient
+                id="SVGID_00000146494802903405438810000004030758005012999074_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3179.803"
+                y1="6420.0684"
+                x2="-1029.2501"
+                y2="9313.2578"
+                gradientTransform="matrix(-0.899 -0.4379 0.4379 -0.899 -2539.4121 7048.375)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              {/* change */}
+              <path
+                style={{ fill:"#8f246e", filter: "brightness(4.5)"}}
+                d="M2670.816,885.079       c-1.725,0.935-2.667,2.86-2.345,4.796l9.16,55.204c-19.533,17.36-36.438,37.96-49.778,61.312l-55.871,2.412       c-1.96,0.085-3.65,1.404-4.209,3.284l-19.123,64.34c-0.56,1.88,0.136,3.909,1.731,5.049l45.484,32.537       c-1.581,26.847,1.328,53.337,8.209,78.548l-37.824,41.239c-1.325,1.446-1.588,3.573-0.654,5.298l31.973,59.018       c0.934,1.724,2.86,2.667,4.796,2.345l55.203-9.161c17.36,19.534,37.96,36.44,61.313,49.779l2.413,55.871       c0.084,1.96,1.403,3.65,3.283,4.209l64.341,19.124c1.881,0.558,3.908-0.138,5.049-1.732l32.537-45.484       c26.847,1.581,53.337-1.328,78.547-8.21l41.239,37.825c1.446,1.326,3.573,1.589,5.298,0.654l59.018-31.973       c1.724-0.934,2.666-2.86,2.345-4.794l-9.161-55.205c19.534-17.359,36.438-37.959,49.778-61.312l55.871-2.413       c1.96-0.084,3.65-1.403,4.209-3.283l19.123-64.341c0.559-1.88-0.137-3.908-1.732-5.049l-45.483-32.538       c1.581-26.847-1.329-53.337-8.209-78.548l37.825-41.239c1.326-1.445,1.589-3.572,0.654-5.298l-31.973-59.017       c-0.934-1.724-2.86-2.666-4.795-2.345l-55.204,9.161c-17.36-19.534-37.96-36.439-61.312-49.779l-2.413-55.871       c-0.085-1.958-1.403-3.649-3.284-4.208l-64.34-19.123c-1.88-0.558-3.908,0.136-5.049,1.732l-32.537,45.482       c-26.847-1.581-53.336,1.33-78.547,8.21l-41.239-37.825c-1.445-1.326-3.573-1.588-5.298-0.654L2670.816,885.079z"
+              />
+              <path
+                style={{ opacity: "0.56", fill: "#FFFFFF" }}
+                d="M2875.177,1070.219c31.981,19.006,42.54,60.484,23.533,92.469       c-9.206,15.494-23.896,26.474-41.36,30.918c-17.461,4.445-35.614,1.827-51.107-7.385       c-31.981-19.007-42.539-60.485-23.533-92.47c17.292-29.096,53.182-40.459,83.603-27.96       C2869.329,1067.031,2872.294,1068.506,2875.177,1070.219z M2853.469,1178.353c13.392-3.408,24.653-11.826,31.713-23.707       c14.57-24.519,6.477-56.326-18.044-70.897c-24.523-14.584-56.327-6.476-70.899,18.045       c-14.569,24.519-6.476,56.327,18.044,70.897c2.224,1.321,4.516,2.462,6.865,3.427       C2831.35,1180.311,2842.585,1181.121,2853.469,1178.353z"
+              />
+              <path
+                style={{ opacity: "0.56", fill: "#FFFFFF" }}
+                d="M2904.625,976.18c-5.225-2.147-10.588-4.043-16.076-5.675l0,0       c-1.727-0.514-3.463-0.999-5.207-1.458c-8.597-2.257-17.359-3.826-26.152-4.685c-0.12-0.012-0.24-0.024-0.359-0.036       c-0.34-0.032-0.68-0.063-1.022-0.091c-0.663-0.06-1.326-0.113-1.989-0.165c-1.743-0.135-3.308,0.888-3.941,2.423       c-0.153,0.373-0.251,0.778-0.283,1.201c-0.167,2.167,1.459,4.052,3.622,4.222c11.15,0.855,22.281,2.919,33.087,6.134       c53.68,15.945,92.578,58.051,106.941,108.271c7.993,27.932,8.391,58.376-0.484,88.231c-1.555,5.236-3.363,10.354-5.413,15.337       c-13.784,33.537-38.477,61.083-70.788,78.586c-37.114,20.108-79.838,24.559-120.298,12.533       c-83.559-24.845-131.282-112.979-106.458-196.501c1.53-5.15,3.316-10.203,5.346-15.139       c8.794-21.392,22.171-40.622,39.239-56.263c0.441-0.405,0.769-0.885,0.98-1.404c0.561-1.365,0.327-2.994-0.738-4.154       c-1.474-1.598-3.956-1.717-5.561-0.241c-17.918,16.421-31.965,36.61-41.197,59.068c-2.131,5.181-4.005,10.485-5.613,15.89       c-26.064,87.691,24.099,180.235,111.758,206.29c42.477,12.626,87.327,7.951,126.29-13.158       c33.922-18.375,59.844-47.294,74.316-82.5c2.15-5.232,4.048-10.605,5.682-16.098c12.625-42.48,7.953-87.33-13.155-126.293       C2968.772,1016.574,2939.841,990.649,2904.625,976.18z"
+              />
+            </g>
+          </g>
+          <g>
+            <g style={{ opacity: "0.3" }}>
+              <linearGradient
+                id="SVGID_00000115501295884433568540000013271901576335741099_"
+                gradientUnits="userSpaceOnUse"
+                x1="3284.4019"
+                y1="7779.0288"
+                x2="3300.3943"
+                y2="7779.0288"
+                gradientTransform="matrix(0.925 0.3801 0.3801 -0.925 -3712.8506 6522.5537)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000115501295884433568540000013271901576335741099_)"
+                }}
+                d="M2296.301,566.704       c-2.431-0.999-5.322-0.333-7.049,1.825c-3.225,4.025-6.373,8.203-9.353,12.419c-1.937,2.739-1.287,6.527,1.454,8.468       c2.736,1.951,6.531,1.285,8.468-1.453c2.84-4.016,5.839-7.999,8.916-11.841c2.097-2.615,1.674-6.439-0.943-8.54       C2297.328,567.21,2296.825,566.92,2296.301,566.704z"
+              />
+              <linearGradient
+                id="SVGID_00000118390793787559669110000012667444597348837302_"
+                gradientUnits="userSpaceOnUse"
+                x1="-1826.4929"
+                y1="7759.2666"
+                x2="-1497.1079"
+                y2="7759.2666"
+                gradientTransform="matrix(-0.899 -0.4379 0.4379 -0.899 -2539.4121 7048.375)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000118390793787559669110000012667444597348837302_)"
+                }}
+                d="M2271.117,605.974       c2.956,1.586,4.072,5.265,2.486,8.225c-3.995,7.467-7.655,15.226-10.873,23.058c-0.679,1.652-1.34,3.318-1.988,4.995       c-1.211,3.126-4.728,4.684-7.858,3.474c-2.914-1.262-4.684-4.728-3.476-7.862c0.68-1.754,1.373-3.497,2.083-5.226       c3.373-8.21,7.21-16.345,11.403-24.175c1.481-2.771,4.81-3.925,7.658-2.755       C2270.741,605.788,2270.929,605.878,2271.117,605.974z M2251.39,671.657c-2.51,9.957-4.427,20.158-5.693,30.318       c-0.416,3.331-3.448,5.691-6.78,5.277c-3.312-0.418-5.694-3.449-5.278-6.78c1.326-10.649,3.334-21.345,5.968-31.784       c0.821-3.254,4.124-5.227,7.38-4.409c0.284,0.072,0.563,0.168,0.829,0.277C2250.566,665.687,2252.137,668.693,2251.39,671.657z        M2243.8,732.776c0.005,10.253,0.656,20.611,1.933,30.796c0.417,3.327-1.945,6.366-5.272,6.782       c-3.34,0.417-6.369-1.937-6.786-5.271c-1.341-10.679-2.019-21.549-2.029-32.297c-0.001-3.355,2.717-6.081,6.072-6.082       c0.817,0.003,1.598,0.163,2.312,0.456C2242.238,728.067,2243.796,730.24,2243.8,732.776z M2251.458,793.892       c2.524,9.953,5.689,19.843,9.409,29.377c1.218,3.131-0.328,6.652-3.455,7.869c-3.119,1.214-6.646-0.326-7.867-3.451       c-3.901-10.006-7.218-20.369-9.866-30.81c-0.826-3.252,1.146-6.559,4.398-7.385c1.312-0.328,2.632-0.208,3.795,0.27       C2249.592,790.47,2250.965,791.951,2251.458,793.892z M2273.804,851.287c4.866,9.037,10.337,17.853,16.26,26.214       c1.94,2.734,1.292,6.528-1.446,8.469c-2.738,1.941-6.532,1.3-8.47-1.446c-6.209-8.76-11.942-18.005-17.046-27.473       c-1.588-2.956-0.485-6.64,2.467-8.23c1.669-0.899,3.571-0.938,5.196-0.271C2272.019,849.066,2273.11,850.002,2273.804,851.287z        M2309.406,901.518c6.911,7.574,14.359,14.784,22.144,21.434c2.55,2.177,2.852,6.015,0.673,8.564       c-2.18,2.549-6.002,2.852-8.568,0.675c-8.162-6.972-15.978-14.539-23.227-22.483c-2.259-2.48-2.085-6.322,0.392-8.582       c1.795-1.636,4.304-1.997,6.409-1.133C2308.033,900.324,2308.781,900.831,2309.406,901.518z M2356.192,941.499       c8.531,5.628,17.531,10.796,26.752,15.355c3.005,1.491,4.238,5.134,2.749,8.141c-1.485,3.007-5.104,4.196-8.143,2.755       c-9.663-4.786-19.1-10.202-28.048-16.105c-2.8-1.849-3.574-5.618-1.727-8.42c1.624-2.463,4.74-3.357,7.375-2.275       C2355.508,941.096,2355.857,941.278,2356.192,941.499z M2445.733,984.423c-0.712,3.28-3.946,5.358-7.227,4.645       c-9.078-1.972-18.203-4.477-27.098-7.433c-1.355-0.442-2.696-0.903-4.036-1.37c-3.182-1.013-4.835-4.578-3.715-7.749       c1.112-3.167,4.579-4.828,7.747-3.719c1.254,0.444,2.518,0.874,3.81,1.296c8.514,2.831,17.218,5.221,25.874,7.103       c0.357,0.076,0.7,0.185,1.024,0.318C2444.787,978.614,2446.368,981.502,2445.733,984.423z"
+              />
+            </g>
+            <g style={{ opacity: "0.3" }}>
+              <linearGradient
+                id="SVGID_00000031915391890873033960000010543213704433910663_"
+                gradientUnits="userSpaceOnUse"
+                x1="-1987.0439"
+                y1="8075.2305"
+                x2="-1622.7782"
+                y2="8075.2305"
+                gradientTransform="matrix(-0.899 -0.4379 0.4379 -0.899 -2539.4121 7048.375)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000031915391890873033960000010543213704433910663_)"
+                }}
+                d="M2597.234,491.285       c9.742,4.151,19.312,8.936,28.453,14.212c2.902,1.68,3.9,5.394,2.221,8.302c-1.679,2.909-5.4,3.862-8.302,2.221       c-8.714-5.036-17.844-9.596-27.139-13.556c-3.088-1.313-4.522-4.886-3.207-7.97c1.306-3.062,4.829-4.501,7.897-3.241       C2597.182,491.263,2597.21,491.275,2597.234,491.285z M2571.396,488.123c-0.936,3.22-4.308,5.074-7.528,4.136       c-9.693-2.816-19.654-5.074-29.609-6.707c-3.29-0.55-5.556-3.668-5.008-6.984c0.543-3.312,3.666-5.55,6.978-5.01       c10.432,1.714,20.872,4.079,31.028,7.034c0.215,0.063,0.419,0.134,0.623,0.217       C2570.713,481.972,2572.272,485.108,2571.396,488.123z M2652.222,523.078c8.454,6.386,16.591,13.341,24.182,20.674       c2.413,2.332,2.479,6.182,0.148,8.592c-2.331,2.417-6.163,2.478-8.591,0.153c-7.241-6.998-15-13.631-23.063-19.728       c-2.677-2.024-3.207-5.834-1.188-8.506c1.701-2.251,4.664-2.984,7.156-1.96       C2651.338,522.496,2651.793,522.754,2652.222,523.078z M2510.384,476.653c-0.133,3.352-2.962,5.961-6.314,5.828       c-10.085-0.404-20.292-0.191-30.344,0.637c-3.341,0.27-6.275-2.219-6.554-5.554c-0.274-3.346,2.213-6.282,5.558-6.556       c10.541-0.871,21.25-1.096,31.826-0.67c0.731,0.031,1.427,0.189,2.066,0.451       C2508.915,471.732,2510.488,474.033,2510.384,476.653z M2697.88,567.201c6.655,8.213,12.876,16.92,18.495,25.881       c1.782,2.843,0.921,6.594-1.922,8.377c-2.843,1.783-6.594,0.928-8.377-1.921c-5.355-8.551-11.29-16.853-17.64-24.683       c-2.111-2.606-1.713-6.432,0.898-8.547c1.785-1.448,4.149-1.714,6.138-0.897       C2696.381,565.784,2697.216,566.383,2697.88,567.201z M2731.625,620.999c4.503,9.587,8.463,19.534,11.772,29.56       c1.052,3.184-0.677,6.618-3.863,7.669c-3.182,1.053-6.622-0.675-7.675-3.866c-3.157-9.559-6.938-19.048-11.235-28.197       c-1.427-3.036-0.12-6.656,2.917-8.083c1.604-0.752,3.372-0.745,4.895-0.119C2729.793,618.52,2730.953,619.568,2731.625,620.999       z M2751.521,681.332c2.08,10.393,3.538,21.005,4.337,31.534c0.253,3.349-2.254,6.265-5.6,6.519       c-3.345,0.255-6.26-2.258-6.518-5.596c-0.759-10.043-2.15-20.16-4.138-30.067c-0.658-3.291,1.476-6.494,4.767-7.15       c1.221-0.248,2.427-0.106,3.497,0.334C2749.681,677.651,2751.104,679.262,2751.521,681.332z"
+              />
+              <linearGradient
+                id="SVGID_00000124125086260695048320000015198581946822531496_"
+                gradientUnits="userSpaceOnUse"
+                x1="3378.4824"
+                y1="7922.2231"
+                x2="3402.949"
+                y2="7922.2231"
+                gradientTransform="matrix(0.925 0.3801 0.3801 -0.925 -3712.8506 6522.5537)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000124125086260695048320000015198581946822531496_)"
+                }}
+                d="M2444.482,475.926       c-1.084-0.445-2.308-0.582-3.542-0.326c-5.092,1.058-10.174,2.273-15.11,3.606c-3.237,0.877-5.156,4.213-4.281,7.453       c0.883,3.23,4.212,5.15,7.453,4.281c4.706-1.274,9.556-2.431,14.414-3.443c3.286-0.683,5.395-3.903,4.71-7.186       C2447.698,478.261,2446.285,476.667,2444.482,475.926z"
+              />
+            </g>
+            <g>
+              <linearGradient
+                id="SVGID_00000035488920388269250180000005913857098529079447_"
+                gradientUnits="userSpaceOnUse"
+                x1="2928.5842"
+                y1={8538}
+                x2="3440.5833"
+                y2="8219.208"
+                gradientTransform="matrix(0.0786 -0.9969 0.9969 0.0786 -6051.2549 3362.9092)"
+              >
+                <stop offset={0} style={{ stopColor: "#B37CFF" }} />
+                <stop offset={1} style={{ stopColor: "#F895E7" }} />
+              </linearGradient>
+              {/* change */}
+              <path
+                style={{ fill:"#8f246e", filter: "brightness(4.5)"}}
+                d="M2379.831,571.841       c-1.154,0.626-1.784,1.914-1.569,3.209l6.129,36.94c-13.071,11.617-24.382,25.401-33.309,41.027l-37.386,1.615       c-1.312,0.057-2.442,0.939-2.816,2.197l-12.796,43.053c-0.375,1.258,0.091,2.616,1.158,3.378l30.436,21.772       c-1.058,17.965,0.888,35.691,5.493,52.56l-25.31,27.595c-0.887,0.967-1.063,2.391-0.438,3.545l21.395,39.492       c0.625,1.154,1.914,1.785,3.209,1.569l36.939-6.13c11.617,13.071,25.401,24.384,41.028,33.31l1.614,37.386       c0.057,1.311,0.939,2.442,2.197,2.816l43.054,12.797c1.259,0.374,2.615-0.092,3.378-1.159l21.773-30.436       c17.965,1.058,35.691-0.888,52.56-5.494l27.595,25.311c0.967,0.887,2.391,1.063,3.545,0.438l39.492-21.395       c1.153-0.625,1.783-1.914,1.569-3.208l-6.13-36.941c13.071-11.616,24.383-25.4,33.309-41.027l37.386-1.615       c1.311-0.056,2.442-0.938,2.816-2.197l12.797-43.054c0.374-1.258-0.092-2.615-1.159-3.378l-30.435-21.772       c1.058-17.965-0.889-35.691-5.493-52.561l25.311-27.595c0.887-0.967,1.063-2.39,0.438-3.545l-21.395-39.492       c-0.625-1.154-1.914-1.784-3.209-1.57l-36.94,6.13c-11.616-13.071-25.401-24.383-41.027-33.31l-1.614-37.386       c-0.057-1.311-0.939-2.442-2.198-2.816l-43.054-12.796c-1.258-0.374-2.615,0.091-3.378,1.159l-21.772,30.435       c-17.965-1.058-35.691,0.89-52.56,5.494l-27.595-25.311c-0.967-0.887-2.391-1.063-3.545-0.438L2379.831,571.841z"
+              />
+              <path
+                style={{ opacity: "0.56", fill: "#FFFFFF" }}
+                d="M2516.991,695.031c10.558,6.269,18.038,16.277,21.064,28.175       c3.029,11.893,1.243,24.258-5.031,34.812c-12.944,21.783-41.152,28.956-62.989,16.032       c-21.783-12.953-28.972-41.206-16.028-62.984c6.271-10.554,16.275-18.035,28.171-21.063c9.671-2.461,19.651-1.74,28.717,1.985       C2512.98,692.844,2515.019,693.861,2516.991,695.031z M2522.578,751.813c4.615-7.765,5.929-16.859,3.702-25.613       c-2.227-8.747-7.731-16.109-15.493-20.722l0,0c-7.769-4.603-16.857-5.925-25.612-3.698c-8.749,2.223-16.108,7.731-20.72,15.49       c-9.522,16.025-4.234,36.807,11.788,46.334c1.448,0.857,2.93,1.596,4.443,2.217       C2495.929,772.084,2513.917,766.389,2522.578,751.813z"
+              />
+              <path
+                style={{ opacity: "0.56", fill: "#FFFFFF" }}
+                d="M2537.483,629.578c-3.556-1.461-7.215-2.752-10.975-3.874       c-7.468-2.222-15.17-3.686-22.911-4.353c-0.348-0.027-0.696-0.055-1.044-0.082c-2.692-0.208-5.108,1.371-6.085,3.741       c-0.237,0.576-0.388,1.201-0.438,1.853c-0.258,3.345,2.256,6.251,5.593,6.519c7.233,0.554,14.439,1.892,21.417,3.97       l0.003,0.001c0.383,0.113,0.767,0.232,1.146,0.349c16.472,5.068,31.057,14.05,42.792,26.056       c6.37,6.518,11.899,13.934,16.426,22.113c0.037,0.066,0.073,0.133,0.111,0.199c0.111,0.207,0.224,0.407,0.333,0.612       c13.015,24.028,15.898,51.685,8.112,77.878c-1.005,3.391-2.176,6.701-3.502,9.928c-8.924,21.71-24.911,39.543-45.83,50.878       c-24.028,13.015-51.684,15.893-77.874,8.108c-26.172-7.79-47.787-25.306-60.807-49.329       c-13.015-24.027-15.898-51.685-8.112-77.878c0.988-3.334,2.146-6.604,3.458-9.798c5.695-13.851,14.353-26.298,25.402-36.422       c0.68-0.625,1.187-1.366,1.514-2.168c0.866-2.107,0.504-4.623-1.139-6.415c-2.274-2.467-6.108-2.644-8.587-0.372       c-12.362,11.329-22.053,25.258-28.424,40.748c-1.47,3.578-2.765,7.235-3.873,10.963c-8.71,29.309-5.486,60.251,9.078,87.134       c14.564,26.877,38.699,46.493,68.025,55.188c29.305,8.712,60.246,5.491,87.128-9.078       c23.403-12.675,41.288-32.628,51.271-56.917c1.481-3.606,2.793-7.313,3.92-11.103       C2620.472,711.288,2591.097,651.607,2537.483,629.578z"
+              />
+            </g>
+          </g>
+        </g>
+        <g>
+          <linearGradient
+            id="SVGID_00000065786944374894366300000005537603867581568933_"
+            gradientUnits="userSpaceOnUse"
+            x1="627.2698"
+            y1="3696.614"
+            x2="3127.6909"
+            y2="256.0395"
+          >
+            <stop offset={0} style={{ stopColor: "#53D8FF" }} />
+            <stop offset="0.2057" style={{ stopColor: "#4DB9FD" }} />
+            <stop offset="0.8554" style={{ stopColor: "#3C56F8" }} />
+            <stop offset={1} style={{ stopColor: "#3840F7" }} />
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "url(#SVGID_00000065786944374894366300000005537603867581568933_)"
+            }}
+            d="M907.097,956.512     c0-95.504,77.422-172.926,172.926-172.926h1470.571c81.13,0,148.029,63.579,152.154,144.604l108.549,2132.053     c3.228,63.405-46.684,116.888-110.161,118.042l-1685.46,30.633c-59.645,1.084-108.579-46.969-108.579-106.624V956.512z"
+          />
+          <path
+            style={{ opacity: "0.6", fill: "#FFFFFF" }}
+            d="M1262.011,3172.673c-0.018,0-0.035,0-0.053,16.658l-188.593-2.438     c-63.062-17.476-114.365-69.448-114.365-132.511v-284.74c0-2.225,1.803-4.026,4.026-4.026c2.224,0,4.026,1.801,4.026,4.026     v284.74c0,58.68,47.737,107.038,106.417,107.801l188.591,2.438c2.224,0.027,4.003,1.856,3.975,4.077     C1266.006,3170.904,1264.209,3172.673,1262.011,3172.673z"
+          />
+          <path
+            style={{ opacity: "0.6", fill: "#FFFFFF" }}
+            d="M963.025,2685.468c-2.223,0-4.026-1.801-4.026-4.026v-29.456     c0-2.225,1.803-20.684,4.026-20.684c2.224,0,4.026,1.801,4.026,4.026v46.113C967.052,2683.667,965.249,2685.468,963.025,2685.468     z"
+          />
+          <g>
+            <linearGradient
+              id="SVGID_00000124870959783748902920000001032664131675725991_"
+              gradientUnits="userSpaceOnUse"
+              x1="1869.1871"
+              y1="432.6001"
+              x2="1869.1871"
+              y2="3582.9697"
+            >
+              <stop offset={0} style={{ stopColor: "#53D8FF" }} />
+              <stop offset={1} style={{ stopColor: "#3840F7" }} />
+            </linearGradient>
+            <path
+              style={{
+                fill:
+                  "url(#SVGID_00000124870959783748902920000001032664131675725991_)"
+              }}
+              d="M1027.574,816.402      c-0.18-30.556,26.692-54.205,56.972-50.099c200.82,27.233,891.387,111.46,1462.339,67.631      c26.038-1.999,48.634,17.729,50.02,43.807l113.819,2141.557c1.561,29.364-20.862,54.474-50.216,56.212      c-240.132,14.211-1229.07,69.146-1581.81,32.199c-21.469-2.249-37.765-20.323-37.892-41.909L1027.574,816.402z"
+            />
+            <path
+              style={{ opacity: "0.6", fill: "#FFFFFF" }}
+              d="M1051.229,870.068c-0.173-29.405,25.687-52.164,54.827-48.212      c193.258,26.207,857.821,107.263,1407.274,65.084c25.057-1.923,46.802,17.062,48.136,42.157l109.533,2060.916      c1.502,28.258-20.077,52.424-48.326,54.095c-231.089,13.676-1182.789,66.542-1522.245,30.986      c-20.66-2.164-36.343-19.558-36.465-40.331L1051.229,870.068z"
+            />
+            <path
+              style={{ opacity: "0.58", fill: "#FFFFFF" }}
+              d="M2478.54,1215.289h-679.949c-5.756,0-10.422-4.666-10.422-10.423v-197.089      c0-5.756,4.666-10.423,10.422-10.423h679.949c5.756,0,10.423,4.666,10.423,10.423v197.089      C2488.962,1210.623,2484.296,1215.289,2478.54,1215.289z"
+            />
+            <path
+              style={{ opacity: "0.58", fill: "#FFFFFF" }}
+              d="M2508.023,2004.494H1182.715c-3.237,0-5.862-2.624-5.862-5.862v-76.623      c0-3.237,2.624-5.862,5.862-5.862h1325.307c3.237,0,5.862,2.624,5.862,5.862v76.623      C2513.885,2001.87,2511.26,2004.494,2508.023,2004.494z"
+            />
+            <path
+              style={{ opacity: "0.58", fill: "#FFFFFF" }}
+              d="M2509.605,2140.799H1181.133c-2.363,0-4.279-1.916-4.279-4.28v-79.787      c0-2.364,1.916-4.28,4.279-4.28h1328.472c2.364,0,4.28,1.916,4.28,4.28v79.787      C2513.885,2138.883,2511.969,2140.799,2509.605,2140.799z"
+            />
+            <path
+              style={{ opacity: "0.58", fill: "#FFFFFF" }}
+              d="M2537.771,2919.092H1183.125c-2.85,0-5.161-2.311-5.161-5.161v-78.024      c0-2.85,2.311-5.161,5.161-5.161h1354.646c2.85,0,5.161,2.311,5.161,5.161v78.024      C2542.932,2916.781,2540.622,2919.092,2537.771,2919.092z"
+            />
+            <path
+              style={{ opacity: "0.25", fill: "#FFFFFF" }}
+              d="M2480.347,1823.597h-1271.44c-17.703,0-32.053-14.351-32.053-32.053v-476.066      c0-17.703,14.351-32.053,32.053-32.053h1249.882c17.139,0,31.245,13.482,32.021,30.603l21.558,476.066      C2513.194,1808.346,2498.619,1823.597,2480.347,1823.597z"
+            />
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M2481.089,1828.597H1209.649c-20.432,0-37.054-16.624-37.054-37.054v-476.067      c0-20.433,16.622-37.054,37.054-37.054h1249.883c19.857,0,36.116,15.54,37.016,35.377l21.558,476.07      c0.462,10.204-3.169,19.89-10.228,27.274C2500.819,1824.53,2491.306,1828.597,2481.089,1828.597z M1209.649,1288.424      c-14.916,0-27.052,12.134-27.052,27.052v476.067c0,14.918,12.136,27.052,27.052,27.052h1271.441      c7.459,0,14.404-2.969,19.557-8.361c5.152-5.392,7.804-12.463,7.467-19.916l-21.558-476.064      c-0.656-14.485-12.527-25.831-27.024-25.831H1209.649z"
+            />
+            <path
+              style={{ opacity: "0.25", fill: "#FFFFFF" }}
+              d="M2500.67,2776.856H1218.62c-22.454,0-40.656-18.202-40.656-40.656v-458.861      c0-22.454,18.202-40.656,40.656-40.656h1264.262c21.841,0,39.78,17.256,40.625,39.081l17.788,458.861      C2542.189,2757.679,2523.741,2776.856,2500.67,2776.856z"
+            />
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M2500.669,2781.857H1218.62c-25.175,0-45.657-20.482-45.657-45.656v-458.864      c0-25.174,20.482-45.655,45.657-45.655h1264.262c24.63,0,44.669,19.277,45.623,43.887l17.788,458.864      c0.485,12.518-4.032,24.389-12.719,33.42C2524.886,2776.882,2513.201,2781.857,2500.669,2781.857z M1218.62,2241.684      c-19.66,0-35.656,15.996-35.656,35.654v458.864c0,19.658,15.996,35.654,35.656,35.654h1282.049      c9.787,0,18.911-3.884,25.696-10.936c6.783-7.052,10.311-16.321,9.932-26.098l-17.788-458.866      c-0.744-19.216-16.393-34.27-35.628-34.27H1218.62z"
+            />
+            <rect
+              x="1572.342"
+              y="1283.386"
+              transform="matrix(0.9999 -0.0166 0.0166 0.9999 -25.589 26.4169)"
+              style={{ fill: "#FFFFFF" }}
+              width="10.003"
+              height="540.247"
+            />
+            <rect
+              x="2064.301"
+              y="1283.325"
+              transform="matrix(0.9996 -0.027 0.027 0.9996 -41.1741 56.4145)"
+              style={{ fill: "#FFFFFF" }}
+              width="10.002"
+              height="540.37"
+            />
+            <rect
+              x="1838.027"
+              y="806.012"
+              transform="matrix(0.0035 -1 1 0.0035 368.3997 3306.0134)"
+              style={{ fill: "#FFFFFF" }}
+              width="10.002"
+              height="1324.293"
+            />
+            <rect
+              x="1180.886"
+              y="1652.769"
+              style={{ fill: "#FFFFFF" }}
+              width="1324.278"
+              height="10.002"
+            />
+            <rect
+              x="1306.115"
+              y="2501.769"
+              transform="matrix(0.0124 -0.9999 0.9999 0.0124 -949.8491 4051.8699)"
+              style={{ fill: "#FFFFFF" }}
+              width="540.215"
+              height="10.002"
+            />
+            <rect
+              x="1180.886"
+              y="2362.938"
+              style={{ fill: "#FFFFFF" }}
+              width="1347.839"
+              height="10.002"
+            />
+            <rect
+              x="1180.886"
+              y="2487.471"
+              style={{ fill: "#FFFFFF" }}
+              width="1351.203"
+              height="10.002"
+            />
+            <rect
+              x="1852.858"
+              y="1954.851"
+              transform="matrix(0.0125 -0.9999 0.9999 0.0125 -799.9045 4459.6553)"
+              style={{ fill: "#FFFFFF" }}
+              width="10.002"
+              height="1359.896"
+            />
+          </g>
+          <linearGradient
+            id="SVGID_00000067947940153570436010000016414541179761153415_"
+            gradientUnits="userSpaceOnUse"
+            x1="2070.5852"
+            y1="273.3827"
+            x2="1394.1743"
+            y2="1163.1852"
+          >
+            <stop offset={0} style={{ stopColor: "#2B3582" }} />
+            <stop offset={1} style={{ stopColor: "#150E42" }} />
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "url(#SVGID_00000067947940153570436010000016414541179761153415_)"
+            }}
+            d="M1906.515,492.891     c-53.119-36.954-99.307-36.222-131.821-26.628c-29.66,8.751-48.884,37.387-46.063,68.183l14.022,153.048l166.854,14.808     C1909.508,702.302,2010.69,565.364,1906.515,492.891z M1833.138,616.364c-22.978,0-41.604-18.626-41.604-41.604     c0-22.978,18.627-41.605,41.604-41.605c22.978,0,41.605,18.627,41.605,41.605     C1874.743,597.737,1856.116,616.364,1833.138,616.364z"
+          />
+          <path
+            style={{ opacity: "0.6", fill: "#FFFFFF" }}
+            d="M1759.321,623.113c-2.058,0-3.814-1.569-4.004-3.661l-2.234-24.374     c-0.204-2.214,1.427-4.172,3.641-4.377c2.258-0.212,4.175,1.428,4.376,3.645l2.233,24.374c0.205,2.214-1.427,4.172-3.641,4.376     C1759.567,623.109,1759.443,623.113,1759.321,623.113z M1754.945,575.348c-2.058,0-3.814-1.569-4.005-3.661l-1.697-18.503     c-2.689-29.336,15.771-56.651,43.89-64.951c19.915-5.878,40.434-6.72,60.982-2.504c2.178,0.444,3.582,2.575,3.136,4.753     c-0.446,2.174-2.557,3.566-4.752,3.134c-19.249-3.94-38.452-3.158-57.087,2.339c-24.443,7.215-40.489,30.975-38.151,56.497     l1.696,18.503c0.205,2.214-1.427,4.172-3.641,4.377C1755.191,575.344,1755.067,575.348,1754.945,575.348z"
+          />
+          <linearGradient
+            id="SVGID_00000038402835236919593900000013050789829995036860_"
+            gradientUnits="userSpaceOnUse"
+            x1="2144.7822"
+            y1="329.7841"
+            x2="1468.3708"
+            y2="1219.5874"
+          >
+            <stop offset={0} style={{ stopColor: "#2B3582" }} />
+            <stop offset={1} style={{ stopColor: "#150E42" }} />
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "url(#SVGID_00000038402835236919593900000013050789829995036860_)"
+            }}
+            d="M1514.927,786.401v-76.948     c0-26.562,22.015-47.837,48.563-46.927l530.522,18.177c23.544,0.806,42.611,19.391,44.021,42.907l4.434,73.936L1514.927,786.401z     "
+          />
+          <path
+            style={{ opacity: "0.6", fill: "#FFFFFF" }}
+            d="M1712.746,691.52h-22.815c-2.224,0-4.026-1.801-4.026-4.026     c0-2.226,1.803-4.026,4.026-4.026h22.815c2.224,0,4.026,1.801,4.026,4.026C1716.772,689.719,1714.969,691.52,1712.746,691.52z"
+          />
+          <path
+            style={{ opacity: "0.6", fill: "#FFFFFF" }}
+            d="M1543.642,762.239c-2.223,0-4.026-1.801-4.026-4.026v-31.129     c0-24.052,19.567-43.617,43.618-43.617h83.879c2.224,0,4.026,1.801,4.026,4.026c0,2.225-1.803,4.026-4.026,4.026h-83.879     c-19.61,0-35.566,15.956-35.566,35.564v31.129C1547.669,760.439,1545.866,762.239,1543.642,762.239z"
+          />
+          <linearGradient
+            id="SVGID_00000137837524215120788080000014600347265492258749_"
+            gradientUnits="userSpaceOnUse"
+            x1="1858.8948"
+            y1="338.9718"
+            x2="1793.8877"
+            y2="1189.0712"
+          >
+            <stop offset={0} style={{ stopColor: "#53D8FF" }} />
+            <stop offset={1} style={{ stopColor: "#3840F7" }} />
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "url(#SVGID_00000137837524215120788080000014600347265492258749_)"
+            }}
+            d="M1298.762,805.832     c1.28-26.646,23.257-47.592,49.933-47.593l927.717-0.025c33.358-0.001,61.877,24.005,67.567,56.874l0.785,4.536     c6.232,36.003-21.486,68.932-58.024,68.932h-951.783c-21.867,0-39.292-18.283-38.242-40.124L1298.762,805.832z"
+          />
+          <g>
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M1333.872,986.739l-4.33,34.159h-63.513l-24.379,197.755h-41.381l24.22-197.755h-63.673      l4.171-34.159H1333.872z"
+            />
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M1493.297,1218.653h-32.239c-3.637,0-6.524-0.853-8.66-2.565      c-2.142-1.706-3.477-4.011-4.011-6.896l-9.624-48.436h-86.447l-21.491,48.436c-1.179,2.461-3.103,4.649-5.773,6.577      c-2.676,1.924-5.671,2.885-8.983,2.885h-32.72l112.112-231.914h42.501L1493.297,1218.653z M1365.307,1131.405h67.524      l-15.719-79.392c-0.856-3.852-1.713-7.911-2.565-12.19c-0.856-4.275-1.661-9.087-2.406-14.433      c-2.031,5.346-4.037,10.288-6.013,14.833c-1.979,4.545-3.826,8.53-5.535,11.949L1365.307,1131.405z"
+            />
+            <path
+              style={{ fill: "#FFFFFF" }}
+              d="M1578.458,1094.837l-52.125-108.098h37.692c2.777,0,4.783,0.397,6.013,1.198      c1.227,0.804,2.273,2.168,3.129,4.093l35.605,80.033c1.068-2.246,2.351-4.49,3.848-6.736l49.24-72.818      c2.566-3.848,5.717-5.769,9.461-5.769h43.464l-78.91,106.174l58.223,125.741h-37.21c-2.784,0-4.949-0.745-6.495-2.243      c-1.553-1.494-2.754-3.155-3.611-4.971l-40.257-92.864c-0.534,0.856-1.042,1.709-1.524,2.565      c-0.479,0.856-0.99,1.713-1.524,2.566l-59.984,87.733c-1.82,2.673-3.796,4.545-5.932,5.613      c-2.142,1.068-4.493,1.602-7.058,1.602h-41.54L1578.458,1094.837z"
+            />
+          </g>
+        </g>
+        <g>
+          <linearGradient
+            id="SVGID_00000006699104226387029350000001087275610205275009_"
+            gradientUnits="userSpaceOnUse"
+            x1="1291.2532"
+            y1="3997.0942"
+            x2="1271.1005"
+            y2="2136.301"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "#8f246e"
+            }}
+            d="M502.49,2546.224l16.374,509.229     c2.855,88.796,75.726,159.458,164.983,159.984l1219.436,7.188c59.655,0.352,110.477-42.994,119.187-101.736     c19.068-128.598,43.364-358.695,16.005-574.666H502.49z"
+          />
+          <path
+            style={{ fill: "#FFFFFF" }}
+            d="M1860.088,3191.34c0,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.671-1.472-1.489     c0.004-0.814,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.009,0l8.883,0.052c0.817,0.004,1.476,0.672,1.472,1.489     C1861.564,3190.683,1860.902,3191.34,1860.088,3191.34z M1880.805,3191.2c-0.776,0-1.427-0.604-1.476-1.39     c-0.051-0.815,0.57-1.518,1.387-1.569c2.901-0.179,5.835-0.474,8.721-0.876c0.801-0.13,1.557,0.451,1.67,1.262     c0.113,0.81-0.451,1.557-1.262,1.67c-2.959,0.413-5.969,0.716-8.946,0.899C1880.868,3191.198,1880.836,3191.2,1880.805,3191.2z      M1830.481,3191.167c-0.003,0-0.006,0-0.009,0l-8.883-0.053c-0.818-0.004-1.476-0.672-1.472-1.489     c0.004-0.815,0.667-1.471,1.48-1.471c0,0,0.006,0,0.009,0l8.883,0.053c0.818,0.004,1.476,0.672,1.472,1.489     C1831.957,3190.51,1831.295,3191.167,1830.481,3191.167z M1800.872,3190.992c0,0-0.006,0-0.009,0l-8.883-0.052     c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.471,1.48-1.471c0,0,0.006,0,0.009,0l8.883,0.052     c0.817,0.004,1.476,0.671,1.472,1.489C1802.348,3190.334,1801.686,3190.992,1800.872,3190.992z M1771.263,3190.817     c0,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.817,0.792-1.434,1.489-1.472l8.883,0.052     c0.817,0.004,1.476,0.672,1.472,1.489C1772.739,3190.159,1772.077,3190.817,1771.263,3190.817z M1741.656,3190.643     c-0.003,0-0.006,0-0.009,0l-8.883-0.053c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.815,0.667-1.472,1.48-1.472     c0,0,0.006,0,0.009,0l8.883,0.054c0.818,0.004,1.476,0.672,1.472,1.489C1743.132,3189.987,1742.47,3190.643,1741.656,3190.643z      M1712.047,3190.469c0,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.671-1.472-1.489     c0.004-0.817,0.787-1.493,1.489-1.472l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.489     C1713.523,3189.811,1712.861,3190.469,1712.047,3190.469z M1682.438,3190.293c0,0-0.006,0-0.009,0l-8.881-0.052     c-0.817-0.004-1.476-0.67-1.472-1.489c0.004-0.815,0.667-1.472,1.48-1.472h0.006l8.884,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C1683.915,3189.635,1683.252,3190.293,1682.438,3190.293z M1652.831,3190.118     c-0.003,0-0.006,0-0.009,0l-8.883-0.052c-0.817-0.004-1.476-0.671-1.472-1.489c0.004-0.814,0.666-1.472,1.48-1.472     c0,0,0.006,0,0.009,0l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.489C1654.307,3189.462,1653.645,3190.118,1652.831,3190.118z      M1623.222,3189.945c0,0-0.006,0-0.009,0l-8.883-0.052c-0.817-0.005-1.476-0.671-1.472-1.49c0.005-0.814,0.667-1.471,1.48-1.471     c0.003,0,0.006,0,0.009,0l8.883,0.052c0.818,0.004,1.476,0.672,1.471,1.489     C1624.699,3189.287,1624.036,3189.945,1623.222,3189.945z M1593.615,3189.77c-0.003,0-0.006,0-0.006,0l-8.886-0.052     c-0.817-0.005-1.476-0.671-1.472-1.49c0.005-0.815,0.667-1.471,1.481-1.471c0.003,0,0.006,0,0.006,0l8.886,0.052     c0.818,0.004,1.476,0.671,1.471,1.489C1595.091,3189.114,1594.429,3189.77,1593.615,3189.77z M1564.006,3189.595     c-0.003,0-0.006,0-0.009,0l-8.883-0.052c-0.817-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472     c0,0,0.006,0,0.009,0l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.489C1565.483,3188.938,1564.82,3189.595,1564.006,3189.595z      M1534.398,3189.422c0,0-0.006,0-0.009,0l-8.881-0.054c-0.818-0.004-1.476-0.672-1.472-1.489c0.005-0.815,0.667-1.472,1.48-1.472     c0.003,0,0.006,0,0.006,0l8.884,0.054c0.818,0.004,1.476,0.672,1.472,1.489     C1535.874,3188.765,1535.212,3189.422,1534.398,3189.422z M1504.79,3189.247c-0.003,0-0.006,0-0.006,0l-8.886-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.816,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.006,0l8.885,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C1506.266,3188.59,1505.604,3189.247,1504.79,3189.247z M1475.182,3189.072     c-0.003,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.666-1.472,1.48-1.472     c0,0,0.006,0,0.009,0l8.883,0.052c0.818,0.005,1.476,0.671,1.472,1.489C1476.658,3188.414,1475.996,3189.072,1475.182,3189.072z      M1445.573,3188.898c0,0-0.006,0-0.009,0l-8.881-0.053c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.815,0.667-1.472,1.48-1.472     c0.003,0,0.006,0,0.006,0l8.884,0.053c0.818,0.004,1.476,0.672,1.472,1.489     C1447.049,3188.242,1446.387,3188.898,1445.573,3188.898z M1415.966,3188.723c-0.003,0-0.006,0-0.006,0l-8.885-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.005-0.815,0.765-1.382,1.489-1.471l8.883,0.052c0.817,0.004,1.476,0.671,1.472,1.489     C1417.442,3188.067,1416.78,3188.723,1415.966,3188.723z M1386.357,3188.549c-0.003,0-0.006,0-0.009,0l-8.883-0.052     c-0.818-0.004-1.476-0.671-1.472-1.49c0.004-0.814,0.667-1.471,1.48-1.471h0.006l8.885,0.052     c0.817,0.004,1.476,0.671,1.472,1.489C1387.833,3187.891,1387.171,3188.549,1386.357,3188.549z M1356.75,3188.374     c-0.003,0-0.006,0-0.006,0l-8.885-0.052c-0.818-0.004-1.476-0.671-1.472-1.489c0.005-0.818,0.759-1.442,1.489-1.472l8.883,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C1358.226,3187.716,1357.563,3188.374,1356.75,3188.374z M1327.141,3188.2     c-0.003,0-0.006,0-0.006,0l-8.885-0.052c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472     c0.003,0,0.006,0,0.006,0l8.885,0.052c0.818,0.004,1.476,0.671,1.472,1.489C1328.617,3187.542,1327.955,3188.2,1327.141,3188.2z      M1297.532,3188.025c-0.003,0-0.006,0-0.006,0l-8.885-0.052c-0.818-0.004-1.476-0.67-1.472-1.489     c0.004-0.817,0.756-1.5,1.489-1.472l8.883,0.052c0.818,0.004,1.476,0.672,1.472,1.489     C1299.008,3187.367,1298.346,3188.025,1297.532,3188.025z M1267.925,3187.85h-0.006l-8.886-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.815,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.006,0l8.885,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C1269.401,3187.194,1268.739,3187.85,1267.925,3187.85z M1238.316,3187.677     c-0.003,0-0.006,0-0.006,0l-8.886-0.053c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.815,0.667-1.471,1.48-1.471     c0.003,0,0.006,0,0.006,0l8.886,0.053c0.818,0.004,1.476,0.672,1.472,1.489C1239.792,3187.02,1239.13,3187.677,1238.316,3187.677     z M1208.707,3187.502c-0.003,0-0.006,0-0.006,0l-8.884-0.052c-0.817-0.004-1.476-0.671-1.471-1.489     c0.004-0.814,0.667-1.471,1.48-1.471c0.003,0,0.006,0,0.009,0l8.881,0.052c0.818,0.004,1.476,0.672,1.472,1.489     C1210.183,3186.844,1209.521,3187.502,1208.707,3187.502z M1179.1,3187.327c-0.003,0-0.006,0-0.006,0l-8.886-0.052     c-0.817-0.004-1.476-0.671-1.472-1.49c0.004-0.815,0.666-1.471,1.48-1.471c0.003,0,0.006,0,0.006,0l8.885,0.052     c0.818,0.004,1.476,0.67,1.472,1.489C1180.576,3186.67,1179.914,3187.327,1179.1,3187.327z M1149.491,3187.152     c0,0-0.006,0-0.009,0l-8.883-0.052c-0.817-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472     c0.003,0,0.006,0,0.009,0l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.489     C1150.967,3186.494,1150.305,3187.152,1149.491,3187.152z M1119.883,3186.979c-0.003,0-0.006,0-0.009,0l-8.881-0.052     c-0.818-0.005-1.476-0.671-1.472-1.489c0.004-0.815,0.666-1.472,1.48-1.472c0,0,0.006,0,0.009,0l8.881,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C1121.359,3186.321,1120.697,3186.979,1119.883,3186.979z M1090.275,3186.803     c-0.003,0-0.006,0-0.006,0l-8.886-0.052c-0.818-0.004-1.476-0.671-1.471-1.489c0.004-0.814,0.666-1.472,1.48-1.472h0.009     l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.489C1091.751,3186.147,1091.089,3186.803,1090.275,3186.803z M1060.667,3186.628     c-0.003,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.814,0.666-1.472,1.481-1.472     c0,0,0.005,0,0.009,0l8.883,0.052c0.818,0.005,1.476,0.671,1.472,1.489C1062.143,3185.971,1061.481,3186.628,1060.667,3186.628z      M1031.059,3186.455c0,0-0.006,0-0.008,0l-8.883-0.053c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.815,0.667-1.471,1.48-1.471     c0.003,0,0.006,0,0.009,0l8.883,0.053c0.818,0.004,1.476,0.672,1.472,1.489     C1032.535,3185.799,1031.873,3186.455,1031.059,3186.455z M1001.45,3186.28c-0.003,0-0.006,0-0.006,0l-8.886-0.052     c-0.818-0.005-1.476-0.672-1.472-1.489c0.006-0.816,0.733-1.389,1.489-1.472l8.883,0.052c0.817,0.004,1.476,0.671,1.471,1.489     C1002.927,3185.622,1002.264,3186.28,1001.45,3186.28z M971.842,3186.105c0,0-0.006,0-0.009,0l-8.883-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.009,0l8.883,0.052     c0.817,0.004,1.476,0.672,1.472,1.489C973.318,3185.448,972.656,3186.105,971.842,3186.105z M942.234,3185.932     c0,0-0.006,0-0.009,0l-8.883-0.054c-0.818-0.004-1.476-0.672-1.472-1.489c0.006-0.818,0.729-1.449,1.489-1.472l8.883,0.054     c0.818,0.004,1.476,0.672,1.471,1.489C943.711,3185.275,943.048,3185.932,942.234,3185.932z M912.626,3185.757h-0.009     l-8.883-0.052c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.006,0l8.885,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C914.102,3185.099,913.44,3185.757,912.626,3185.757z M1909.79,3185.599     c-0.62,0-1.199-0.394-1.405-1.014c-0.257-0.776,0.162-1.613,0.938-1.872c2.763-0.918,5.523-1.956,8.205-3.087     c0.753-0.311,1.622,0.036,1.94,0.789c0.316,0.753-0.036,1.622-0.789,1.94c-2.753,1.159-5.587,2.225-8.422,3.168     C1910.102,3185.575,1909.944,3185.599,1909.79,3185.599z M883.017,3185.582c0,0-0.006,0-0.009,0l-8.883-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.006-0.817,0.726-1.508,1.489-1.472l8.883,0.052c0.818,0.005,1.476,0.673,1.471,1.489     C884.493,3184.924,883.831,3185.582,883.017,3185.582z M853.409,3185.407c0,0-0.006,0-0.008,0l-8.883-0.052     c-0.818-0.004-1.476-0.671-1.472-1.489c0.004-0.815,0.667-1.472,1.48-1.472c0,0,0.006,0,0.009,0l8.883,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C854.886,3184.75,854.223,3185.407,853.409,3185.407z M823.801,3185.233     c-0.003,0-0.006,0-0.006,0l-8.886-0.052c-0.818-0.004-1.476-0.671-1.472-1.489c0.005-0.814,0.667-1.472,1.48-1.472     c0.003,0,0.006,0,0.006,0l8.885,0.052c0.818,0.004,1.476,0.672,1.472,1.489C825.277,3184.576,824.615,3185.233,823.801,3185.233z      M794.192,3185.058c-0.003,0-0.006,0-0.009,0l-8.883-0.052c-0.818-0.004-1.476-0.671-1.472-1.49     c0.004-0.815,0.667-1.471,1.48-1.471c0,0,0.006,0,0.009,0l8.883,0.052c0.818,0.004,1.476,0.671,1.472,1.49     C795.668,3184.401,795.006,3185.058,794.192,3185.058z M764.585,3184.884c-0.003,0-0.006,0-0.009,0l-8.883-0.052     c-0.817-0.004-1.476-0.671-1.472-1.489c0.005-0.814,0.667-1.472,1.48-1.472c0.003,0,0.006,0,0.009,0l8.883,0.052     c0.818,0.004,1.476,0.671,1.472,1.489C766.061,3184.227,765.399,3184.884,764.585,3184.884z M734.976,3184.71     c-0.003,0-0.006,0-0.006,0l-8.886-0.054c-0.818-0.004-1.476-0.672-1.472-1.489c0.004-0.814,0.667-1.472,1.48-1.472h0.006     l8.885,0.053c0.818,0.004,1.476,0.672,1.472,1.489C736.452,3184.054,735.79,3184.71,734.976,3184.71z M705.373,3184.378     c-0.024,0-0.049,0-0.075-0.001c-2.961-0.147-5.967-0.382-8.933-0.697c-0.813-0.085-1.403-0.815-1.316-1.628     c0.087-0.814,0.798-1.415,1.628-1.315c2.912,0.309,5.861,0.539,8.769,0.682c0.817,0.04,1.446,0.736,1.405,1.553     C706.812,3183.762,706.157,3184.378,705.373,3184.378z M676.117,3180.165c-0.116,0-0.231-0.013-0.349-0.041     c-2.889-0.695-5.799-1.485-8.65-2.345c-0.782-0.235-1.226-1.061-0.989-1.845c0.235-0.783,1.062-1.227,1.845-0.989     c2.797,0.843,5.653,1.616,8.488,2.299c0.794,0.192,1.284,0.991,1.093,1.787C677.392,3179.709,676.785,3180.165,676.117,3180.165z      M1936.37,3172.739c-0.483,0-0.956-0.236-1.239-0.669c-0.448-0.682-0.257-1.6,0.425-2.049c2.443-1.602,4.845-3.313,7.139-5.087     c0.643-0.499,1.576-0.38,2.076,0.266c0.5,0.646,0.382,1.576-0.266,2.076c-2.354,1.822-4.819,3.578-7.324,5.221     C1936.929,3172.661,1936.649,3172.739,1936.37,3172.739z M648.159,3170.572c-0.204,0-0.411-0.042-0.607-0.132     c-2.699-1.219-5.407-2.536-8.05-3.913c-0.724-0.379-1.005-1.272-0.627-1.998c0.379-0.723,1.266-1.006,1.998-0.628     c2.592,1.354,5.249,2.646,7.897,3.842c0.746,0.337,1.077,1.213,0.74,1.957C649.263,3170.248,648.725,3170.572,648.159,3170.572z      M622.496,3155.946c-0.293,0-0.59-0.087-0.849-0.269c-2.432-1.706-4.849-3.505-7.185-5.347c-0.642-0.506-0.752-1.437-0.246-2.079     c0.508-0.64,1.437-0.752,2.079-0.246c2.293,1.807,4.665,3.572,7.052,5.248c0.67,0.47,0.832,1.393,0.362,2.062     C623.421,3155.726,622.963,3155.946,622.496,3155.946z M1958.758,3153.498c-0.353,0-0.706-0.124-0.989-0.379     c-0.609-0.546-0.659-1.482-0.113-2.09c1.939-2.16,3.819-4.43,5.592-6.746c0.497-0.651,1.424-0.772,2.075-0.276     c0.649,0.496,0.773,1.426,0.276,2.075c-1.817,2.377-3.749,4.707-5.74,6.925     C1959.568,3153.332,1959.163,3153.498,1958.758,3153.498z M599.993,3136.797c-0.384,0-0.769-0.149-1.06-0.447     c-2.077-2.13-4.122-4.347-6.075-6.593c-0.538-0.616-0.473-1.551,0.145-2.088c0.614-0.536,1.55-0.476,2.088,0.144     c1.917,2.202,3.924,4.378,5.962,6.469c0.571,0.586,0.56,1.522-0.026,2.093C600.739,3136.656,600.366,3136.797,599.993,3136.797z      M1975.436,3129.147c-0.226,0-0.454-0.05-0.668-0.16c-0.729-0.37-1.021-1.26-0.651-1.989c1.314-2.592,2.542-5.27,3.649-7.959     c0.313-0.756,1.18-1.109,1.933-0.805c0.756,0.313,1.116,1.177,0.805,1.933c-1.138,2.762-2.399,5.51-3.747,8.17     C1976.498,3128.851,1975.977,3129.147,1975.436,3129.147z M581.425,3113.791c-0.48,0-0.951-0.233-1.236-0.664     c-1.648-2.488-3.243-5.05-4.741-7.615c-0.412-0.706-0.175-1.612,0.531-2.024c0.711-0.412,1.615-0.17,2.026,0.532     c1.47,2.515,3.035,5.03,4.654,7.473c0.451,0.681,0.265,1.599-0.418,2.052C581.99,3113.711,581.706,3113.791,581.425,3113.791z      M1985.225,3101.307c-0.101,0-0.202-0.01-0.305-0.032c-0.801-0.168-1.313-0.953-1.145-1.752c0.455-2.171,0.854-4.399,1.186-6.623     l0.302-2.039c0.119-0.808,0.868-1.379,1.679-1.251c0.808,0.117,1.369,0.869,1.251,1.679l-0.302,2.047     c-0.34,2.281-0.749,4.567-1.217,6.794C1986.527,3100.828,1985.911,3101.307,1985.225,3101.307z M567.489,3087.707     c-0.578,0-1.128-0.341-1.366-0.909c-1.146-2.742-2.232-5.562-3.227-8.381c-0.272-0.771,0.133-1.616,0.905-1.888     c0.768-0.263,1.615,0.133,1.888,0.905c0.974,2.764,2.04,5.531,3.166,8.222c0.315,0.753-0.04,1.621-0.795,1.937     C567.873,3087.67,567.68,3087.707,567.489,3087.707z M1989.668,3072.033c-0.068,0-0.136-0.004-0.205-0.014     c-0.81-0.113-1.375-0.86-1.262-1.67c0.402-2.89,0.804-5.823,1.207-8.797c0.111-0.808,0.847-1.375,1.667-1.268     c0.81,0.11,1.378,0.856,1.268,1.667c-0.403,2.977-0.808,5.913-1.21,8.806C1991.03,3071.497,1990.395,3072.033,1989.668,3072.033z      M558.716,3059.447c-0.687,0-1.302-0.48-1.447-1.178c-0.61-2.922-1.142-5.889-1.582-8.821c-0.121-0.808,0.436-1.563,1.245-1.684     c0.823-0.104,1.563,0.437,1.684,1.245c0.431,2.877,0.953,5.789,1.55,8.656c0.168,0.801-0.346,1.584-1.146,1.751     C558.918,3059.437,558.816,3059.447,558.716,3059.447z M1993.579,3042.677c-0.062,0-0.124-0.004-0.188-0.011     c-0.811-0.104-1.385-0.844-1.283-1.655l1.108-8.811c0.1-0.811,0.844-1.391,1.651-1.287c0.811,0.101,1.388,0.84,1.287,1.651     l-1.108,8.819C1994.951,3042.131,1994.313,3042.677,1993.579,3042.677z M555.411,3030.078c-0.795,0-1.453-0.632-1.477-1.433     l-0.285-8.879c-0.028-0.817,0.614-1.5,1.431-1.527c0.82-0.075,1.501,0.615,1.527,1.431l0.286,8.878     c0.026,0.817-0.616,1.5-1.433,1.527C555.444,3030.078,555.427,3030.078,555.411,3030.078z M1997.154,3013.28     c-0.056,0-0.114-0.003-0.172-0.01c-0.812-0.094-1.394-0.829-1.299-1.641c0.338-2.915,0.674-5.855,1.006-8.822     c0.093-0.814,0.833-1.38,1.637-1.307c0.813,0.093,1.398,0.824,1.307,1.637c-0.336,2.973-0.671,5.916-1.009,8.833     C1998.536,3012.725,1997.896,3013.28,1997.154,3013.28z M554.459,3000.484c-0.795,0-1.453-0.632-1.477-1.433l-0.288-8.879     c-0.026-0.816,0.616-1.5,1.433-1.527c0.808-0.051,1.502,0.615,1.527,1.431l0.286,8.878c0.027,0.817-0.614,1.501-1.431,1.527     C554.493,3000.484,554.475,3000.484,554.459,3000.484z M2000.393,2983.842c-0.051,0-0.103-0.003-0.155-0.007     c-0.814-0.085-1.404-0.814-1.32-1.626c0.305-2.923,0.607-5.868,0.906-8.835c0.081-0.811,0.808-1.401,1.622-1.324     c0.813,0.083,1.407,0.808,1.324,1.622c-0.299,2.969-0.601,5.917-0.908,8.844     C2001.785,2983.277,2001.142,2983.842,2000.393,2983.842z M553.508,2970.891c-0.795,0-1.453-0.632-1.477-1.433l-0.286-8.878     c-0.027-0.817,0.614-1.5,1.431-1.527c0.701-0.113,1.502,0.612,1.527,1.431l0.286,8.878c0.028,0.817-0.614,1.5-1.431,1.527     C553.542,2970.891,553.524,2970.891,553.508,2970.891z M2003.294,2954.372c-0.046,0-0.091-0.001-0.139-0.006     c-0.814-0.077-1.412-0.797-1.337-1.612c0.272-2.929,0.539-5.877,0.804-8.842c0.074-0.813,0.772-1.421,1.606-1.343     c0.814,0.072,1.415,0.792,1.343,1.606c-0.264,2.968-0.532,5.919-0.804,8.852     C2004.695,2953.797,2004.051,2954.372,2003.294,2954.372z M552.557,2941.297c-0.795,0-1.453-0.632-1.477-1.433l-0.286-8.878     c-0.027-0.817,0.615-1.501,1.431-1.527c0.706-0.107,1.501,0.612,1.528,1.431l0.286,8.878c0.026,0.817-0.616,1.5-1.433,1.527     C552.59,2941.297,552.574,2941.297,552.557,2941.297z M2005.853,2924.866c-0.04,0-0.079-0.001-0.12-0.005     c-0.815-0.066-1.423-0.78-1.358-1.594l0.7-8.853c0.064-0.814,0.74-1.425,1.591-1.362c0.815,0.064,1.425,0.775,1.362,1.591     l-0.7,8.861C2007.264,2924.279,2006.617,2924.866,2005.853,2924.866z M551.604,2911.704c-0.795,0-1.453-0.632-1.479-1.433     l-0.285-8.878c-0.026-0.817,0.616-1.501,1.432-1.527c0.792-0.042,1.502,0.615,1.527,1.431l0.285,8.878     c0.027,0.817-0.615,1.501-1.431,1.527C551.638,2911.704,551.62,2911.704,551.604,2911.704z M2008.058,2895.335     c-0.034,0-0.068-0.001-0.103-0.003c-0.815-0.056-1.431-0.763-1.376-1.579l0.591-8.86c0.052-0.815,0.74-1.415,1.574-1.381     c0.815,0.053,1.434,0.757,1.381,1.574l-0.591,8.868C2009.481,2894.737,2008.83,2895.335,2008.058,2895.335z M550.654,2882.11     c-0.797,0-1.454-0.632-1.479-1.433l-0.285-8.877c-0.028-0.817,0.614-1.5,1.431-1.527c0.785-0.09,1.502,0.615,1.528,1.431     l0.285,8.877c0.026,0.817-0.616,1.501-1.433,1.528C550.686,2882.11,550.67,2882.11,550.654,2882.11z M2009.898,2865.778     c-0.027,0-0.056-0.001-0.084-0.003c-0.817-0.045-1.441-0.745-1.395-1.56c0.165-2.945,0.325-5.9,0.479-8.865     c0.043-0.817,0.744-1.446,1.555-1.403c0.817,0.043,1.444,0.739,1.403,1.555c-0.155,2.971-0.317,5.929-0.481,8.877     C2011.331,2865.168,2010.678,2865.778,2009.898,2865.778z M549.702,2852.517c-0.795,0-1.453-0.632-1.477-1.433l-0.285-8.878     c-0.028-0.817,0.614-1.501,1.431-1.527c0.778-0.062,1.502,0.615,1.527,1.431l0.285,8.878c0.028,0.817-0.614,1.501-1.431,1.527     C549.735,2852.517,549.718,2852.517,549.702,2852.517z M2011.362,2836.202c-0.022,0-0.043,0-0.065-0.001     c-0.817-0.035-1.45-0.726-1.415-1.543c0.127-2.948,0.249-5.904,0.364-8.871c0.032-0.817,0.735-1.488,1.537-1.421     c0.817,0.032,1.453,0.72,1.421,1.537c-0.116,2.969-0.237,5.932-0.365,8.883C2012.804,2835.58,2012.15,2836.202,2011.362,2836.202     z M548.75,2822.924c-0.795,0-1.453-0.632-1.477-1.433l-0.286-8.878c-0.027-0.817,0.614-1.501,1.431-1.527     c0.72-0.09,1.5,0.613,1.527,1.431l0.286,8.878c0.028,0.817-0.614,1.5-1.431,1.527     C548.784,2822.924,548.766,2822.924,548.75,2822.924z M2012.433,2806.606c-0.016,0-0.03,0-0.045,0     c-0.817-0.025-1.46-0.707-1.437-1.524c0.087-2.952,0.168-5.91,0.243-8.875c0.021-0.817,0.677-1.44,1.518-1.443     c0.817,0.021,1.463,0.701,1.443,1.518c-0.075,2.968-0.156,5.932-0.243,8.887     C2013.887,2805.971,2013.229,2806.606,2012.433,2806.606z M547.799,2793.33c-0.795,0-1.453-0.632-1.477-1.433l-0.286-8.878     c-0.028-0.817,0.614-1.501,1.431-1.527c0.723-0.084,1.501,0.613,1.527,1.431l0.288,8.878c0.026,0.817-0.616,1.5-1.433,1.527     C547.832,2793.33,547.816,2793.33,547.799,2793.33z M2013.092,2777c-0.007,0-0.014,0-0.022,0     c-0.818-0.013-1.47-0.685-1.458-1.503c0.045-2.952,0.084-5.911,0.115-8.875c0.009-0.818,0.778-1.443,1.496-1.465     c0.818,0.009,1.473,0.678,1.464,1.496c-0.032,2.969-0.071,5.932-0.115,8.89C2014.56,2776.352,2013.9,2777,2013.092,2777z      M546.848,2763.737c-0.795,0-1.453-0.632-1.479-1.433l-0.286-8.879c-0.026-0.817,0.616-1.5,1.433-1.527     c0.727-0.079,1.501,0.613,1.527,1.431l0.286,8.878c0.028,0.817-0.614,1.501-1.431,1.527     C546.881,2763.737,546.864,2763.737,546.848,2763.737z M2013.325,2747.393c-0.817,0-1.48-0.662-1.48-1.48v-0.717     c0-2.715-0.006-5.432-0.017-8.154c-0.003-0.817,0.656-1.483,1.475-1.486h0.004c0.817,0,1.479,0.659,1.482,1.475     c0.012,2.725,0.018,5.448,0.018,8.166v0.717C2014.805,2746.73,2014.143,2747.393,2013.325,2747.393z M545.896,2734.142     c-0.797,0-1.454-0.632-1.479-1.432l-0.285-8.877c-0.027-0.817,0.614-1.501,1.431-1.527c0.824-0.104,1.501,0.615,1.528,1.431     l0.285,8.877c0.026,0.817-0.616,1.501-1.433,1.528C545.928,2734.142,545.912,2734.142,545.896,2734.142z M2013.106,2717.794     c-0.808,0-1.467-0.648-1.48-1.459c-0.045-2.952-0.097-5.909-0.157-8.868c-0.016-0.817,0.633-1.493,1.45-1.511     c0.704-0.058,1.492,0.63,1.511,1.45c0.061,2.965,0.113,5.927,0.157,8.885c0.012,0.817-0.64,1.489-1.457,1.502     C2013.121,2717.794,2013.114,2717.794,2013.106,2717.794z M544.945,2704.55c-0.797,0-1.454-0.632-1.48-1.433l-0.283-8.878     c-0.027-0.817,0.615-1.5,1.431-1.527c0.733-0.071,1.501,0.613,1.527,1.431l0.285,8.878c0.027,0.817-0.615,1.501-1.431,1.528     C544.977,2704.55,544.961,2704.55,544.945,2704.55z M2012.413,2688.201c-0.795,0-1.453-0.632-1.478-1.433     c-0.094-2.955-0.195-5.91-0.305-8.868c-0.03-0.817,0.607-1.503,1.424-1.534c0.827-0.07,1.505,0.607,1.534,1.424     c0.11,2.964,0.211,5.925,0.305,8.884c0.026,0.817-0.614,1.499-1.431,1.527     C2012.444,2688.201,2012.428,2688.201,2012.413,2688.201z M543.993,2674.957c-0.795,0-1.453-0.632-1.478-1.433l-0.285-8.878     c-0.027-0.817,0.615-1.501,1.431-1.527c0.81-0.051,1.501,0.615,1.527,1.431l0.285,8.878c0.027,0.817-0.615,1.5-1.431,1.527     C544.026,2674.957,544.008,2674.957,543.993,2674.957z M2011.216,2658.621c-0.784,0-1.439-0.616-1.478-1.407     c-0.146-2.954-0.299-5.907-0.46-8.862c-0.045-0.817,0.58-1.515,1.397-1.56c0.798-0.034,1.515,0.58,1.558,1.398     c0.163,2.961,0.317,5.921,0.463,8.877c0.04,0.817-0.59,1.512-1.405,1.553C2011.265,2658.621,2011.24,2658.621,2011.216,2658.621z      M543.043,2645.363c-0.797,0-1.454-0.632-1.479-1.433l-0.286-8.878c-0.028-0.817,0.614-1.501,1.431-1.528     c0.852,0.007,1.502,0.617,1.527,1.433l0.288,8.878c0.026,0.817-0.616,1.501-1.433,1.528     C543.074,2645.363,543.058,2645.363,543.043,2645.363z M2009.488,2629.065c-0.772,0-1.423-0.599-1.476-1.381     c-0.199-2.951-0.409-5.902-0.626-8.851c-0.061-0.816,0.552-1.525,1.368-1.585c0.854-0.055,1.525,0.554,1.585,1.368     c0.217,2.955,0.428,5.911,0.629,8.867c0.055,0.817-0.561,1.522-1.378,1.579     C2009.556,2629.063,2009.521,2629.065,2009.488,2629.065z M542.09,2615.77c-0.795,0-1.453-0.632-1.479-1.433l-0.285-8.878     c-0.028-0.817,0.614-1.5,1.431-1.527c0.744-0.124,1.501,0.613,1.527,1.431l0.286,8.878c0.028,0.817-0.614,1.501-1.431,1.527     C542.123,2615.77,542.106,2615.77,542.09,2615.77z M2007.192,2599.547c-0.759,0-1.405-0.581-1.473-1.35     c-0.259-2.946-0.528-5.893-0.804-8.838c-0.076-0.814,0.521-1.537,1.334-1.613c0.823-0.065,1.537,0.522,1.612,1.336     c0.279,2.951,0.548,5.903,0.807,8.855c0.072,0.815-0.531,1.534-1.346,1.605     C2007.279,2599.545,2007.235,2599.547,2007.192,2599.547z M541.139,2586.175c-0.795,0-1.453-0.632-1.478-1.433l-0.286-8.878     c-0.028-0.817,0.614-1.501,1.431-1.528c0.749-0.049,1.5,0.613,1.528,1.433l0.285,8.878c0.027,0.817-0.614,1.5-1.431,1.528     C541.172,2586.175,541.156,2586.175,541.139,2586.175z M2004.293,2570.079c-0.746,0-1.388-0.561-1.47-1.32     c-0.322-2.941-0.652-5.881-0.993-8.819c-0.094-0.813,0.487-1.547,1.3-1.641c0.831-0.101,1.547,0.489,1.641,1.3     c0.341,2.944,0.674,5.89,0.996,8.839c0.088,0.813-0.497,1.543-1.311,1.632     C2004.402,2570.076,2004.347,2570.079,2004.293,2570.079z M540.187,2556.583c-0.796,0-1.454-0.632-1.48-1.433l-0.333-10.406     h5.372c0.818,0,1.48,0.662,1.48,1.48c0,0.817-0.662,1.48-1.48,1.48h-2.316l0.236,7.35c0.027,0.817-0.614,1.5-1.431,1.528     C540.219,2556.583,540.203,2556.583,540.187,2556.583z M1994.575,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1996.056,2547.041,1995.393,2547.704,1994.575,2547.704z      M1964.967,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1966.447,2547.041,1965.785,2547.704,1964.967,2547.704z M1935.358,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48C1936.838,2547.041,1936.176,2547.704,1935.358,2547.704z      M1905.749,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1907.229,2547.041,1906.567,2547.704,1905.749,2547.704z M1876.14,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1877.621,2547.041,1876.958,2547.704,1876.14,2547.704z      M1846.531,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1848.012,2547.041,1847.35,2547.704,1846.531,2547.704z M1816.923,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1818.403,2547.041,1817.741,2547.704,1816.923,2547.704z      M1787.314,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48     C1788.795,2547.041,1788.132,2547.704,1787.314,2547.704z M1757.705,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48     c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1759.186,2547.041,1758.523,2547.704,1757.705,2547.704z      M1728.097,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1729.577,2547.041,1728.915,2547.704,1728.097,2547.704z M1698.488,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1699.968,2547.041,1699.306,2547.704,1698.488,2547.704z      M1668.879,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1670.359,2547.041,1669.697,2547.704,1668.879,2547.704z M1639.27,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1640.751,2547.041,1640.088,2547.704,1639.27,2547.704z      M1609.662,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1611.142,2547.041,1610.48,2547.704,1609.662,2547.704z M1580.053,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1581.533,2547.041,1580.871,2547.704,1580.053,2547.704z      M1550.444,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1551.925,2547.041,1551.262,2547.704,1550.444,2547.704z M1520.835,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1522.316,2547.041,1521.653,2547.704,1520.835,2547.704z      M1491.227,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1492.707,2547.041,1492.045,2547.704,1491.227,2547.704z M1461.618,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1463.098,2547.041,1462.436,2547.704,1461.618,2547.704z      M1432.009,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1433.49,2547.041,1432.827,2547.704,1432.009,2547.704z M1402.4,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1403.881,2547.041,1403.218,2547.704,1402.4,2547.704z      M1372.792,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1374.272,2547.041,1373.61,2547.704,1372.792,2547.704z M1343.183,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1344.663,2547.041,1344.001,2547.704,1343.183,2547.704z      M1313.574,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1315.055,2547.041,1314.392,2547.704,1313.574,2547.704z M1283.965,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1285.446,2547.041,1284.783,2547.704,1283.965,2547.704z      M1254.357,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48     C1255.837,2547.041,1255.175,2547.704,1254.357,2547.704z M1224.748,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48     c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1226.228,2547.041,1225.566,2547.704,1224.748,2547.704z      M1195.139,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1196.62,2547.041,1195.957,2547.704,1195.139,2547.704z M1165.53,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1167.011,2547.041,1166.349,2547.704,1165.53,2547.704z      M1135.922,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1137.402,2547.041,1136.74,2547.704,1135.922,2547.704z M1106.313,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48C1107.793,2547.041,1107.131,2547.704,1106.313,2547.704z      M1076.704,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1078.185,2547.041,1077.522,2547.704,1076.704,2547.704z M1047.095,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1048.576,2547.041,1047.913,2547.704,1047.095,2547.704z      M1017.487,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1018.967,2547.041,1018.305,2547.704,1017.487,2547.704z M987.878,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C989.358,2547.041,988.696,2547.704,987.878,2547.704z      M958.269,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C959.75,2547.041,959.087,2547.704,958.269,2547.704z M928.661,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C930.141,2547.041,929.479,2547.704,928.661,2547.704z      M899.052,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48     C900.532,2547.041,899.87,2547.704,899.052,2547.704z M869.443,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48     c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C870.923,2547.041,870.261,2547.704,869.443,2547.704z      M839.834,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48     C841.315,2547.041,840.652,2547.704,839.834,2547.704z M810.225,2547.704h-8.883c-0.818,0-1.481-0.664-1.481-1.48     c0-0.818,0.662-1.48,1.481-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C811.706,2547.041,811.044,2547.704,810.225,2547.704z      M780.617,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C782.097,2547.041,781.435,2547.704,780.617,2547.704z M751.008,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C752.488,2547.041,751.826,2547.704,751.008,2547.704z      M721.399,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C722.88,2547.041,722.217,2547.704,721.399,2547.704z M691.79,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48C693.271,2547.041,692.609,2547.704,691.79,2547.704z      M662.182,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C663.662,2547.041,663,2547.704,662.182,2547.704z M632.573,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C634.053,2547.041,633.391,2547.704,632.573,2547.704z      M602.964,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C604.445,2547.041,603.782,2547.704,602.964,2547.704z M573.355,2547.704h-8.883c-0.818,0-1.48-0.664-1.48-1.48     c0-0.818,0.662-1.48,1.48-1.48h8.883c0.818,0,1.481,0.662,1.481,1.48C574.836,2547.041,574.174,2547.704,573.355,2547.704z"
+          />
+          <linearGradient
+            id="SVGID_00000113327273587749016320000000620022908038019477_"
+            gradientUnits="userSpaceOnUse"
+            x1="969.4038"
+            y1="2278.3855"
+            x2="960.4468"
+            y2="2061.1809"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          {/* Change */}
+          <path
+            style={{
+              fill:
+                "#8f246e", filter:"brightness(0.8)"
+            }}
+            d="M859.866,2176.549l3.669-39.273     c4.141-9.376,12.739-16.014,22.901-17.631c37.991-6.048,132.21-16.678,177.576,17.226l6.777,45.638L859.866,2176.549z"
+          />
+          <linearGradient
+            id="SVGID_00000121270697567339885820000002826575169504780205_"
+            gradientUnits="userSpaceOnUse"
+            x1="958.064"
+            y1="1952.2805"
+            x2="1002.8482"
+            y2="2574.7825"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          {/* change */}
+          <path
+            style={{ fill: "#8f246e", filter: "brightness(1.3)" }}
+            d="M978.541,2138.761     c-8.747,2.133-17.51,2.127-26.289-0.031c-10.621-2.61-18.114-12.114-18.114-23.003l0.001-122.975h62.583l0.001,122.884     C996.723,2126.574,989.214,2136.158,978.541,2138.761z"
+          />
+          <linearGradient
+            id="SVGID_00000140728408782976382580000010382303619358032042_"
+            gradientUnits="userSpaceOnUse"
+            x1="1574.537"
+            y1="2253.4312"
+            x2="1565.58"
+            y2="2036.2266"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          {/* Change */}
+          <path
+            style={{
+              fill:"#8f246e", filter: "brightness(0.8)"
+            }}
+            d="M1466.028,2176.549l3.669-39.273     c4.141-9.376,12.739-16.014,22.9-17.631c37.991-6.048,132.21-16.678,177.576,17.226l6.778,45.638L1466.028,2176.549z"
+          />
+          <linearGradient
+            id="SVGID_00000173132572585276676900000011261512016705802676_"
+            gradientUnits="userSpaceOnUse"
+            x1="1561.5686"
+            y1="1908.8633"
+            x2="1606.3528"
+            y2="2531.364"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          {/* change */}
+          <path
+            style={{
+              fill:
+                "#8f246e", filter: "brightness(1.3)"
+            }}
+            d="M1584.703,2138.761     c-8.747,2.133-17.51,2.127-26.289-0.031c-10.622-2.61-18.114-12.114-18.114-23.003l0.001-135.932h62.583l0.001,135.84     C1602.885,2126.574,1595.377,2136.158,1584.703,2138.761z"
+          />
+          <linearGradient
+            id="SVGID_00000143603741446960566010000012616837196304115597_"
+            gradientUnits="userSpaceOnUse"
+            x1="1312.9938"
+            y1="1605.724"
+            x2="1252.5344"
+            y2="2049.0911"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
+          </linearGradient>
+          {/* Change */}
+          <path
+            style={{
+              fill:
+                "#8f246e"
+            }}
+            d="M927.783,2022.896l673.038-22.279     c15.345-0.508,28.364-11.578,31-26.633c3.687-21.069,6.937-52.613,2.091-85.311c-5.512-37.184-37.496-64.806-75.247-65.704     c-125.557-2.988-445.19-2.897-621.355,66.788c-18.632,7.37-32.451,23.294-37.169,42.69c-4.499,18.499-7.489,43.201-1.612,68.343     C901.65,2014.148,914.012,2023.352,927.783,2022.896z"
+          />
+          <path
+            style={{ fill: "#FFFFFF" }}
+            d="M916.129,1987.917c-1.501,0-2.787-1.138-2.942-2.663c-0.107-1.065-2.558-26.367,4.029-50.721     c5.006-18.508,19.65-33.389,38.217-38.837c37.497-11.002,109.142-29.706,167.683-31.347c1.639-0.046,2.997,1.242,3.042,2.877     c0.046,1.634-1.242,2.996-2.877,3.042c-57.873,1.623-128.958,20.188-166.179,31.109c-16.604,4.872-29.696,18.168-34.168,34.702     c-6.295,23.269-3.879,48.33-3.853,48.58c0.163,1.627-1.024,3.078-2.65,3.241C916.328,1987.911,916.228,1987.917,916.129,1987.917     z"
+          />
+          <linearGradient
+            id="SVGID_00000088842384579994753870000001129594758554329501_"
+            gradientUnits="userSpaceOnUse"
+            x1="1331.2292"
+            y1="1951.0127"
+            x2="1109.5469"
+            y2="4020.0491"
+          >
+            <stop offset={0} style={{ stopColor: "#CB236D" }} />
+            <stop offset={1} style={{ stopColor: "#4C246D" }} />
 
+            {/* change */}
+          </linearGradient>
+          <path
+            style={{
+              fill:
+                "#8f246e"
+            }}
+            d="M547.599,2161.25     c217.437-2.78,1158.058-12.663,1431.288,20.302c23.525,2.838,42.722,20.049,47.817,43.084     c16.145,72.988,48.626,242.546,44.776,410.618c-0.524,22.873-17.295,42.171-39.877,46.444l-623.693,117.992h-221.546     l-664.553-132.097c-23.424-4.656-40.691-24.496-41.904-48.239c-4.319-84.558-11.071-282.962,11.796-410.668     C496.563,2181.549,519.908,2161.604,547.599,2161.25z"
+          />
+          <path
+            style={{ fill: "#FFFFFF" }}
+            d="M1402.783,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48c0-0.818,0.664-1.48,1.48-1.48h8.883     c0.818,0,1.48,0.662,1.48,1.48C1404.264,2746.768,1403.602,2747.43,1402.783,2747.43z M1373.175,2747.43h-8.883     c-0.817,0-1.48-0.662-1.48-1.48c0-0.818,0.664-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1374.655,2746.768,1373.993,2747.43,1373.175,2747.43z M1343.566,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48     c0-0.818,0.663-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1345.046,2746.768,1344.384,2747.43,1343.566,2747.43z      M1313.957,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48c0-0.818,0.663-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1315.438,2746.768,1314.775,2747.43,1313.957,2747.43z M1284.349,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48     c0-0.818,0.664-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1285.829,2746.768,1285.167,2747.43,1284.349,2747.43z      M1254.74,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48c0-0.818,0.664-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48     C1256.22,2746.768,1255.558,2747.43,1254.74,2747.43z M1225.131,2747.43h-8.883c-0.817,0-1.48-0.662-1.48-1.48     c0-0.818,0.664-1.48,1.48-1.48h8.883c0.818,0,1.48,0.662,1.48,1.48C1226.611,2746.768,1225.949,2747.43,1225.131,2747.43z      M1195.522,2747.43h-3.869l-9.001-1.761c-0.801-0.159-1.323-0.938-1.163-1.74c0.161-0.801,0.93-1.329,1.741-1.163l8.712,1.732     l3.58-0.029c0.818,0,1.48,0.662,1.48,1.48C1197.003,2746.768,1196.34,2747.43,1195.522,2747.43z M1423.148,2743.593     c-0.698,0-1.318-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.801-0.152,1.578,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1423.332,2743.585,1423.239,2743.593,1423.148,2743.593z M1162.614,2741.657     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.924-1.334,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C1163.924,2741.17,1163.307,2741.657,1162.614,2741.657z M1452.241,2738.089     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.802-0.147,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1452.424,2738.081,1452.332,2738.089,1452.241,2738.089z M1133.574,2735.885     c-0.095,0-0.193-0.009-0.289-0.029l-8.713-1.73c-0.801-0.159-1.323-0.938-1.162-1.739c0.157-0.802,0.929-1.33,1.741-1.164     l8.712,1.731c0.801,0.159,1.323,0.938,1.162,1.741C1134.885,2735.397,1134.266,2735.885,1133.574,2735.885z M1481.333,2732.585     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.804-0.145,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1481.517,2732.577,1481.424,2732.585,1481.333,2732.585z M1104.533,2730.113     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.74c0.159-0.801,0.925-1.335,1.741-1.163     l8.712,1.732c0.801,0.159,1.323,0.938,1.163,1.741C1105.843,2729.626,1105.226,2730.113,1104.533,2730.113z M1510.426,2727.082     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.805-0.141,1.577,0.378,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1510.609,2727.073,1510.517,2727.082,1510.426,2727.082z M1075.493,2724.34     c-0.096,0-0.193-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.931-1.327,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.74C1076.802,2723.853,1076.185,2724.34,1075.493,2724.34z M1539.519,2721.578     c-0.698,0-1.319-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.807-0.15,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1539.702,2721.569,1539.61,2721.578,1539.519,2721.578z M1046.452,2718.568     c-0.096,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.16-0.802,0.927-1.333,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.74C1047.762,2718.08,1047.145,2718.568,1046.452,2718.568z M1568.611,2716.073     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.808-0.147,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1568.795,2716.065,1568.702,2716.073,1568.611,2716.073z M1017.411,2712.795     c-0.096,0-0.193-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.157-0.801,0.932-1.326,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C1018.721,2712.307,1018.104,2712.795,1017.411,2712.795z M1597.705,2710.57     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.727-1.651c0.81-0.143,1.579,0.376,1.729,1.179     c0.152,0.802-0.376,1.577-1.18,1.729l-8.727,1.651C1597.889,2710.561,1597.796,2710.57,1597.705,2710.57z M988.371,2707.022     c-0.096,0-0.192-0.009-0.291-0.029l-8.712-1.731c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.802,0.939-1.333,1.739-1.162     l8.712,1.73c0.802,0.159,1.324,0.938,1.164,1.741C989.682,2706.535,989.063,2707.022,988.371,2707.022z M1626.798,2705.066     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.726-1.651c0.811-0.14,1.579,0.377,1.729,1.179     c0.152,0.802-0.376,1.578-1.18,1.729l-8.727,1.651C1626.981,2705.057,1626.889,2705.066,1626.798,2705.066z M959.33,2701.25     c-0.096,0-0.193-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.934-1.326,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C960.64,2700.763,960.023,2701.25,959.33,2701.25z M1655.89,2699.562     c-0.698,0-1.318-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.811-0.149,1.579,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1656.074,2699.553,1655.981,2699.562,1655.89,2699.562z M930.289,2695.478     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.158-0.802,0.928-1.332,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.163,1.741C931.599,2694.99,930.982,2695.478,930.289,2695.478z M1684.983,2694.058     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.799-0.146,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1685.167,2694.049,1685.074,2694.058,1684.983,2694.058z M901.249,2689.705     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.924-1.324,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C902.56,2689.218,901.942,2689.705,901.249,2689.705z M1714.076,2688.554     c-0.698,0-1.318-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.801-0.143,1.577,0.377,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1714.259,2688.545,1714.167,2688.554,1714.076,2688.554z M872.208,2683.932     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.74c0.159-0.801,0.93-1.33,1.741-1.163     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C873.518,2683.445,872.901,2683.932,872.208,2683.932z M1743.168,2683.05     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.578,1.18-1.729l8.728-1.651c0.802-0.152,1.577,0.377,1.729,1.179     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1743.352,2683.042,1743.259,2683.05,1743.168,2683.05z M843.168,2678.159     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.925-1.336,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C844.478,2677.672,843.86,2678.159,843.168,2678.159z M1772.261,2677.546     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.804-0.149,1.578,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1772.444,2677.538,1772.352,2677.546,1772.261,2677.546z M814.127,2672.388     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.931-1.33,1.741-1.163     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C815.439,2671.901,814.82,2672.388,814.127,2672.388z M1801.354,2672.042     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.805-0.144,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1801.537,2672.034,1801.444,2672.042,1801.354,2672.042z M785.087,2666.615     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.161-0.801,0.927-1.336,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.74C786.397,2666.127,785.779,2666.615,785.087,2666.615z M1830.446,2666.538     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.807-0.142,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1830.63,2666.53,1830.537,2666.538,1830.446,2666.538z M1859.539,2661.034     c-0.698,0-1.318-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.808-0.15,1.577,0.376,1.729,1.179     c0.151,0.802-0.376,1.578-1.18,1.729l-8.728,1.651C1859.722,2661.026,1859.63,2661.034,1859.539,2661.034z M756.046,2660.842     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.163-1.741c0.158-0.801,0.933-1.329,1.741-1.163     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.74C757.356,2660.355,756.739,2660.842,756.046,2660.842z M1888.631,2655.53     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.81-0.147,1.579,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1888.815,2655.522,1888.723,2655.53,1888.631,2655.53z M727.006,2655.069     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.16-0.801,0.927-1.334,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.74C728.317,2654.582,727.698,2655.069,727.006,2655.069z M1917.724,2650.027     c-0.698,0-1.318-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.811-0.145,1.579,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729L1918,2650C1917.907,2650.018,1917.815,2650.027,1917.724,2650.027z M697.965,2649.296     c-0.095,0-0.192-0.009-0.29-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.163-1.741c0.159-0.801,0.934-1.327,1.741-1.163     l8.712,1.732c0.801,0.159,1.323,0.938,1.163,1.741C699.275,2648.809,698.658,2649.296,697.965,2649.296z M1946.817,2644.523     c-0.698,0-1.319-0.495-1.453-1.206c-0.152-0.802,0.376-1.577,1.18-1.729l8.728-1.651c0.8-0.14,1.578,0.377,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.651C1947,2644.514,1946.907,2644.523,1946.817,2644.523z M668.925,2643.524     c-0.095,0-0.192-0.009-0.289-0.029l-8.713-1.731c-0.801-0.159-1.323-0.938-1.162-1.741c0.157-0.801,0.928-1.334,1.741-1.162     l8.712,1.73c0.801,0.159,1.323,0.938,1.162,1.74C670.236,2643.036,669.617,2643.524,668.925,2643.524z M1975.909,2639.019     c-0.698,0-1.319-0.494-1.453-1.206c-0.152-0.802,0.376-1.578,1.18-1.729l8.728-1.652c0.801-0.149,1.577,0.376,1.729,1.18     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.653C1976.093,2639.01,1976,2639.019,1975.909,2639.019z M639.884,2637.752     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.924-1.327,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C641.194,2637.265,640.577,2637.752,639.884,2637.752z M2005.002,2633.515     c-0.698,0-1.318-0.494-1.453-1.204c-0.152-0.804,0.376-1.579,1.18-1.731l8.728-1.652c0.802-0.145,1.577,0.375,1.729,1.179     c0.152,0.802-0.376,1.577-1.18,1.729l-8.728,1.652C2005.186,2633.506,2005.093,2633.515,2005.002,2633.515z M610.844,2631.979     c-0.095,0-0.193-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.802,0.929-1.333,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C612.153,2631.492,611.536,2631.979,610.844,2631.979z M581.803,2626.206     c-0.095,0-0.192-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.159-0.801,0.924-1.326,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C583.113,2625.719,582.495,2626.206,581.803,2626.206z M552.762,2620.434     c-0.095,0-0.193-0.009-0.291-0.029l-8.712-1.732c-0.801-0.159-1.323-0.938-1.162-1.741c0.157-0.801,0.931-1.331,1.741-1.162     l8.712,1.732c0.801,0.159,1.323,0.938,1.162,1.741C554.072,2619.947,553.455,2620.434,552.762,2620.434z M2018.038,2614.547     h-0.006c-0.818-0.003-1.478-0.669-1.474-1.486l0.011-5.364l-0.006-3.51c-0.002-0.818,0.659-1.483,1.476-1.485h0.004     c0.815,0,1.479,0.661,1.48,1.476l0.006,3.518l-0.012,5.377C2019.516,2613.887,2018.854,2614.547,2018.038,2614.547z      M533.015,2606.638c-0.785,0-1.44-0.617-1.477-1.41c-0.136-2.851-0.273-5.815-0.409-8.881c-0.036-0.817,0.597-1.508,1.414-1.544     c0.83-0.028,1.509,0.597,1.544,1.414c0.136,3.062,0.273,6.022,0.409,8.87c0.039,0.817-0.591,1.511-1.408,1.55     C533.063,2606.638,533.038,2606.638,533.015,2606.638z M2017.811,2584.938c-0.805,0-1.464-0.643-1.48-1.452     c-0.058-2.958-0.126-5.911-0.202-8.861c-0.02-0.818,0.625-1.498,1.441-1.519c0.893-0.061,1.496,0.623,1.52,1.441     c0.076,2.958,0.144,5.917,0.202,8.881c0.016,0.817-0.635,1.494-1.451,1.51C2017.83,2584.938,2017.82,2584.938,2017.811,2584.938z      M531.741,2577.048c-0.791,0-1.447-0.626-1.478-1.423l-0.334-8.883c-0.031-0.817,0.608-1.504,1.425-1.532     c0.779-0.029,1.504,0.607,1.533,1.426l0.334,8.874c0.032,0.817-0.604,1.505-1.421,1.537     C531.78,2577.048,531.761,2577.048,531.741,2577.048z M2016.909,2555.364c-0.789,0-1.446-0.624-1.478-1.42     c-0.121-2.952-0.253-5.9-0.393-8.841c-0.039-0.817,0.591-1.511,1.408-1.55c0.815-0.065,1.511,0.59,1.55,1.408     c0.14,2.949,0.272,5.903,0.393,8.861c0.034,0.817-0.601,1.506-1.418,1.54C2016.951,2555.364,2016.929,2555.364,2016.909,2555.364     z M530.723,2547.45c-0.798,0-1.456-0.633-1.48-1.435l-0.257-8.884c-0.022-0.818,0.622-1.499,1.438-1.522     c0.839,0.018,1.499,0.62,1.522,1.438l0.257,8.878c0.025,0.817-0.619,1.499-1.435,1.525     C530.752,2547.45,530.738,2547.45,530.723,2547.45z M2015.388,2525.81c-0.777,0-1.429-0.604-1.476-1.389     c-0.182-2.961-0.373-5.913-0.571-8.858c-0.055-0.817,0.563-1.522,1.378-1.577c0.849-0.017,1.522,0.562,1.577,1.378     c0.198,2.951,0.389,5.909,0.571,8.875c0.051,0.817-0.571,1.518-1.387,1.568C2015.449,2525.808,2015.418,2525.81,2015.388,2525.81     z M529.959,2517.847c-0.802,0-1.461-0.642-1.479-1.449l-0.178-8.888c-0.014-0.817,0.635-1.492,1.453-1.508     c0.781-0.064,1.492,0.636,1.508,1.453l0.178,8.88c0.018,0.818-0.632,1.495-1.449,1.512     C529.98,2517.847,529.97,2517.847,529.959,2517.847z M2013.29,2496.265c-0.764,0-1.413-0.587-1.475-1.362     c-0.239-2.958-0.483-5.907-0.734-8.848c-0.07-0.814,0.533-1.531,1.349-1.601c0.795-0.1,1.531,0.535,1.601,1.349     c0.251,2.943,0.499,5.899,0.737,8.863c0.065,0.814-0.542,1.528-1.358,1.594C2013.37,2496.263,2013.329,2496.265,2013.29,2496.265     z M529.467,2488.237c-0.81,0-1.47-0.652-1.48-1.463l-0.094-8.888c-0.007-0.817,0.649-1.487,1.467-1.494c0.004,0,0.009,0,0.013,0     c0.811,0,1.473,0.654,1.481,1.468l0.094,8.88c0.01,0.817-0.645,1.488-1.463,1.498     C529.479,2488.237,529.473,2488.237,529.467,2488.237z M2010.657,2466.76c-0.753,0-1.397-0.571-1.472-1.336     c-0.289-2.955-0.585-5.9-0.888-8.832c-0.084-0.814,0.509-1.541,1.321-1.625c0.818-0.083,1.54,0.507,1.625,1.321     c0.302,2.938,0.599,5.889,0.888,8.846c0.08,0.814-0.515,1.539-1.328,1.618C2010.754,2466.757,2010.705,2466.76,2010.657,2466.76z      M529.26,2458.622c-0.817,0-1.479-0.661-1.48-1.478l-0.005-5.086l0.003-3.793c0.002-0.817,0.664-1.483,1.48-1.483h0.001     c0.818,0.001,1.481,0.661,1.479,1.478l-0.003,3.799l0.005,5.081c0.001,0.818-0.661,1.482-1.478,1.483H529.26z M2007.529,2437.305     c-0.743,0-1.382-0.557-1.469-1.311c-0.34-2.957-0.684-5.896-1.034-8.818c-0.097-0.813,0.483-1.55,1.294-1.646     c0.834-0.113,1.55,0.484,1.647,1.294c0.35,2.928,0.694,5.873,1.034,8.832c0.094,0.813-0.489,1.547-1.301,1.64     C2007.642,2437.302,2007.585,2437.305,2007.529,2437.305z M529.369,2429.023c-0.004,0-0.009,0-0.014,0     c-0.817-0.007-1.473-0.677-1.466-1.495c0.028-2.951,0.061-5.91,0.098-8.875c0.01-0.811,0.671-1.462,1.48-1.462     c0.006,0,0.011,0,0.019,0c0.817,0.01,1.472,0.681,1.462,1.499c-0.038,2.962-0.071,5.919-0.098,8.866     C530.842,2428.37,530.18,2429.023,529.369,2429.023z M2003.923,2407.903c-0.733,0-1.369-0.543-1.466-1.288     c-0.386-2.955-0.776-5.89-1.17-8.802c-0.108-0.811,0.46-1.556,1.27-1.666c0.833-0.11,1.555,0.46,1.665,1.269     c0.393,2.916,0.783,5.855,1.17,8.813c0.107,0.811-0.466,1.554-1.275,1.66C2004.052,2407.898,2003.987,2407.903,2003.923,2407.903     z M529.826,2399.429c-0.01,0-0.022,0-0.033,0c-0.817-0.019-1.465-0.695-1.447-1.512c0.065-2.961,0.136-5.922,0.211-8.884     c0.02-0.818,0.672-1.512,1.518-1.443c0.817,0.022,1.463,0.701,1.443,1.518c-0.075,2.959-0.146,5.917-0.211,8.873     C531.287,2398.787,530.628,2399.429,529.826,2399.429z M1999.869,2378.562c-0.724,0-1.356-0.531-1.463-1.267     c-0.431-2.955-0.865-5.883-1.301-8.784c-0.121-0.808,0.437-1.561,1.245-1.684c0.815-0.107,1.561,0.438,1.684,1.245     c0.437,2.905,0.87,5.838,1.301,8.796c0.118,0.81-0.443,1.562-1.251,1.678C2000.013,2378.557,1999.94,2378.562,1999.869,2378.562z      M530.682,2369.826c-0.019,0-0.036,0-0.055-0.002c-0.817-0.029-1.456-0.716-1.425-1.532c0.107-2.967,0.221-5.93,0.343-8.893     c0.035-0.818,0.789-1.451,1.54-1.418c0.817,0.033,1.452,0.723,1.418,1.54c-0.121,2.956-0.236,5.917-0.343,8.878     C532.13,2369.199,531.474,2369.826,530.682,2369.826z M1995.383,2349.281c-0.714,0-1.343-0.518-1.46-1.245     c-0.475-2.956-0.952-5.88-1.428-8.765c-0.133-0.807,0.412-1.569,1.219-1.702c0.82-0.137,1.569,0.413,1.702,1.219     c0.479,2.891,0.956,5.818,1.431,8.777c0.13,0.808-0.419,1.567-1.226,1.698     C1995.541,2349.275,1995.461,2349.281,1995.383,2349.281z M531.994,2340.219c-0.026,0-0.053-0.001-0.079-0.001     c-0.817-0.043-1.444-0.74-1.401-1.557c0.159-2.972,0.324-5.939,0.497-8.896c0.048-0.817,0.734-1.44,1.564-1.391     c0.817,0.048,1.438,0.749,1.391,1.564c-0.173,2.951-0.338,5.912-0.494,8.878C533.43,2339.607,532.776,2340.219,531.994,2340.219z      M1990.471,2320.065c-0.706,0-1.331-0.506-1.457-1.224c-0.517-2.961-1.037-5.875-1.553-8.744     c-0.144-0.804,0.391-1.574,1.196-1.719c0.807-0.149,1.575,0.39,1.719,1.196c0.516,2.871,1.035,5.792,1.556,8.755     c0.14,0.805-0.398,1.573-1.203,1.715C1990.641,2320.058,1990.554,2320.065,1990.471,2320.065z M533.852,2310.645     c-0.036,0-0.073-0.001-0.11-0.005c-0.815-0.059-1.428-0.769-1.368-1.584c0.217-2.97,0.442-5.926,0.678-8.87     c0.065-0.814,0.759-1.401,1.595-1.357c0.815,0.066,1.423,0.779,1.358,1.594c-0.236,2.936-0.461,5.886-0.678,8.85     C535.27,2310.051,534.621,2310.645,533.852,2310.645z M1985.142,2290.925c-0.697,0-1.318-0.494-1.453-1.203     c-0.567-2.975-1.126-5.884-1.68-8.722c-0.156-0.802,0.367-1.58,1.17-1.736c0.791-0.168,1.58,0.367,1.737,1.169     c0.554,2.844,1.116,5.755,1.683,8.734c0.153,0.804-0.374,1.579-1.177,1.732     C1985.327,2290.916,1985.233,2290.925,1985.142,2290.925z M536.362,2281.136c-0.048,0-0.097-0.003-0.146-0.007     c-0.814-0.079-1.408-0.804-1.328-1.618c0.29-2.971,0.593-5.922,0.906-8.852c0.087-0.813,0.798-1.401,1.629-1.314     c0.812,0.087,1.401,0.815,1.314,1.63c-0.311,2.922-0.613,5.864-0.904,8.826C537.758,2280.565,537.115,2281.136,536.362,2281.136z      M1979.382,2261.863c-0.688,0-1.304-0.481-1.448-1.181c-0.622-3.014-1.228-5.916-1.816-8.696c-0.169-0.8,0.343-1.586,1.142-1.755     c0.805-0.167,1.585,0.343,1.755,1.142c0.588,2.786,1.196,5.691,1.819,8.711c0.165,0.801-0.35,1.583-1.151,1.75     C1979.581,2261.853,1979.482,2261.863,1979.382,2261.863z M539.699,2251.711c-0.064,0-0.127-0.004-0.193-0.013     c-0.811-0.105-1.382-0.847-1.276-1.658c0.386-2.969,0.786-5.91,1.199-8.823c0.115-0.808,0.866-1.362,1.674-1.258     c0.81,0.114,1.372,0.864,1.258,1.674c-0.412,2.902-0.81,5.831-1.196,8.788C541.068,2251.167,540.431,2251.711,539.699,2251.711z      M1969.888,2236.076c-0.057,0-0.116-0.003-0.174-0.01c-2.854-0.335-5.792-0.667-8.815-0.996c-0.812-0.088-1.399-0.82-1.311-1.632     c0.088-0.813,0.8-1.396,1.632-1.311c3.031,0.33,5.978,0.664,8.838,0.999c0.813,0.095,1.394,0.831,1.298,1.642     C1971.268,2235.521,1970.63,2236.076,1969.888,2236.076z M1940.438,2233.009c-0.046,0-0.091-0.001-0.137-0.006     c-2.887-0.267-5.834-0.532-8.841-0.795c-0.815-0.071-1.417-0.789-1.346-1.603c0.072-0.815,0.798-1.407,1.603-1.346     c3.013,0.263,5.965,0.528,8.855,0.795c0.816,0.075,1.414,0.797,1.339,1.611     C1941.839,2232.432,1941.194,2233.009,1940.438,2233.009z M1910.932,2230.525c-0.038,0-0.076-0.001-0.114-0.004     c-2.906-0.223-5.857-0.444-8.854-0.662c-0.815-0.059-1.428-0.768-1.369-1.583c0.059-0.815,0.782-1.418,1.583-1.369     c3.003,0.218,5.956,0.439,8.865,0.662c0.816,0.062,1.426,0.773,1.364,1.589     C1912.347,2229.934,1911.698,2230.525,1910.932,2230.525z M1881.393,2228.437c-0.033,0-0.065-0.001-0.098-0.002l-8.861-0.567     c-0.815-0.051-1.436-0.753-1.385-1.57c0.051-0.815,0.714-1.418,1.57-1.385l8.87,0.567c0.815,0.053,1.434,0.759,1.381,1.574     C1882.816,2227.836,1882.166,2228.437,1881.393,2228.437z M1851.836,2226.639c-0.029,0-0.057-0.001-0.085-0.003l-8.867-0.493     c-0.817-0.043-1.441-0.741-1.397-1.558c0.042-0.818,0.743-1.427,1.559-1.397l8.873,0.493c0.815,0.045,1.44,0.745,1.394,1.561     C1853.268,2226.03,1852.615,2226.639,1851.836,2226.639z M1822.265,2225.069c-0.025,0-0.051,0-0.075-0.001l-8.87-0.434     c-0.817-0.039-1.447-0.733-1.408-1.55c0.039-0.815,0.746-1.451,1.55-1.408l8.875,0.433c0.817,0.041,1.446,0.736,1.405,1.553     C1823.702,2224.453,1823.048,2225.069,1822.265,2225.069z M1792.688,2223.679c-0.022,0-0.045,0-0.067-0.001l-8.872-0.385     c-0.817-0.035-1.45-0.726-1.416-1.543c0.035-0.816,0.763-1.443,1.543-1.415l8.875,0.385c0.817,0.036,1.45,0.727,1.414,1.544     C1794.131,2223.059,1793.476,2223.679,1792.688,2223.679z M1763.105,2222.445c-0.02,0-0.039,0-0.059-0.001l-8.875-0.344     c-0.817-0.03-1.454-0.719-1.423-1.535c0.031-0.818,0.778-1.489,1.536-1.423l8.878,0.344c0.817,0.032,1.453,0.72,1.421,1.537     C1764.551,2221.82,1763.896,2222.445,1763.105,2222.445z M544.115,2222.427c-0.084,0-0.169-0.007-0.255-0.022     c-0.805-0.14-1.346-0.906-1.206-1.712l0.493-2.794c0.454-2.551,2.559-4.357,5.118-4.394l0.769-0.01     c0.902-0.117,1.491,0.638,1.505,1.456c0.013,0.817-0.639,1.49-1.456,1.505l-0.772,0.01c-1.142,0.016-2.044,0.801-2.249,1.955     l-0.49,2.779C545.447,2221.92,544.822,2222.427,544.115,2222.427z M1733.514,2221.34c-0.019,0-0.036,0-0.053-0.001l-8.876-0.309     c-0.818-0.028-1.457-0.713-1.428-1.53c0.029-0.817,0.719-1.485,1.53-1.428l8.878,0.31c0.817,0.029,1.456,0.714,1.427,1.531     C1734.964,2220.711,1734.306,2221.34,1733.514,2221.34z M1703.921,2220.347c-0.016,0-0.033,0-0.049-0.001l-8.877-0.279     c-0.817-0.024-1.459-0.708-1.434-1.525c0.026-0.817,0.691-1.416,1.527-1.434l8.88,0.28c0.817,0.026,1.459,0.708,1.431,1.527     C1705.374,2219.715,1704.716,2220.347,1703.921,2220.347z M1674.322,2219.449c-0.014,0-0.03,0-0.045,0l-8.877-0.252     c-0.818-0.023-1.462-0.704-1.44-1.521c0.023-0.818,0.7-1.505,1.521-1.44l8.883,0.252c0.817,0.024,1.46,0.706,1.437,1.524     C1675.776,2218.814,1675.119,2219.449,1674.322,2219.449z M1644.722,2218.641c-0.013,0-0.026,0-0.039,0l-8.879-0.228     c-0.817-0.022-1.463-0.7-1.443-1.518c0.022-0.815,0.571-1.417,1.518-1.443l8.881,0.228c0.817,0.022,1.463,0.703,1.442,1.52     C1646.181,2218.003,1645.522,2218.641,1644.722,2218.641z M1615.119,2217.909c-0.011,0-0.023,0-0.035,0l-8.878-0.205     c-0.818-0.019-1.466-0.697-1.447-1.514c0.019-0.815,0.575-1.45,1.514-1.447l8.881,0.205c0.817,0.02,1.465,0.698,1.446,1.515     C1616.581,2217.269,1615.921,2217.909,1615.119,2217.909z M1585.518,2217.247c-0.01,0-0.02,0-0.032,0l-8.88-0.185     c-0.817-0.017-1.466-0.692-1.45-1.51c0.018-0.819,0.775-1.472,1.511-1.45l8.883,0.185c0.817,0.018,1.466,0.694,1.449,1.512     C1586.981,2216.605,1586.321,2217.247,1585.518,2217.247z M1555.913,2216.65c-0.009,0-0.019,0-0.029,0l-8.88-0.168     c-0.817-0.016-1.467-0.69-1.453-1.508c0.015-0.817,0.639-1.541,1.508-1.453l8.883,0.168c0.817,0.016,1.467,0.691,1.451,1.51     C1557.378,2216.005,1556.719,2216.65,1555.913,2216.65z M569.799,2216.198c-0.81,0-1.47-0.651-1.48-1.463     c-0.01-0.817,0.645-1.488,1.463-1.498l8.887-0.107c0.7-0.02,1.488,0.645,1.498,1.463c0.01,0.817-0.644,1.488-1.463,1.498     l-8.887,0.107C569.81,2216.198,569.805,2216.198,569.799,2216.198z M1526.309,2216.112c-0.009,0-0.018,0-0.026,0l-8.88-0.15     c-0.817-0.015-1.469-0.687-1.456-1.505c0.013-0.81,0.674-1.456,1.481-1.456c0.007,0,0.016,0,0.024,0l8.883,0.15     c0.817,0.014,1.469,0.688,1.454,1.506C1527.775,2215.466,1527.115,2216.112,1526.309,2216.112z M599.425,2215.849     c-0.81,0-1.47-0.652-1.48-1.463c-0.009-0.818,0.646-1.489,1.463-1.498l8.887-0.101c0.836-0.085,1.489,0.645,1.498,1.463     c0.009,0.819-0.646,1.488-1.463,1.498l-8.887,0.101C599.436,2215.849,599.431,2215.849,599.425,2215.849z M1496.704,2215.628     c-0.007,0-0.015,0-0.023,0l-8.881-0.135c-0.818-0.013-1.47-0.686-1.459-1.502c0.013-0.818,0.593-1.508,1.502-1.458l8.884,0.135     c0.817,0.013,1.469,0.685,1.457,1.502C1498.172,2214.98,1497.512,2215.628,1496.704,2215.628z M629.048,2215.524     c-0.811,0-1.471-0.652-1.48-1.465c-0.009-0.817,0.646-1.488,1.465-1.496l8.885-0.094c0.907,0.029,1.486,0.651,1.495,1.466     c0.009,0.817-0.648,1.486-1.466,1.495l-8.883,0.094C629.058,2215.524,629.054,2215.524,629.048,2215.524z M658.67,2215.216     c-0.811,0-1.472-0.654-1.48-1.466c-0.008-0.817,0.648-1.486,1.466-1.495l8.884-0.088c0.911,0.059,1.486,0.651,1.495,1.466     c0.009,0.817-0.647,1.486-1.466,1.495l-8.884,0.088C658.68,2215.216,658.674,2215.216,658.67,2215.216z M1467.096,2215.194     c-0.006,0-0.013,0-0.021,0l-8.883-0.121c-0.817-0.012-1.472-0.683-1.46-1.501c0.011-0.811,0.672-1.46,1.48-1.46     c0.006,0,0.013,0,0.02,0l8.883,0.121c0.818,0.012,1.472,0.684,1.46,1.5C1468.564,2214.545,1467.904,2215.194,1467.096,2215.194z      M688.292,2214.927c-0.811,0-1.473-0.654-1.481-1.466c-0.007-0.818,0.649-1.488,1.466-1.495l8.887-0.083     c0.912,0.071,1.486,0.65,1.493,1.467c0.007,0.817-0.649,1.487-1.467,1.494l-8.884,0.083     C688.3,2214.927,688.296,2214.927,688.292,2214.927z M1437.49,2214.807c-0.006,0-0.012,0-0.019,0l-8.883-0.108     c-0.817-0.01-1.472-0.681-1.462-1.498c0.01-0.82,0.646-1.535,1.498-1.463l8.884,0.108c0.817,0.01,1.472,0.681,1.462,1.498     C1438.96,2214.156,1438.3,2214.807,1437.49,2214.807z M717.912,2214.658c-0.812,0-1.473-0.655-1.48-1.467     c-0.007-0.817,0.649-1.486,1.467-1.493l8.886-0.078c0.004,0,0.009,0,0.013,0c0.813,0,1.473,0.655,1.481,1.467     c0.007,0.818-0.651,1.486-1.467,1.494l-8.886,0.078C717.921,2214.658,717.916,2214.658,717.912,2214.658z M1407.881,2214.46     c-0.004,0-0.01,0-0.016,0l-8.883-0.095c-0.817-0.009-1.473-0.678-1.465-1.497c0.01-0.818,0.723-1.508,1.496-1.464l8.883,0.095     c0.818,0.009,1.473,0.68,1.465,1.497C1409.353,2213.808,1408.692,2214.46,1407.881,2214.46z M747.53,2214.406     c-0.813,0-1.473-0.655-1.481-1.468c-0.007-0.818,0.651-1.486,1.467-1.493l8.885-0.072c0.004,0,0.007,0,0.012,0     c0.813,0,1.475,0.655,1.48,1.469c0.006,0.818-0.651,1.486-1.469,1.492l-8.883,0.072     C747.538,2214.406,747.534,2214.406,747.53,2214.406z M777.148,2214.174c-0.813,0-1.475-0.655-1.481-1.47     c-0.006-0.817,0.652-1.485,1.469-1.49l8.884-0.067c0.004,0,0.007,0,0.012,0c0.812,0,1.475,0.655,1.48,1.469     c0.006,0.819-0.652,1.486-1.469,1.492l-8.884,0.066C777.155,2214.174,777.151,2214.174,777.148,2214.174z M1378.274,2214.156     c-0.004,0-0.01,0-0.015,0l-8.881-0.084c-0.818-0.007-1.475-0.677-1.467-1.493c0.007-0.814,0.669-1.468,1.48-1.468     c0.004,0,0.009,0,0.015,0l8.883,0.084c0.818,0.009,1.473,0.678,1.466,1.495     C1379.745,2213.503,1379.085,2214.156,1378.274,2214.156z M806.767,2213.961c-0.813,0-1.475-0.656-1.48-1.47     c-0.006-0.817,0.652-1.485,1.47-1.49l8.884-0.061c0.804-0.073,1.485,0.653,1.49,1.47c0.006,0.818-0.653,1.485-1.47,1.49     l-8.884,0.061C806.774,2213.961,806.77,2213.961,806.767,2213.961z M1348.663,2213.89c-0.004,0-0.009,0-0.013,0l-8.881-0.073     c-0.818-0.006-1.474-0.674-1.469-1.492c0.006-0.814,0.668-1.469,1.48-1.469c0.005,0,0.007,0,0.012,0l8.883,0.073     c0.818,0.007,1.476,0.675,1.469,1.494C1350.137,2213.235,1349.476,2213.89,1348.663,2213.89z M836.384,2213.764     c-0.814,0-1.474-0.656-1.48-1.47c-0.006-0.818,0.653-1.485,1.47-1.49l8.886-0.055c0.003,0,0.006,0,0.006,0     c0.817,0,1.479,0.658,1.483,1.472c0.004,0.818-0.654,1.485-1.472,1.489l-8.883,0.055     C836.39,2213.764,836.387,2213.764,836.384,2213.764z M1319.056,2213.66c-0.003,0-0.007,0-0.007,0l-8.886-0.062     c-0.817-0.006-1.476-0.672-1.47-1.49c0.006-0.818,0.717-1.579,1.49-1.47l8.883,0.062c0.818,0.006,1.476,0.674,1.47,1.492     C1320.531,2213.004,1319.869,2213.66,1319.056,2213.66z M866.001,2213.588c-0.814,0-1.476-0.656-1.48-1.472     c-0.004-0.818,0.654-1.485,1.472-1.489l8.886-0.051c0.003,0,0.006,0,0.009,0c0.814,0,1.476,0.658,1.48,1.472     c0.004,0.818-0.655,1.485-1.472,1.489l-8.885,0.051C866.006,2213.588,866.003,2213.588,866.001,2213.588z M1289.447,2213.464     c-0.003,0-0.006,0-0.006,0l-8.886-0.052c-0.817-0.004-1.476-0.671-1.472-1.489c0.006-0.817,0.672-1.43,1.489-1.472l8.883,0.052     c0.818,0.005,1.476,0.671,1.472,1.489C1290.924,2212.806,1290.261,2213.464,1289.447,2213.464z M895.618,2213.43     c-0.814,0-1.476-0.658-1.48-1.473c-0.004-0.818,0.655-1.483,1.473-1.488l8.886-0.044c0.003,0,0.006,0,0.006,0     c0.815,0,1.478,0.658,1.482,1.473c0.004,0.819-0.655,1.483-1.473,1.488l-8.886,0.043     C895.625,2213.43,895.621,2213.43,895.618,2213.43z M1259.837,2213.3c-0.003,0-0.004,0-0.007,0l-8.883-0.043     c-0.817-0.004-1.478-0.669-1.473-1.488c0.004-0.815,0.667-1.473,1.48-1.473h0.007l8.883,0.043     c0.818,0.004,1.478,0.671,1.473,1.488C1261.313,2212.643,1260.651,2213.3,1259.837,2213.3z M925.235,2213.292     c-0.814,0-1.477-0.658-1.48-1.475c-0.004-0.817,0.656-1.483,1.473-1.486l8.886-0.036c0.003,0,0.004,0,0.004,0     c0.817,0,1.479,0.659,1.482,1.475c0.003,0.818-0.658,1.483-1.474,1.486l-8.883,0.036H925.235z M954.853,2213.176     c-0.815,0-1.478-0.659-1.481-1.476c-0.003-0.817,0.658-1.482,1.475-1.485l8.884-0.03c0.003,0,0.004,0,0.004,0     c0.817,0,1.479,0.659,1.482,1.476c0.003,0.817-0.658,1.482-1.475,1.485l-8.884,0.03H954.853z M1230.229,2213.167h-0.004     l-8.884-0.034c-0.818-0.003-1.477-0.668-1.475-1.487c0.003-0.815,0.665-1.474,1.481-1.474h0.006l8.883,0.034     c0.818,0.003,1.478,0.668,1.474,1.487C1231.706,2212.508,1231.044,2213.167,1230.229,2213.167z M984.469,2213.078     c-0.815,0-1.478-0.661-1.48-1.476c-0.003-0.818,0.658-1.482,1.476-1.485l8.887-0.024h0.003c0.815,0,1.479,0.661,1.48,1.476     c0.002,0.818-0.659,1.483-1.476,1.484l-8.885,0.025H984.469z M1200.62,2213.063h-0.004l-8.883-0.026     c-0.818-0.003-1.479-0.667-1.476-1.485c0.003-0.817,0.665-1.476,1.48-1.476h0.005l8.883,0.026     c0.818,0.003,1.479,0.667,1.476,1.485C1202.098,2212.403,1201.435,2213.063,1200.62,2213.063z M1014.085,2213.001     c-0.817,0-1.479-0.661-1.481-1.478c-0.001-0.818,0.659-1.482,1.478-1.483l8.884-0.017h0.001c0.818,0,1.48,0.66,1.482,1.478     c0.001,0.818-0.661,1.482-1.478,1.483l-8.884,0.018C1014.088,2213.001,1014.086,2213.001,1014.085,2213.001z M1171.01,2212.987     h-0.003l-8.883-0.018c-0.818-0.001-1.479-0.667-1.478-1.483c0.001-0.817,0.664-1.478,1.48-1.478h0.001l8.884,0.018     c0.818,0.001,1.479,0.665,1.477,1.483C1172.489,2212.326,1171.826,2212.987,1171.01,2212.987z M1043.702,2212.949     c-0.817,0-1.479-0.662-1.48-1.479c-0.001-0.817,0.661-1.48,1.479-1.482l8.884-0.011c0.818,0,1.48,0.66,1.482,1.479     c0.001,0.817-0.661,1.482-1.479,1.482l-8.884,0.012H1043.702z M1141.401,2212.938h-0.003l-8.881-0.01     c-0.818-0.001-1.48-0.664-1.479-1.482c0.001-0.817,0.664-1.479,1.48-1.479h0.002l8.884,0.01c0.817,0.001,1.479,0.665,1.478,1.483     C1142.88,2212.277,1142.218,2212.938,1141.401,2212.938z M1073.318,2212.919c-0.818,0-1.482-0.662-1.482-1.48     c0-0.817,0.662-1.48,1.48-1.48l8.862-0.004c0.818,0,1.482,0.662,1.482,1.48c0,0.816-0.662,1.48-1.481,1.48L1073.318,2212.919z      M1111.791,2212.913h-0.001l-8.881-0.003c-0.818,0-1.48-0.662-1.48-1.48c0-0.819,0.662-1.48,1.48-1.48l8.883,0.003     c0.818,0,1.48,0.663,1.48,1.482C1113.271,2212.25,1112.607,2212.913,1111.791,2212.913z"
+          />
+          <linearGradient
+            id="SVGID_00000092446694845237746940000005312622824962080640_"
+            gradientUnits="userSpaceOnUse"
+            x1="1347.3153"
+            y1="2206.3601"
+            x2="1259.9854"
+            y2="2898.2788"
+          >
+            <stop offset={0} style={{ stopColor: "#A737D5" }} />
+            <stop offset={1} style={{ stopColor: "#EF497A" }} />
+          </linearGradient>
+          {/* change */}
+          <path
+            style={{
+              fill:
+                "#8f246e",
+                filter: "drop-shadow(2px 4px 6px black)"
+            }}
+            d="M1387.052,2892.704H1192.96     c-25.435,0-46.855-18.924-49.873-44.061l-22.425-186.767c-3.573-29.751,19.77-55.925,49.873-55.925h233.169     c29.493,0,52.638,25.172,50.031,54.412l-16.652,186.768C1434.783,2872.927,1413.071,2892.704,1387.052,2892.704z"
+          />
+          <defs>
+            <filter
+              id="Adobe_OpacityMaskFilter"
+              filterUnits="userSpaceOnUse"
+              x="1160.151"
+              y="2640.102"
+              width="253.933"
+              height="218.251"
+            >
+              <feFlood
+                style={{ floodColor: "white", floodOpacity: 1 }}
+                result="back"
+              />
+              <feBlend in="SourceGraphic" in2="back" mode="normal" />
+            </filter>
+          </defs>
+          <mask
+            maskUnits="userSpaceOnUse"
+            x="1160.151"
+            y="2640.102"
+            width="253.933"
+            height="218.251"
+            id="SVGID_00000110447473870268188410000001010675506136101282_"
+          >
+            <g style={{ filter: "url(#Adobe_OpacityMaskFilter)" }}>
+              <defs>
+                <filter
+                  id="Adobe_OpacityMaskFilter_00000091737479351120013990000001130426402896068745_"
+                  filterUnits="userSpaceOnUse"
+                  x="1160.151"
+                  y="2640.102"
+                  width="253.933"
+                  height="218.251"
+                >
+                  <feFlood
+                    style={{ floodColor: "white", floodOpacity: 1 }}
+                    result="back"
+                  />
+                  <feBlend in="SourceGraphic" in2="back" mode="normal" />
+                </filter>
+              </defs>
+              <mask
+                maskUnits="userSpaceOnUse"
+                x="1160.151"
+                y="2640.102"
+                width="253.933"
+                height="218.251"
+                id="SVGID_00000110447473870268188410000001010675506136101282_"
+              >
+                <g
+                  style={{
+                    filter:
+                      "url(#Adobe_OpacityMaskFilter_00000091737479351120013990000001130426402896068745_)"
+                  }}
+                ></g>
+              </mask>
+              <linearGradient
+                id="SVGID_00000092442062740947673070000012024476590958404030_"
+                gradientUnits="userSpaceOnUse"
+                x1="1160.1515"
+                y1="2749.228"
+                x2="1414.0847"
+                y2="2749.228"
+              >
+                <stop offset={0} style={{ stopColor: "#FFFFFF" }} />
+                <stop offset={1} style={{ stopColor: "#000000" }} />
+              </linearGradient>
+              <path
+                style={{
+                  mask:
+                    "url(#SVGID_00000110447473870268188410000001010675506136101282_)",
+                  fill:
+                    "url(#SVGID_00000092442062740947673070000012024476590958404030_)"
+                }}
+                d="       M1363.178,2858.354h-147.725c-19.359,0-35.662-14.403-37.959-33.535l-17.067-142.151       c-2.719-22.643,15.047-42.565,37.959-42.565h177.467c22.447,0,40.063,19.159,38.08,41.414l-12.674,142.15       C1399.507,2843.3,1382.982,2858.354,1363.178,2858.354z"
+              />
+            </g>
+          </mask>
+          <linearGradient
+            id="SVGID_00000023250738334170673510000007408471121064821167_"
+            gradientUnits="userSpaceOnUse"
+            x1="1160.1515"
+            y1="2749.228"
+            x2="1414.0847"
+            y2="2749.228"
+          >
+            <stop offset={0} style={{ stopColor: "#FFFFFF" }} />
+            <stop offset={1} style={{ stopColor: "#FFFFFF" }} />
+          </linearGradient>
+          <path
+        //   style={{ opacity:"0.32", fill:"#8f246e", filter:"brightness(7.5)"}}
+            style={{
+              opacity: "0.32",
+              fill:
+                "url(#SVGID_00000023250738334170673510000007408471121064821167_)"
+            }}
+            d="M1363.178,2858.354     h-147.725c-19.359,0-35.662-14.403-37.959-33.535l-17.067-142.151c-2.719-22.643,15.047-42.565,37.959-42.565h177.467     c22.447,0,40.063,19.159,38.08,41.414l-12.674,142.15C1399.507,2843.3,1382.982,2858.354,1363.178,2858.354z"
+          />
+        </g>
+        <g>
+          <g>
+            <linearGradient
+              id="SVGID_00000126319064324145750720000000778571508048712596_"
+              gradientUnits="userSpaceOnUse"
+              x1="1817.3696"
+              y1="1316.9366"
+              x2="3526.7888"
+              y2="1217.2408"
+              gradientTransform="matrix(0.9993 -0.038 0.038 0.9993 -190.7963 -49.5595)"
+            >
+              <stop offset={0} style={{ stopColor: "#CB236D" }} />
+              <stop offset={1} style={{ stopColor: "#4C246D" }} />
+            </linearGradient>
+            {/* change */}
+            <path
+              style={{ fill:"#8f246e", filter: "brightness(1.3)"}}
+              d="M1767.229,1187.598      c188.826-126.793,353.938-132.033,547.328-48.054c12.514,5.434,20.779,17.595,21.142,31.233l0.21,7.902      c0.642,24.151-22.792,41.69-45.78,34.257c-166.51-53.847-290.738-80.93-485.688,33.973c-21.458,12.647-48.889-0.62-52.394-25.28      v0C1750.155,1208.314,1756.063,1195.095,1767.229,1187.598z"
+            />
+            <linearGradient
+              id="SVGID_00000183221111233660528990000002862516333840713872_"
+              gradientUnits="userSpaceOnUse"
+              x1="1817.5149"
+              y1="1319.446"
+              x2="3526.9263"
+              y2="1219.7509"
+              gradientTransform="matrix(0.9993 -0.038 0.038 0.9993 -190.7963 -49.5595)"
+            >
+              <stop offset={0} style={{ stopColor: "#CB236D" }} />
+              <stop offset={1} style={{ stopColor: "#4C246D" }} />
+            </linearGradient>
+            {/* change */}
+            <path
+style={{ fill:"#8f246e", filter: "brightness(1.3)"}}
+              d="M1797.834,1093.944l-97.376,162.342      c-2.966,4.944,0.417,11.265,6.177,11.539l181.923,8.659c6.769,0.322,11.368-6.779,8.306-12.824      c-45.43-54.072-72.954-110.631-85.729-169.241C1808.431,1089.084,1800.91,1088.815,1797.834,1093.944z"
+            />
+          </g>
+          <g>
+            <g>
+              <linearGradient
+                id="SVGID_00000026134936204795887050000011966609047733024665_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3028.3589"
+                y1="-307.3105"
+                x2="-3328.4089"
+                y2="886.2247"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#CB236D" }} />
+                <stop offset={1} style={{ stopColor: "#4C246D" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000026134936204795887050000011966609047733024665_)"
+                }}
+                d="M3198.114,3136.677       c0,0,12.429,19.592,15.556,74.445c0.291,5.111-3.757,9.465-8.876,9.465h-97.209c-3.912,0-6.703-3.835-5.45-7.54       c5.696-16.859,22.92-57.964,61.35-81.452L3198.114,3136.677z"
+              />
+              <linearGradient
+                id="SVGID_00000140699983667423534330000009840951075446669461_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3955.1621"
+                y1="3124.114"
+                x2="-3909.7988"
+                y2="3124.114"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000140699983667423534330000009840951075446669461_)"
+                }}
+                d="M3202.338,3099.508l-5.498,46.102       c-0.475,3.977-3.592,7.161-7.571,7.62c-5.316,0.612-13.045,1.044-20.555-0.195c-6.826-1.126-11.74-7.206-11.74-14.126v-44.511       L3202.338,3099.508z"
+              />
+              <linearGradient
+                id="SVGID_00000117665526100427470870000016393503657702450858_"
+                gradientUnits="userSpaceOnUse"
+                x1="-2775.938"
+                y1="-243.8627"
+                x2="-3075.9885"
+                y2="949.6743"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#CB236D" }} />
+                <stop offset={1} style={{ stopColor: "#4C246D" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000117665526100427470870000016393503657702450858_)"
+                }}
+                d="M2957.601,3131.594       c0,0,18.606,28.92,18.208,68.618c-0.094,9.35-7.923,16.798-17.273,16.798H2807.56c-7.07,0-9.939-9.084-4.154-13.147       c28.569-20.062,84.721-57.539,125.334-72.269H2957.601z"
+              />
+              <linearGradient
+                id="SVGID_00000034786838928385754570000005734586562974070918_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3725.9739"
+                y1="3103.9707"
+                x2="-3680.8596"
+                y2="3103.9707"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000034786838928385754570000005734586562974070918_)"
+                }}
+                d="M2973.149,3081.807l-11.727,56.937       c-1.312,6.368-7.542,10.65-13.888,9.234c-3.859-0.861-8.409-2.51-13.273-5.551c-4.622-2.89-6.964-8.388-6.02-13.756       l12.131-68.979L2973.149,3081.807z"
+              />
+              <linearGradient
+                id="SVGID_00000006695846927119160540000015523966235540308130_"
+                gradientUnits="userSpaceOnUse"
+                x1="3007.3643"
+                y1="2153.4714"
+                x2="3147.3872"
+                y2="3340.3362"
+              >
+                <stop offset={0} style={{ stopColor: "#2B3582" }} />
+                <stop offset={1} style={{ stopColor: "#150E42" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000006695846927119160540000015523966235540308130_)"
+                }}
+                d="M3180.797,2290.175       c0,0,40.776,35.95,48.45,79.202c7.674,43.251-21.742,746.238-21.742,746.238s-40.775,6.784-61.794-5.953       c0,0-24.93-456.233-43.88-561.657c0,0-99.378,472.598-126.913,557.99c0,0-39.282,4.779-51.95-2.696       c0,0,26.031-612.618,58.741-721.532L3180.797,2290.175z"
+              />
+              <linearGradient
+                id="SVGID_00000083786739214592336460000004238094919790796167_"
+                gradientUnits="userSpaceOnUse"
+                x1="3175.9966"
+                y1="1110.6272"
+                x2="3125.9924"
+                y2="2615.7654"
+              >
+                <stop offset={0} style={{ stopColor: "#53D8FF" }} />
+                <stop offset={1} style={{ stopColor: "#3840F7" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000083786739214592336460000004238094919790796167_)"
+                }}
+                d="M3103.02,2532.839       c-0.346,0-0.692-0.042-1.039-0.133c-2.184-0.57-3.495-2.805-2.925-4.99l17.32-66.441c0.261-0.996,0.884-1.856,1.748-2.413       l37.422-24.004c1.913-1.223,4.438-0.666,5.652,1.236c1.22,1.902,0.672,4.433-1.231,5.652l-36.079,23.141l-16.915,64.891       C3106.494,2531.619,3104.837,2532.839,3103.02,2532.839z"
+              />
+              <linearGradient
+                id="SVGID_00000125599268408471188010000009872543543069887151_"
+                gradientUnits="userSpaceOnUse"
+                x1="2828.1614"
+                y1="1469.0728"
+                x2="2763.1528"
+                y2="2999.2537"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000125599268408471188010000009872543543069887151_)"
+                }}
+                d="M2778.402,1883.976       c171.656-14.25,216.521,21.272,216.521,21.272l-82.491,130.23c0,0-168.668-3.332-289.526-96.483       c22.618-24.359,38.327-51.279,48.402-72.241C2702.472,1879.706,2738.361,1887.3,2778.402,1883.976z"
+              />
+              <linearGradient
+                id="SVGID_00000045618514392313290770000003489637536804426943_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3424.1318"
+                y1="1782.9795"
+                x2="-3256.4663"
+                y2="1782.9795"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000045618514392313290770000003489637536804426943_)"
+                }}
+                d="M2509.592,1632.01       c0.231-5.5,7.686-6.997,10.022-2.012l21.904,46.739c4.231,9.032,5.588,19.144,3.886,28.97l-7.683,27.204       c-2.298,13.267,1.167,26.86,9.577,37.375c20.125,25.16,62.989,71.112,124.009,96.468       c-10.075,20.962-25.784,47.882-48.402,72.241c-44.345-34.178-82.263-80.434-103.038-143.075       c-9.954-3.057-16.604-12.429-16.209-22.833L2509.592,1632.01z"
+              />
+              <linearGradient
+                id="SVGID_00000060745886940426804490000017966215022452873148_"
+                gradientUnits="userSpaceOnUse"
+                x1="-2108.532"
+                y1="2007.4471"
+                x2="-3367.2673"
+                y2="3001.187"
+                gradientTransform="matrix(-1 0 0 1 652.0643 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000060745886940426804490000017966215022452873148_)"
+                }}
+                d="M2721.899,1959.479       c60.429-65.115,175.533-94.534,242.175-106.618c29.196-5.294,57.975,10.952,68.32,38.762       c29.99,80.618,111.554,290.357,127.364,326.405c12.97,29.573,26.514,58.456,35.119,76.514       c5.141,10.788,0.649,23.697-10.116,28.885c-56.069,27.026-156.958,57.602-197.86,69.53       c-8.997,2.624-17.955-4.131-17.955-13.502c0-7.948-2.16-15.748-6.25-22.562l-154.905-258.137       c-96.551,107.054-181.104,116.843-246.057,93.411c10.921-33.754,18.068-67.57,21.496-101.45       C2679.186,2074.28,2721.899,1959.479,2721.899,1959.479z"
+              />
+              <linearGradient
+                id="SVGID_00000044876901816923012490000011325195276424731558_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3003.7556"
+                y1="1774.5258"
+                x2="-3413.7944"
+                y2="2284.6533"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000044876901816923012490000011325195276424731558_)"
+                }}
+                d="M2397.611,2053.816l31.369-18.338       c56.063,38.502,115.886,61.813,154.249,55.24c-3.428,33.88-10.575,67.696-21.496,101.45       C2476.163,2161.299,2397.611,2053.816,2397.611,2053.816z"
+              />
+              <linearGradient
+                id="SVGID_00000137097228788204580380000010733197331808962476_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3014.8503"
+                y1="1937.5916"
+                x2="-3248.9272"
+                y2="2228.8054"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000137097228788204580380000010733197331808962476_)"
+                }}
+                d="M2248.628,2060.417       c19.509-10.616,77.395-19.749,77.395-19.749s66.537-38.928,85.692-46.59c15.908-6.364,22.756,17.429,24.619,25.675       c0.381,1.682,0.554,2.717,0.554,2.717l-2.462,15.824l-67.218,29.874c-14.388,6.395-30.263,8.698-45.878,6.654l-71.771-9.389       c-1.152-0.152-2.076-1.027-2.29-2.17C2247.059,2062.121,2247.607,2060.972,2248.628,2060.417z"
+              />
+              <linearGradient
+                id="SVGID_00000064351901506994757890000017580964087718366393_"
+                gradientUnits="userSpaceOnUse"
+                x1="-3452.0471"
+                y1="1547.1477"
+                x2="-3802.9163"
+                y2="2191.835"
+                gradientTransform="matrix(-1 0 0 1 -752.8245 0)"
+              >
+                <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                <stop offset={1} style={{ stopColor: "#F47960" }} />
+              </linearGradient>
+              <path
+                style={{
+                  fill:
+                    "url(#SVGID_00000064351901506994757890000017580964087718366393_)"
+                }}
+                d="M2872.41,1733.274l51.475,125.611       c0,0-59.146,40.938-106.729,37.042l-25.69-112.947L2872.41,1733.274z"
+              />
+              <g>
+                <linearGradient
+                  id="SVGID_00000078749869807902469050000007401535507289891465_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-3041.8579"
+                  y1="1640.3661"
+                  x2="-3196.9221"
+                  y2="1845.5032"
+                  gradientTransform="matrix(-0.817 -0.5767 -0.5767 0.817 1270.6034 -1428.4956)"
+                >
+                  <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                  <stop offset={1} style={{ stopColor: "#F47960" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000078749869807902469050000007401535507289891465_)"
+                  }}
+                  d="M2785.457,1647.642        c-1.179,1.67-37.239,131.942-37.239,131.942l74.821,19.009l52.521-118.393        C2875.56,1680.2,2805.194,1619.679,2785.457,1647.642z"
+                />
+                <linearGradient
+                  id="SVGID_00000137100599200647372760000016418287480662967182_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-3160.2825"
+                  y1="1689.8502"
+                  x2="-2975.0557"
+                  y2="1689.8502"
+                  gradientTransform="matrix(-0.817 -0.5767 -0.5767 0.817 1270.6034 -1428.4956)"
+                >
+                  <stop offset={0} style={{ stopColor: "#2B3582" }} />
+                  <stop offset={1} style={{ stopColor: "#150E42" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:"black"
+                  }}
+                  d="M2847.385,1698.187l-22.768,64.49        c-0.292,0.827-0.683,1.591-1.188,2.309c-3.09,4.39-14.828,18.713-28.75,5.811c-12.634-11.708-24.337-22.204-35.145-24.11        c-4.853-0.855-9.554,2.106-10.867,6.856c-3.273,11.836-10.156,38.646-12.582,62.851c-0.492,4.912,2.899,9.351,7.749,10.272        c14.613,2.775,45.597,7.766,71.464,5.942c3.505-0.247,6.59-2.35,8.052-5.545c7.128-15.577,28.969-62.839,37.093-75.068        c7.625-11.477,26.316-11.155,34.155-10.46c2.57,0.228,5.097-0.6,7.037-2.301c6.857-6.011,19.91-21.358,1.55-39.731        c-3.842-3.845-3.739-10.048,0.221-13.772c7.884-7.413,16.317-20.561,3.181-36.867c-13.351-16.574-30.977-13.936-41.775-9.996        c-4.366,1.594-9.129-0.252-11.502-4.249c-1.351-2.274-3.708-3.996-7.795-3.645c-5.507,0.474-10.137-4.122-10.039-9.649        c0.192-10.618-3.61-24.033-22.029-29.766c-32.685-10.173-53.067,21.403-55.086,44.966        c-2.019,23.561,34.045,32.576,55.251,30.987c16.124-1.208,28.094,14.773,32.907,22.503        C2848.041,1692.465,2848.346,1695.468,2847.385,1698.187z"
+                />
+                <linearGradient
+                  id="SVGID_00000005253157226460859580000011108078037942712988_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="-3268.9668"
+                  y1="1802.8188"
+                  x2="-3144.5918"
+                  y2="1675.2135"
+                  gradientTransform="matrix(-0.817 -0.5767 -0.5767 0.817 1270.6034 -1428.4956)"
+                >
+                  <stop offset={0} style={{ stopColor: "#F9B776" }} />
+                  <stop offset={1} style={{ stopColor: "#F47960" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000005253157226460859580000011108078037942712988_)"
+                  }}
+                  d="M2851.92,1775.395        c0,0,5.28-40.905,22.296-42.909c17.016-2.004,33.578,11.98,16.661,34.94C2869.833,1795.984,2851.92,1775.395,2851.92,1775.395        z"
+                />
+              </g>
+            </g>
+          </g>
+          <g>
+            <g>
+              <linearGradient
+                id="SVGID_00000136395161124081610120000008236936994601713591_"
+                gradientUnits="userSpaceOnUse"
+                x1="1537.7919"
+                y1="1622.7498"
+                x2="1701.9277"
+                y2="1432.2351"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000136395161124081610120000008236936994601713591_)"
+                }}
+                cx="1803.159"
+                cy="1512.406"
+                r="122.366"
+              />
+              <linearGradient
+                id="SVGID_00000062178176315967003600000000640987464832140457_"
+                gradientUnits="userSpaceOnUse"
+                x1="1794.6752"
+                y1="1293.2806"
+                x2="1309.3208"
+                y2="2026.5127"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000062178176315967003600000000640987464832140457_)"
+                }}
+                cx="1803.158"
+                cy="1512.406"
+                r="118.298"
+              />
+              <path
+                style={{ fill: "#FFFFFF" }}
+                d="M1706.863,1465.208c-0.695-0.019-1.397-0.195-2.052-0.55c-2.234-1.204-3.067-3.991-1.861-6.225       c20.532-38.055,60.121-60.962,103.32-59.78c6.901,0.189,13.785,0.999,20.466,2.405c2.484,0.524,4.073,2.96,3.55,5.443       c-0.522,2.483-2.95,4.067-5.443,3.55c-6.141-1.295-12.475-2.038-18.824-2.212c-39.712-1.087-76.106,19.973-94.983,54.958       C1710.185,1464.376,1708.542,1465.254,1706.863,1465.208z"
+              />
+              <ellipse
+                transform="matrix(0.7071 -0.7071 0.7071 0.7071 -542.4374 1720.5464)"
+                style={{ opacity: "0.78", fill: "#FFFFFF" }}
+                cx="1805.665"
+                cy="1515.053"
+                rx="100.125"
+                ry="100.124"
+              />
+              <g>
+                <linearGradient
+                  id="SVGID_00000028304856299094740760000015255230522886701754_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="1780.1953"
+                  y1="1314.2928"
+                  x2="1521.7604"
+                  y2="1748.1622"
+                  gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+                >
+                  <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                  <stop offset={1} style={{ stopColor: "#D93C65" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000028304856299094740760000015255230522886701754_)"
+                  }}
+                  d="M1793.807,1589.19l0.298-10.889        c-11.339-0.765-22.493-3.752-30.372-7.461c-2.814-1.324-4.177-4.56-3.278-7.536l3.044-10.068        c1.116-3.693,5.216-5.506,8.732-3.919c7.82,3.533,17.515,6.423,28.047,6.712c10.933,0.299,19.188-3.184,19.396-10.783        c0.188-6.856-6.002-11.104-21.085-15.597c-21.519-6.523-36.827-16.401-36.305-35.488        c0.472-17.234,13.434-30.047,35.397-32.969l0.298-10.89c0.096-3.504,3.013-6.267,6.517-6.171l6.398,0.175        c3.504,0.096,6.267,3.014,6.171,6.518l-0.268,9.778c10.492,0.708,18.089,2.713,24.098,5.011        c3.079,1.177,4.686,4.573,3.737,7.73l-2.8,9.311c-1.08,3.591-5,5.466-8.469,4.044c-5.529-2.265-13.367-4.682-23.634-4.962        c-12.972-0.355-16.824,4.917-16.956,9.736c-0.162,5.93,7.509,10.219,24.23,15.871c23.893,7.886,33.625,18.166,33.134,36.142        c-0.451,16.493-13.087,30.984-36.909,34.041l-0.333,12.186c-0.096,3.504-3.014,6.267-6.518,6.171l-6.398-0.175        C1796.474,1595.612,1793.711,1592.694,1793.807,1589.19z"
+                />
+              </g>
+            </g>
+            <g>
+              <linearGradient
+                id="SVGID_00000162321428813107063480000003232133749475885989_"
+                gradientUnits="userSpaceOnUse"
+                x1="1791.484"
+                y1="1624.4718"
+                x2="2030.6499"
+                y2="1346.869"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000162321428813107063480000003232133749475885989_)"
+                }}
+                cx="2135.651"
+                cy="1434.364"
+                r="178.303"
+              />
+              <linearGradient
+                id="SVGID_00000049900603938849873860000006438064910347882643_"
+                gradientUnits="userSpaceOnUse"
+                x1="2165.7944"
+                y1="1144.3954"
+                x2="1458.5742"
+                y2="2212.8035"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000049900603938849873860000006438064910347882643_)"
+                }}
+                cx="2135.652"
+                cy="1434.364"
+                r="172.374"
+              />
+              <path
+                style={{ fill: "#FFFFFF" }}
+                d="M1995.417,1362.743c-0.582-0.016-1.17-0.164-1.718-0.46c-1.87-1.007-2.567-3.341-1.558-5.211       c29.408-54.502,86.106-87.306,147.967-85.613c9.867,0.27,19.73,1.43,29.312,3.447c2.079,0.438,3.41,2.477,2.971,4.556       c-0.437,2.077-2.469,3.397-4.556,2.971c-9.132-1.924-18.53-3.028-27.937-3.285c-58.944-1.613-112.966,29.645-140.989,81.578       C1998.198,1362.047,1996.823,1362.782,1995.417,1362.743z"
+              />
+              <ellipse
+                transform="matrix(0.7071 -0.7071 0.7071 0.7071 -390.3882 1933.9611)"
+                style={{ opacity: "0.78", fill: "#FFFFFF" }}
+                cx="2139.303"
+                cy="1438.221"
+                rx="145.893"
+                ry="145.893"
+              />
+              <g>
+                <linearGradient
+                  id="SVGID_00000154397390044767877120000011764182684852727435_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="2144.6951"
+                  y1="1175.0125"
+                  x2="1768.1235"
+                  y2="1807.2137"
+                  gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+                >
+                  <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                  <stop offset={1} style={{ stopColor: "#D93C65" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000154397390044767877120000011764182684852727435_)"
+                  }}
+                  d="M2122.025,1546.248l0.434-15.866        c-16.522-1.115-32.775-5.466-44.256-10.871c-4.1-1.93-6.087-6.644-4.775-10.981l4.435-14.669        c1.627-5.381,7.6-8.024,12.723-5.71c11.394,5.148,25.522,9.36,40.869,9.78c15.931,0.436,27.96-4.641,28.263-15.711        c0.273-9.99-8.744-16.181-30.724-22.727c-31.355-9.505-53.661-23.898-52.9-51.71c0.687-25.113,19.574-43.782,51.576-48.039        l0.434-15.868c0.14-5.106,4.392-9.132,9.498-8.992l9.322,0.255c5.106,0.14,9.132,4.392,8.992,9.498l-0.39,14.247        c15.288,1.031,26.358,3.953,35.115,7.302c4.487,1.715,6.828,6.663,5.445,11.263l-4.081,13.567        c-1.573,5.232-7.285,7.964-12.341,5.893c-8.056-3.301-19.477-6.822-34.438-7.231c-18.902-0.517-24.515,7.165-24.708,14.186        c-0.236,8.64,10.942,14.891,35.306,23.125c34.816,11.491,48.997,26.471,48.28,52.663c-0.658,24.032-19.07,45.146-53.78,49.601        l-0.486,17.756c-0.14,5.106-4.392,9.132-9.498,8.992l-9.323-0.255C2125.911,1555.606,2121.885,1551.354,2122.025,1546.248z"
+                />
+              </g>
+            </g>
+            <g>
+              <linearGradient
+                id="SVGID_00000050639540823139331680000006802369548560785840_"
+                gradientUnits="userSpaceOnUse"
+                x1="1695.6187"
+                y1="2022.9464"
+                x2="1941.7177"
+                y2="1737.2961"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000050639540823139331680000006802369548560785840_)"
+                }}
+                cx="2036.202"
+                cy="1822.039"
+                r="183.472"
+              />
+              <linearGradient
+                id="SVGID_00000145742106464305740560000000710610240040355471_"
+                gradientUnits="userSpaceOnUse"
+                x1="2080.7795"
+                y1="1528.953"
+                x2="1353.0585"
+                y2="2628.332"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000145742106464305740560000000710610240040355471_)"
+                }}
+                cx="2036.202"
+                cy="1822.039"
+                r="177.371"
+              />
+              <path
+                style={{ fill: "#FFFFFF" }}
+                d="M1891.905,1748.231c-0.582-0.016-1.17-0.164-1.718-0.46c-1.87-1.008-2.567-3.341-1.558-5.211       c30.241-56.042,88.542-89.776,152.155-88.035c10.152,0.278,20.292,1.47,30.143,3.543c2.079,0.438,3.408,2.477,2.971,4.556       c-0.436,2.077-2.466,3.4-4.556,2.971c-9.399-1.978-19.078-3.117-28.768-3.382c-60.694-1.661-116.322,30.525-145.177,84       C1894.685,1747.535,1893.31,1748.269,1891.905,1748.231z"
+              />
+              <ellipse
+                transform="matrix(0.7071 -0.7071 0.7071 0.7071 -693.6928 1977.2942)"
+                style={{ opacity: "0.78", fill: "#FFFFFF" }}
+                cx="2039.959"
+                cy="1826.008"
+                rx="150.122"
+                ry="150.123"
+              />
+              <g>
+                <linearGradient
+                  id="SVGID_00000017517419516884245360000007610704025330176669_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="2059.0688"
+                  y1="1560.4575"
+                  x2="1671.5808"
+                  y2="2210.9856"
+                  gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+                >
+                  <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                  <stop offset={1} style={{ stopColor: "#D93C65" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000017517419516884245360000007610704025330176669_)"
+                  }}
+                  d="M2022.18,1937.167l0.447-16.327        c-17.001-1.147-33.726-5.625-45.539-11.186c-4.218-1.986-6.264-6.837-4.914-11.3l4.564-15.094        c1.674-5.537,7.82-8.257,13.092-5.875c11.725,5.297,26.262,9.631,42.053,10.063c16.393,0.449,28.771-4.774,29.082-16.167        c0.281-10.279-8.998-16.65-31.614-23.386c-32.265-9.78-55.217-24.59-54.434-53.209c0.707-25.841,20.142-45.051,53.072-49.432        l0.447-16.328c0.144-5.254,4.519-9.396,9.773-9.253l9.593,0.263c5.254,0.144,9.396,4.519,9.252,9.773l-0.401,14.66        c15.732,1.061,27.122,4.068,36.133,7.514c4.616,1.765,7.026,6.856,5.603,11.589l-4.199,13.96        c-1.619,5.384-7.497,8.196-12.698,6.065c-8.29-3.397-20.042-7.019-35.436-7.441c-19.45-0.532-25.227,7.373-25.424,14.597        c-0.243,8.891,11.259,15.323,36.33,23.795c35.824,11.825,50.417,27.238,49.679,54.19        c-0.677,24.728-19.622,46.454-55.339,51.039l-0.5,18.271c-0.144,5.254-4.519,9.396-9.773,9.253l-9.594-0.263        C2026.179,1946.796,2022.036,1942.42,2022.18,1937.167z"
+                />
+              </g>
+            </g>
+            <g>
+              <linearGradient
+                id="SVGID_00000112629011423459449850000009240164133570433677_"
+                gradientUnits="userSpaceOnUse"
+                x1="2118.2551"
+                y1="1769.9601"
+                x2="2298.5701"
+                y2="1560.6663"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000112629011423459449850000009240164133570433677_)"
+                }}
+                cx="2396.38"
+                cy="1656.763"
+                r="134.428"
+              />
+              <linearGradient
+                id="SVGID_00000105393203892832493170000009286797968148084648_"
+                gradientUnits="userSpaceOnUse"
+                x1="2400.4595"
+                y1="1408.0153"
+                x2="1867.2639"
+                y2="2213.5217"
+                gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+              >
+                <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                <stop offset={1} style={{ stopColor: "#D93C65" }} />
+              </linearGradient>
+              <circle
+                style={{
+                  fill:
+                    "url(#SVGID_00000105393203892832493170000009286797968148084648_)"
+                }}
+                cx="2396.38"
+                cy="1656.764"
+                r="129.958"
+              />
+              <path
+                style={{ fill: "#FFFFFF" }}
+                d="M2290.627,1603.712c-0.582-0.016-1.17-0.164-1.718-0.46c-1.87-1.008-2.567-3.341-1.558-5.211       c22.341-41.406,65.416-66.329,112.416-65.043c7.505,0.205,14.997,1.087,22.271,2.62c2.077,0.438,3.407,2.479,2.969,4.556       c-0.44,2.08-2.462,3.41-4.558,2.971c-6.819-1.438-13.849-2.265-20.892-2.458c-44.081-1.206-84.481,22.171-105.437,61.007       C2293.408,1603.016,2292.033,1603.751,2290.627,1603.712z"
+              />
+              <ellipse
+                transform="matrix(0.9604 -0.2785 0.2785 0.9604 -367.2876 733.7854)"
+                style={{ opacity: "0.78", fill: "#FFFFFF" }}
+                cx="2399.134"
+                cy="1659.672"
+                rx="109.993"
+                ry="109.994"
+              />
+              <g>
+                <linearGradient
+                  id="SVGID_00000172410228609861910990000016354715073343211400_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="2384.5525"
+                  y1="1431.0984"
+                  x2="2100.6436"
+                  y2="1907.7345"
+                  gradientTransform="matrix(0.9996 0.0274 -0.0274 0.9996 137.7354 37.8665)"
+                >
+                  <stop offset={0} style={{ stopColor: "#FDF53F" }} />
+                  <stop offset={1} style={{ stopColor: "#D93C65" }} />
+                </linearGradient>
+                <path
+                  style={{
+                    fill:
+                      "url(#SVGID_00000172410228609861910990000016354715073343211400_)"
+                  }}
+                  d="M2386.107,1741.116l0.327-11.962        c-12.456-0.841-24.711-4.121-33.366-8.196c-3.09-1.455-4.589-5.01-3.601-8.279l3.344-11.059        c1.227-4.057,5.73-6.049,9.593-4.305c8.591,3.881,19.242,7.057,30.812,7.374c12.011,0.329,21.08-3.499,21.308-11.846        c0.206-7.532-6.593-12.2-23.164-17.135c-23.64-7.167-40.457-18.017-39.883-38.986c0.518-18.933,14.757-33.009,38.885-36.218        l0.327-11.964c0.105-3.849,3.311-6.885,7.16-6.779l7.028,0.192c3.85,0.105,6.885,3.311,6.78,7.161l-0.294,10.741        c11.527,0.778,19.872,2.981,26.474,5.506c3.382,1.293,5.148,5.023,4.105,8.491l-3.077,10.228        c-1.186,3.944-5.492,6.005-9.304,4.443c-6.074-2.489-14.685-5.143-25.964-5.451c-14.25-0.39-18.483,5.402-18.628,10.695        c-0.178,6.515,8.249,11.227,26.619,17.434c26.248,8.664,36.94,19.957,36.399,39.705        c-0.496,18.119-14.377,34.037-40.547,37.396l-0.366,13.387c-0.105,3.849-3.311,6.885-7.16,6.779l-7.029-0.192        C2389.037,1748.172,2386.001,1744.965,2386.107,1741.116z"
+                />
+              </g>
+            </g>
+          </g>
+          <g>
+            <linearGradient
+              id="SVGID_00000137094265139864632610000005057750074482238623_"
+              gradientUnits="userSpaceOnUse"
+              x1="2615.5435"
+              y1="1926.7126"
+              x2="-1243.0682"
+              y2="2547.3525"
+            >
+              <stop offset={0} style={{ stopColor: "#CB236D" }} />
+              <stop offset={1} style={{ stopColor: "#4C246D" }} />
+            </linearGradient>
+            {/* change */}
+            <path
+              style={{ fill:"#8f246e", filter: "brightness(1.3)"}}
+              d="M2327.39,2026.129      c-192.212,109.325-352.674,102.507-534.123,7.149c-11.742-6.171-18.878-18.556-18.247-31.806l0.366-7.677      c1.118-23.462,25.103-38.778,46.854-29.914c157.558,64.206,276.052,99.416,473.345,2.061      c21.716-10.716,47.355,4.124,48.976,28.285v0C2345.437,2007.273,2338.756,2019.664,2327.39,2026.129z"
+            />
+            <linearGradient
+              id="SVGID_00000013902040631699418540000008473836646915517621_"
+              gradientUnits="userSpaceOnUse"
+              x1="2621.655"
+              y1="1964.7131"
+              x2="-1236.9534"
+              y2="2585.3525"
+            >
+              <stop offset={0} style={{ stopColor: "#CB236D" }} />
+              <stop offset={1} style={{ stopColor: "#4C246D" }} />
+            </linearGradient>
+            {/* Change */}
+            <path
+              style={{ fill:"#8f246e", filter: "brightness(1.3)"}}
+              d="M2290.968,2114.725l106.109-150.381      c3.232-4.58,0.407-10.952-5.157-11.633l-175.759-21.505c-6.539-0.8-11.51,5.753-8.977,11.835      c40.15,55.699,62.76,112.519,70.922,170.265C2280.343,2118.673,2287.616,2119.476,2290.968,2114.725z"
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+  </div>
+  )
+}
 
-
-
-
-
-
-//////////////////////////////////////////////////////////////
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
-
-<head>
-  <!--[if gte mso 9]>
-<xml>
-  <o:OfficeDocumentSettings>
-    <o:AllowPNG/>
-    <o:PixelsPerInch>96</o:PixelsPerInch>
-  </o:OfficeDocumentSettings>
-</xml>
-<![endif]-->
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="x-apple-disable-message-reformatting">
-  <!--[if !mso]><!-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--<![endif]-->
-  <title></title>
-
-  <style type="text/css">
-    @media only screen and (min-width: 620px) {
-      .u-row {
-        width: 600px !important;
-      }
-      .u-row .u-col {
-        vertical-align: top;
-      }
-      .u-row .u-col-100 {
-        width: 600px !important;
-      }
-    }
-    
-    @media (max-width: 620px) {
-      .u-row-container {
-        max-width: 100% !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-      }
-      .u-row .u-col {
-        min-width: 320px !important;
-        max-width: 100% !important;
-        display: block !important;
-      }
-      .u-row {
-        width: 100% !important;
-      }
-      .u-col {
-        width: 100% !important;
-      }
-      .u-col>div {
-        margin: 0 auto;
-      }
-    }
-    
-    body {
-      margin: 0;
-      padding: 0;
-    }
-    
-    table,
-    tr,
-    td {
-      vertical-align: top;
-      border-collapse: collapse;
-    }
-    
-    .ie-container table,
-    .mso-container table {
-      table-layout: fixed;
-    }
-    
-    * {
-      line-height: inherit;
-    }
-    
-    a[x-apple-data-detectors='true'] {
-      color: inherit !important;
-      text-decoration: none !important;
-    }
-    
-    table,
-    td {
-      color: #000000;
-    }
-    
-    #u_body a {
-      color: #0000ee;
-      text-decoration: underline;
-    }
-  </style>
-
-
-
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet" type="text/css">
-  <!--<![endif]-->
-
-</head>
-
-<body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #ffffff;color: #000000">
-  <!--[if IE]><div class="ie-container"><![endif]-->
-  <!--[if mso]><div class="mso-container"><![endif]-->
-  <table id="u_body" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #ffffff;width:100%" cellpadding="0" cellspacing="0">
-    <tbody>
-      <tr style="vertical-align: top">
-        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-          <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #ffffff;"><![endif]-->
-
-
-          <div class="u-row-container" style="padding: 0px;background-color: transparent">
-            <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
-              <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-                <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
-
-                <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                <div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
-                  <div style="height: 100%;width: 100% !important;">
-                    <!--[if (!mso)&(!IE)]><!-->
-                    <div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
-                      <!--<![endif]-->
-
-                      <table style="font-family:'Cabin',sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                        <tbody>
-                          <tr>
-                            <td style="overflow-wrap:break-word;word-break:break-word;padding:10px 51px 9px;font-family:'Cabin',sans-serif;" align="left">
-
-                              <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                  <td style="padding-right: 0px;padding-left: 0px;" align="center">
-
-                                    <img align="center" border="0" src="https://storage.googleapis.com/example-2321/qikberry-logo.png" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 66%;max-width: 328.68px;"
-                                      width="328.68" />
-
-                                  </td>
-                                </tr>
-                              </table>
-
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                      <!--[if (!mso)&(!IE)]><!-->
-                    </div>
-                    <!--<![endif]-->
-                  </div>
-                </div>
-                <!--[if (mso)|(IE)]></td><![endif]-->
-                <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="u-row-container" style="padding: 0px;background-color: transparent">
-            <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
-              <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-                <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
-
-                <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                <div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
-                  <div style="height: 100%;width: 100% !important;">
-                    <!--[if (!mso)&(!IE)]><!-->
-                    <div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
-                      <!--<![endif]-->
-
-                      <table style="font-family:'Cabin',sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                        <tbody>
-                          <tr>
-                            <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;" align="left">
-
-                              <div>
-                                <content class="content" style="min-height: 15rem; display: flex; gap: 2rem; flex-direction: column; justify-content: space-evenly;">
-
-                                  <div style="padding: 0rem 2rem; justify-content: space-evenly; height: 100%;">
-                                    <div class="mail-font">
-                                      <h4>Dear User,</h4>
-                                      We are delighted to welcome you to Qikberry. To get you started, we have generated your login credentials so you can access your account and enjoy all the features and benefits our platform/service has to offer.
-                                    </div><br>
-                                    <div class="table-container mail-font">
-                                      <table class="table" style="width: 100%; border: 1px solid rgb(168, 117, 117);
-											border-collapse: collapse;">
-                                        <tbody>
-                                          <tr style="border: 1px solid rgb(168, 117, 117);
-													border-collapse: collapse;">
-                                            <th style="text-align: left;
-														padding: 8px;
-														word-wrap: break-word;" scope="row">Username</th>
-                                            <td style="text-align: left;
-														padding: 8px;
-														word-wrap: break-word; border: 1px solid rgb(168, 117, 117);
-														border-collapse: collapse;">John</td>
-                                          </tr>
-                                          <tr style="border: 1px solid rgb(168, 117, 117);
-									border-collapse: collapse;">
-                                            <th style="text-align: left;
-									padding: 8px;
-									word-wrap: break-word;" scope="row">Password</th>
-                                            <td style="text-align: left;
-														padding: 8px;
-														word-wrap: break-word; border: 1px solid rgb(168, 117, 117);
-									border-collapse: collapse;">John565#24</td>
-                                          </tr>
-                                          <tr style="border: 1px solid rgb(168, 117, 117); border-collapse: collapse;">
-                                            <th style="text-align: left;
-														padding: 8px;
-														word-wrap: break-word;" scope="row">Web Portal</th>
-                                            <td style="text-align: left;
-														padding: 8px;
-														word-wrap: break-word; border: 1px solid rgb(168, 117, 117); border-collapse: collapse;"> <a href="https://alerts.qikberry.com/" target="_blank">Go to sign-In</a>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table><br>
-                                    </div>
-                                    <div><br>
-                                      <span style="font-weight: 600;">Thank You,</span> <br>
-                                      <span class="mail-font" style="font-size: 12px;">Qickberry Support</span>
-                                    </div>
-                                  </div>
-                                </content>
-                              </div>
-
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                      <!--[if (!mso)&(!IE)]><!-->
-                    </div>
-                    <!--<![endif]-->
-                  </div>
-                </div>
-                <!--[if (mso)|(IE)]></td><![endif]-->
-                <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="u-row-container" style="padding: 0px;background-color: transparent">
-            <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
-              <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
-                <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
-
-                <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
-                <div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
-                  <div style="height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-                    <!--[if (!mso)&(!IE)]><!-->
-                    <div style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
-                      <!--<![endif]-->
-
-                      <table style="font-family:'Cabin',sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                        <tbody>
-                          <tr>
-                            <td style="overflow-wrap:break-word;word-break:break-word;padding:4px;font-family:'Cabin',sans-serif;" align="left">
-
-                              <div align="center">
-                                <div style="display: table; max-width:167px;">
-                                  <!--[if (mso)|(IE)]><table width="167" cellpadding="0" cellspacing="0" border="0"><tr><td style="border-collapse:collapse;" align="center"><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; mso-table-lspace: 0pt;mso-table-rspace: 0pt; width:167px;"><tr><![endif]-->
-
-
-                                  <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
-                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
-                                    <tbody>
-                                      <tr style="vertical-align: top">
-                                        <td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                          <a href="https://www.facebook.com/QikberryOfficial" title="Facebook" target="_blank">
-                                            <img src="https://cdn.tools.unlayer.com/social/icons/circle/facebook.png" alt="Facebook" title="Facebook" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if (mso)|(IE)]></td><![endif]-->
-
-                                  <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
-                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
-                                    <tbody>
-                                      <tr style="vertical-align: top">
-                                        <td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                          <a href="https://www.instagram.com/qikberryofficial" title="Instagram" target="_blank">
-                                            <img src="https://cdn.tools.unlayer.com/social/icons/circle/instagram.png" alt="Instagram" title="Instagram" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if (mso)|(IE)]></td><![endif]-->
-
-                                  <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 10px;" valign="top"><![endif]-->
-                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 10px">
-                                    <tbody>
-                                      <tr style="vertical-align: top">
-                                        <td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                          <a href="https://in.linkedin.com/company/qikberry" title="LinkedIn" target="_blank">
-                                            <img src="https://cdn.tools.unlayer.com/social/icons/circle/linkedin.png" alt="LinkedIn" title="LinkedIn" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if (mso)|(IE)]></td><![endif]-->
-
-                                  <!--[if (mso)|(IE)]><td width="32" style="width:32px; padding-right: 0px;" valign="top"><![endif]-->
-                                  <table align="left" border="0" cellspacing="0" cellpadding="0" width="32" height="32" style="width: 32px !important;height: 32px !important;display: inline-block;border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;margin-right: 0px">
-                                    <tbody>
-                                      <tr style="vertical-align: top">
-                                        <td align="left" valign="middle" style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
-                                          <a href="https://www.twitter.com/qikberry" title="Twitter" target="_blank">
-                                            <img src="https://cdn.tools.unlayer.com/social/icons/circle/twitter.png" alt="Twitter" title="Twitter" width="32" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: none;height: auto;float: none;max-width: 32px !important">
-                                          </a>
-                                        </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                  <!--[if (mso)|(IE)]></td><![endif]-->
-
-
-                                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                                </div>
-                              </div>
-
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                      <table style="font-family:'Cabin',sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                        <tbody>
-                          <tr>
-                            <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:'Cabin',sans-serif;" align="left">
-
-                              <div>
-                                <div class="footercontainer1" style="padding:0%; border-bottom-left-radius: 2rem;
-		border-bottom-right-radius: 2rem; margin: 0%; background-color: palevioletred;">
-
-
-                                  <div class="footercontainer2" style="height: fit-content; border-bottom-left-radius: 2rem; border-bottom-right-radius: 2rem; display: flex; flex-direction: row; justify-content: space-between; padding: .6rem 0rem;">
-                                    <div class="cfootnav" style="width:100%; display: flex; flex-direction: row;">
-                                      <ul class="terms" style="width : 100%;  list-style: none; display: flex; flex-direction: row; align-items: center; gap: 1rem; font-size: .6rem;justify-content:center;">
-                                        <li class="term" style="width:3.5rem; font-size:7.5px"><a href="https://www.qikberry.com/privacy-policy" target="_blank" style="color: white; text-decoration: none;"> Privacy Policy</a>
-                                        </li>
-                                        <li class="term" style="width:3rem; font-size:7.5px"><a href="https://www.qikberry.com/contact" target="_blank" style="color: white; text-decoration: none;"> Contact Us</a></li>
-                                        <li class="term" style="width:5rem;font-size:7.5px"><a href="#" target="_blank" style="color: white; text-decoration: none;"> Copyright
-							© 2023 </a></li>
-                                      </ul>
-                                    </div>
-
-                                  </div>
-                                </div>
-                              </div>
-
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                      <!--[if (!mso)&(!IE)]><!-->
-                    </div>
-                    <!--<![endif]-->
-                  </div>
-                </div>
-                <!--[if (mso)|(IE)]></td><![endif]-->
-                <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-              </div>
-            </div>
-          </div>
-
-
-          <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <!--[if mso]></div><![endif]-->
-  <!--[if IE]></div><![endif]-->
-</body>
-
-</html>
+export default Taxataion
