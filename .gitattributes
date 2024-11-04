@@ -1,238 +1,157 @@
-{
-  "AF": "Afghanistan",
-  "AL": "Albania",
-  "DZ": "Algeria",
-  "AS": "American Samoa",
-  "AD": "Andorra",
-  "AO": "Angola",
-  "AI": "Anguilla",
-  "AQ": "Antarctica",
-  "AG": "Antigua and Barbuda",
-  "AR": "Argentina",
-  "AM": "Armenia",
-  "AW": "Aruba",
-  "AU": "Australia",
-  "AT": "Austria",
-  "AZ": "Azerbaijan",
-  "BS": "Bahamas",
-  "BH": "Bahrain",
-  "BD": "Bangladesh",
-  "BB": "Barbados",
-  "BY": "Belarus",
-  "BE": "Belgium",
-  "BZ": "Belize",
-  "BJ": "Benin",
-  "BM": "Bermuda",
-  "BT": "Bhutan",
-  "BO": "Bolivia",
-  "BQ": "Bonaire, Sint Eustatius and Saba",
-  "BA": "Bosnia and Herzegovina",
-  "BW": "Botswana",
-  "BR": "Brazil",
-  "IO": "British Indian Ocean Territory",
-  "BN": "Brunei Darussalam",
-  "BG": "Bulgaria",
-  "BF": "Burkina Faso",
-  "BI": "Burundi",
-  "CV": "Cabo Verde",
-  "KH": "Cambodia",
-  "CM": "Cameroon",
-  "CA": "Canada",
-  "KY": "Cayman Islands",
-  "CF": "Central African Republic",
-  "TD": "Chad",
-  "CL": "Chile",
-  "CN": "China",
-  "CO": "Colombia",
-  "KM": "Comoros",
-  "CG": "Congo",
-  "CD": "Congo, Democratic Republic of the",
-  "CR": "Costa Rica",
-  "CI": "Côte d'Ivoire",
-  "HR": "Croatia",
-  "CU": "Cuba",
-  "CW": "Curaçao",
-  "CY": "Cyprus",
-  "CZ": "Czech Republic",
-  "DK": "Denmark",
-  "DJ": "Djibouti",
-  "DM": "Dominica",
-  "DO": "Dominican Republic",
-  "EC": "Ecuador",
-  "EG": "Egypt",
-  "SV": "El Salvador",
-  "GQ": "Equatorial Guinea",
-  "ER": "Eritrea",
-  "EE": "Estonia",
-  "SZ": "Eswatini",
-  "ET": "Ethiopia",
-  "FK": "Falkland Islands (Malvinas)",
-  "FO": "Faroe Islands",
-  "FJ": "Fiji",
-  "FI": "Finland",
-  "FR": "France",
-  "GF": "French Guiana",
-  "PF": "French Polynesia",
-  "GA": "Gabon",
-  "GM": "Gambia",
-  "GE": "Georgia",
-  "DE": "Germany",
-  "GH": "Ghana",
-  "GI": "Gibraltar",
-  "GR": "Greece",
-  "GL": "Greenland",
-  "GD": "Grenada",
-  "GP": "Guadeloupe",
-  "GU": "Guam",
-  "GT": "Guatemala",
-  "GG": "Guernsey",
-  "GN": "Guinea",
-  "GW": "Guinea-Bissau",
-  "GY": "Guyana",
-  "HT": "Haiti",
-  "HN": "Honduras",
-  "HK": "Hong Kong",
-  "HU": "Hungary",
-  "IS": "Iceland",
-  "IN": "India",
-  "ID": "Indonesia",
-  "IR": "Iran",
-  "IQ": "Iraq",
-  "IE": "Ireland",
-  "IM": "Isle of Man",
-  "IL": "Israel",
-  "IT": "Italy",
-  "JM": "Jamaica",
-  "JP": "Japan",
-  "JE": "Jersey",
-  "JO": "Jordan",
-  "KZ": "Kazakhstan",
-  "KE": "Kenya",
-  "KI": "Kiribati",
-  "KP": "Korea, Democratic People's Republic of",
-  "KR": "Korea, Republic of",
-  "KW": "Kuwait",
-  "KG": "Kyrgyzstan",
-  "LA": "Lao People's Democratic Republic",
-  "LV": "Latvia",
-  "LB": "Lebanon",
-  "LS": "Lesotho",
-  "LR": "Liberia",
-  "LY": "Libya",
-  "LI": "Liechtenstein",
-  "LT": "Lithuania",
-  "LU": "Luxembourg",
-  "MO": "Macao",
-  "MG": "Madagascar",
-  "MW": "Malawi",
-  "MY": "Malaysia",
-  "MV": "Maldives",
-  "ML": "Mali",
-  "MT": "Malta",
-  "MH": "Marshall Islands",
-  "MQ": "Martinique",
-  "MR": "Mauritania",
-  "MU": "Mauritius",
-  "YT": "Mayotte",
-  "MX": "Mexico",
-  "FM": "Micronesia (Federated States of)",
-  "MD": "Moldova",
-  "MC": "Monaco",
-  "MN": "Mongolia",
-  "ME": "Montenegro",
-  "MS": "Montserrat",
-  "MA": "Morocco",
-  "MZ": "Mozambique",
-  "MM": "Myanmar",
-  "NA": "Namibia",
-  "NR": "Nauru",
-  "NP": "Nepal",
-  "NL": "Netherlands",
-  "NC": "New Caledonia",
-  "NZ": "New Zealand",
-  "NI": "Nicaragua",
-  "NE": "Niger",
-  "NG": "Nigeria",
-  "NU": "Niue",
-  "NF": "Norfolk Island",
-  "MP": "Northern Mariana Islands",
-  "NO": "Norway",
-  "OM": "Oman",
-  "PK": "Pakistan",
-  "PW": "Palau",
-  "PS": "Palestine, State of",
-  "PA": "Panama",
-  "PG": "Papua New Guinea",
-  "PY": "Paraguay",
-  "PE": "Peru",
-  "PH": "Philippines",
-  "PN": "Pitcairn",
-  "PL": "Poland",
-  "PT": "Portugal",
-  "PR": "Puerto Rico",
-  "QA": "Qatar",
-  "RO": "Romania",
-  "RU": "Russia",
-  "RW": "Rwanda",
-  "RE": "Réunion",
-  "BL": "Saint Barthélemy",
-  "SH": "Saint Helena, Ascension and Tristan da Cunha",
-  "KN": "Saint Kitts and Nevis",
-  "LC": "Saint Lucia",
-  "MF": "Saint Martin (French part)",
-  "PM": "Saint Pierre and Miquelon",
-  "VC": "Saint Vincent and the Grenadines",
-  "WS": "Samoa",
-  "SM": "San Marino",
-  "ST": "Sao Tome and Principe",
-  "SA": "Saudi Arabia",
-  "SN": "Senegal",
-  "RS": "Serbia",
-  "SC": "Seychelles",
-  "SL": "Sierra Leone",
-  "SG": "Singapore",
-  "SX": "Sint Maarten (Dutch part)",
-  "SK": "Slovakia",
-  "SI": "Slovenia",
-  "SB": "Solomon Islands",
-  "SO": "Somalia",
-  "ZA": "South Africa",
-  "SS": "South Sudan",
-  "ES": "Spain",
-  "LK": "Sri Lanka",
-  "SD": "Sudan",
-  "SR": "Suriname",
-  "SJ": "Svalbard and Jan Mayen",
-  "SE": "Sweden",
-  "CH": "Switzerland",
-  "SY": "Syrian Arab Republic",
-  "TW": "Taiwan",
-  "TJ": "Tajikistan",
-  "TZ": "Tanzania",
-  "TH": "Thailand",
-  "TL": "Timor-Leste",
-  "TG": "Togo",
-  "TK": "Tokelau",
-  "TO": "Tonga",
-  "TT": "Trinidad and Tobago",
-  "TN": "Tunisia",
-  "TR": "Turkey",
-  "TM": "Turkmenistan",
-  "TC": "Turks and Caicos Islands",
-  "TV": "Tuvalu",
-  "UG": "Uganda",
-  "UA": "Ukraine",
-  "AE": "United Arab Emirates",
-  "GB": "United Kingdom",
-  "US": "United States",
-  "UY": "Uruguay",
-  "UZ": "Uzbekistan",
-  "VU": "Vanuatu",
-  "VE": "Venezuela",
-  "VN": "Viet Nam",
-  "WF": "Wallis and Futuna",
-  "EH": "Western Sahara",
-  "YE": "Yemen",
-  "ZM": "Zambia",
-  "ZW": "Zimbabwe"
+/*
+[1] find variable replaced value : DONE
+[2] return true  if any special characters and space added between word and charcters,
+ but 
+[3] return false if words missing or any characters is missing from word
+[4] return false if any additional charcters addedd between word
+[5] return false if modified content all word sequence is not 
+matching with original content except variable replaced value
+*/
+
+//[1] if any word is missing, if any characters and word is missing, if any word is mis-matched
+// function checkContentMatch(approvedContent,originalContent) {
+//     // Convert template placeholders (e.g., {{1}}, {{2}}, etc.) to a wildcard pattern (.*)
+//     const regexPattern = approvedContent.replace(/\{\{\d+\}\}/g, "(.*)");
+
+//     // Create a regular expression from the modified template pattern
+//     const regex = new RegExp(`^${regexPattern}$`);
+
+//     // Test if the content matches the pattern
+//     if (regex.test(originalContent)) {
+//       return { isMatched: true };
+//     } else {
+//       return { isMatched: false };
+//     }
+//   } //if above function returns true then no need to check other values if false then only check extra charcters or numbers 
+// replace speacial charcaters---
+
+// [2] replace special characters with empty string
+// [3] return rest content except replaced words with variables
+// will return empty array if other content changed except variables
+function findReplacements(originalContent, modifiedContent) {
+  // Step 1: Create a regular expression pattern from originalContent with placeholders as capture groups
+  const regexPattern = originalContent.replace(/\{\{\d+\}\}/g, "(.*?)");
+  const regex = new RegExp(`^${regexPattern}$`);
+
+  // Step 2: Match the modifiedContent against the constructed pattern
+  const match = modifiedContent.match(regex);
+
+  const replacements = [];
+  // Step 3: Check if there's a match and extract replacements
+  if (match) {
+      // Collect replacements for each placeholder (excluding the full match at index 0)
+      
+      let placeholderIndex = 1;
+      for (let i = 1; i < match.length; i++) {
+          replacements.push(match[i]);
+          placeholderIndex++;
+      }
+  }
+  return replacements
+
+  // return rest content except replaced words with variables
+    // return replacements.reduce((result, word) => result.replace(new RegExp(word, 'g'), ''), modifiedContent).replace(/\s{2,}/g, ' ').trim();
+
 }
+
+//  find variable surrounding words,
+// function findSurroundingWords(sentence) {
+//   const words = sentence.split(' ');
+
+//   let result = [];
+  
+//   for (let i = 0; i < words.length; i++) {
+//     const word = words[i];
+//     if (/\{\{\d+\}\}/.test(word)) {
+//       result.push({
+//         before: words[i - 1],
+//         after: words[i + 1]
+//       });
+//     }
+//   }
+
+//   return result;
+// }
+// const variable = "{{1}}";
+
+// const result = findSurroundingWords(sentence);
+// console.log("rRES",result); // Output: ["आमच्या", "निदर्शनास"]
+
+
+//[4] get content except replaced variable
+function removeContentBetweenWords(originalContent, modifiedContent) {
+
+  //1. find surrounding words of variables
+  const words = originalContent.split(' ');
+
+  let pairs = [];
+  
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+    if (/\{\{\d+\}\}/.test(word)) {
+      pairs.push({
+        before: words[i - 1],
+        after: words[i + 1]
+      });
+    }
+  }
+
+  // const pairs = [
+  //   { before: "आमच्या", after: "निदर्शनास" },
+  //   { before: "आहे", after: "आनि" },
+  //   { before: "आनि", after: undefined }
+  // ];
+
+//2. Remove variable replaced values to get rest value
+  let modifiedText = modifiedContent;
+
+  for (let i = 0; i < pairs.length; i++) {
+    const { before, after } = pairs[i];
+
+    if (!after) {
+      // If 'after' is undefined, remove everything after 'before'
+      const regex = new RegExp(`${before}(.*)`);
+      modifiedText = modifiedText.replace(regex, before);
+      break; // Break the loop as we've processed the last pair
+    }
+
+    const regex = new RegExp(`${before}(.*?)${after}`, 'g');
+    modifiedText = modifiedText.replace(regex, before +" "+ after);
+  }
+
+  // function removeSpecialCharactersExceptCommasAndPeriods(str) {
+    modifiedText.replace(/[!@#$%^&*()_+-\|?/<>]/g, "");
+  // }
+
+  return modifiedText;
+}
+
+const sentence = "प्रिय कर्मचारी, आमच्या {{1}} निदर्शनास आले आहे {{2}} आनि {{3}}";
+const text = "प्रिय कर्मचारी, - / \&आमच्या  आले hjhhjd निदर्शनास आले आहे hghghghghg आनि lasttttttt here";
+// const res = removeContentBetweenWords(sentence, text);
+// console.log("removeContentBetweenWords",{org:sentence,  res}); // Output: प्रिय कर्मचारी, आमच्या निदर्शनास आले आनि lasttttttt here
+
+console.log("REPLAC",text.replace(/[!@#$%^&*()_+-\|?/<>]/g, ""));
+
+// ///////////////////////////////////////////////////////////////////////////////////
+
+// Example usage
+const originalContent = "प्रिय कर्मचारी, आमच्या {{1}} निदर्शनास आले आहे {{2}} आनि {{3}}";
+const modifiedContent = "प्रिय कर्मचारी, आमच्या jhjh आ ले निदर्शनास आले आ हे आलेआले आनि jhjh jhjh";
+
+console.log(findReplacements(originalContent, modifiedContent));
+// Expected output: { "{{1}}": "jhjh आले", "{{2}}": "आलेआले" }
+
+
+
+const regex = /\{\{\d+\}\}/g;
+const contentWithoutVariables = originalContent.replace(regex, '');
+const restContent = findReplacements(originalContent, modifiedContent);
+
+console.log("REST", restContent)
+
+// Example usage
+// console.log(replaceSpacesWithUnderscores("प्रिय कर्मचारी, आमच्या {{1}} निदर्शनास आले आहे {{2}}", "प्रि&य कर्मचारी, आ मच्या {{1}} निदर्शनास आले आहे {{2}}")); // Expected output: { isMatched: true }
+// console.log(checkContentMatch("प्रिय कर्मचारी, आमच्या {{1}} निदर्शनास आले आहे {{2}}", "प्रिय कर्मचारी, आमच्या निदर्शनास आले आहे")); // Expected output: { isMatched: true }
+// console.log(checkContentMatch("प्रिय कर्मचारी, आमच्या {{1}} निदर्शनास आले आहे {{2}}", "प्रिय कर्मचारी, आमच्या निद9र्शनास आले आहे")); // Expected output: { isMatched: false }
+
