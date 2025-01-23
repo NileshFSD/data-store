@@ -1,39 +1,77 @@
-// Object to store the last call timestamps for APIs
-const lastCallTimestamps = {};
+// Func to get value between variable curly braces
 
-function allowApiCall(apiName) {
-    /**
-     * Determines whether an API call is allowed based on a 1-minute interval.
-     *
-     * @param {string} apiName - Name of the API being called.
-     * @returns {boolean} - True if the API call is allowed, False otherwise.
-     */
-    const currentTime = Date.now(); // Current time in milliseconds
+  function checkIsNumVar(variable: string) {
 
-    if (lastCallTimestamps[apiName]) {
-        const elapsedTime = (currentTime - lastCallTimestamps[apiName]) / 1000; // Convert to seconds
-        if (elapsedTime < 60) {
-            console.log(`API call to '${apiName}' denied. Please wait ${Math.ceil(60 - elapsedTime)} seconds.`);
-            return false;
-        }
-    }
+    let isNum = true;
 
-    // Allow the API call and set the timestamp
-    lastCallTimestamps[apiName] = currentTime;
-    console.log(`API call to '${apiName}' allowed.`);
+    let value = variable.replace(/{{|}}/g, '').trim();
 
-    // Schedule removal of the API name from the object after 1 minute
-    setTimeout(() => {
-        delete lastCallTimestamps[apiName];
-        console.log(`Removed '${apiName}' from lastCallTimestamps.`);
-    }, 60000); // 1 minute in milliseconds
+    if (/^[A-Za-z]+$/.test(value)) isNum = false;
 
-    return true;
-}
 
-// Example usage
-const apiName = "exampleApi";
 
-allowApiCall(apiName); // First call, should be allowed
-setTimeout(() => allowApiCall(apiName), 30000); // After 30 seconds, should be denied
-setTimeout(() => allowApiCall(apiName), 70000); // After 70 seconds, should be allowed (because it's been removed)
+    return isNum;
+
+  }
+
+
+
+ const updateContent = (name: string, value: string) => {
+
+    setValue(name as any, value, { shouldDirty: true, shouldValidate: true });
+
+    const availVars = tContent.match(/{{[0-9a-zA-Z]+}}/g);
+
+    const splitTContent = tContent.split(/{{[0-9a-zA-Z]+}}/);
+
+    let tempContent = "";
+
+
+
+    for (let i = 0; i < splitTContent.length - 1; i++) {
+
+      tempContent += splitTContent[i];
+
+      if (name == `var${i}` && value?.length == 0) {
+
+        const isNum = checkIsNumVar(availVars?.[i])
+
+        if (isNum) tempContent += `<b>{{${i + 1}}}</b>`;
+
+        else tempContent += `<b>${availVars[i]}</b>`;
+
+      } else if (getValues(`var${i}` as any)?.length == 0) {
+
+        const isNum = checkIsNumVar(availVars?.[i])
+
+        if (isNum) tempContent += `<b>{{${i + 1}}}</b>`;
+
+        else tempContent += `<b>${availVars[i]}</b>`;
+
+      } else if (name == `var${i}`) tempContent += `<b>${value}</b>`;
+
+      else if (getValues(`var${i}` as any) == undefined) {
+
+        const isNum = checkIsNumVar(availVars?.[i])
+
+        if (isNum) tempContent += `<b>{{${i + 1}}}</b>`;
+
+        else tempContent += `<b>${availVars[i]}</b>`;
+
+      } else tempContent += `<b>${getValues(`var${i}` as any)}</b>`;
+
+    }
+
+
+
+    if (splitTContent.length > 0)
+
+      tempContent += splitTContent[splitTContent.length - 1];
+
+
+
+    setContent(tempContent);
+
+  };
+
+
